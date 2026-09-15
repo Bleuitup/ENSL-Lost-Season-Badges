@@ -1,6 +1,6 @@
 # ENSL Lost Season Badges — implementation plan
 
-Prepared 2026-09-15. Status: plan and option C artwork accepted; first Bleu S13 D3 prototype prepared for Launchpad testing. Full recipient research continues after the first in-game check.
+Prepared 2026-09-15. Status: plan and option C artwork accepted; Bleu verified selection, slot movement, and hover text in game and published Workshop v0.8. The local expanded build contains 98 verified awards for 88 accounts; 23 awards await confirmation.
 
 ## Objective and scope
 
@@ -101,4 +101,4 @@ This can reproduce the experience on servers running the mod. It cannot issue of
 3. Demonstrate native integration and the visual reference.
 4. Complete all awards, validate compatibility, and prepare publication.
 
-The local Git repository contains the accepted plan, original medal references, a side-by-side S12–S16 comparison, selected option C artwork for S14/S15, a native hover source audit, and a corrected 512 x 512 Workshop cover with its generation prompts. The first native prototype now contains one S13 D3 gold DDS, shared metadata, server account grants, an evidence record for Bleu, integration tests against installed NS2 badge code, and a prepared Launchpad output. It still needs live in-game verification. The full recipient manifest, S14/S15 runtime definitions, remote repository, and Workshop item are not complete.
+The local Git repository contains the accepted plan, original medal references, a side-by-side S12–S16 comparison, selected option C artwork for S14/S15, a native hover source audit, and a corrected 512 x 512 Workshop cover with its generation prompts. The first native prototype now contains one S13 D3 gold DDS, shared metadata, server account grants, an evidence record for Bleu, integration tests against installed NS2 badge code, and a prepared Launchpad output. Bleu confirmed live selection, slot movement, and hover text; real multiplayer visibility and compatibility checks remain. Workshop item 3802094438 is published by the user as v0.8 and has an annotated local Git tag. All 16 runtime award definitions are implemented, with 98 verified account awards. The 23 pending awards, live testing of the expansion, and a remote repository remain incomplete.

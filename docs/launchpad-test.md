@@ -1,14 +1,25 @@
-# First Launchpad test: Bleu's S13 Division 3 gold
+# Launchpad testing
 
-## What is ready
+## Next test: expanded local build
 
-This prototype registers one custom badge and grants it only to **Bleu, NS2 ID 37745947**, for Nismen's Season 13 Division 3 win. It uses the original 2018 gold texture, copied unchanged under its own badge name. Its hover text is:
+The current local output includes 98 verified awards across 88 accounts. On Bleu's account, check that both earned medals can be equipped together and moved independently:
+
+- S13 D3 gold: **The ENSL Season 13 Division 3 Winner**
+- S14 bronze: **The ENSL Season 14 Second Runner-Up**
+
+Check the selected C bronze artwork in the picker and scoreboard, hover over both medals, reconnect or reload the map, and confirm both remain available. A second real client should confirm visibility when convenient. The expansion is not uploaded; Workshop v0.8 and its Git tag remain the original tested prototype.
+
+## Original v0.8 test record
+
+### What v0.8 contained
+
+The published v0.8 prototype registers one custom badge and grants it only to **Bleu, NS2 ID 37745947**, for Nismen's Season 13 Division 3 win. It uses the original 2018 gold texture, copied unchanged under its own badge name. Its hover text is:
 
 > The ENSL Season 13 Division 3 Winner
 
 It runs as a standalone NS2 mod with no Shine dependency. The server grants eligibility for native badge slots 7–10. The native picker handles selection and the scoreboard handles its usual hover panel. Existing occupied slots are preserved; the game may select the new badge automatically in an empty eligible slot.
 
-This is ready for a first user test, not a release or a claim of completed in-game verification. No S14/S15 awards or temporary test entitlements are included. Option C remains approved artwork for the later 2019 awards.
+The user completed the first in-game test and published this prototype as Workshop v0.8 on 2026-09-15. Selection, moving between badge slots, and hover text passed. The v0.8 release included no S14/S15 awards or temporary test entitlements. The current local expansion includes the verified S14/S15 awards described above.
 
 ## Open and run
 
@@ -34,9 +45,9 @@ This intentionally replaces your current choice in slot 7. Choose an empty slot 
 
 The Launchpad project flow is documented in the [NS2 Community Development Team's mod repository](https://github.com/NS2CDT/InfestedMarines#development-setup) and [Unknown Worlds' modding introduction](https://unknownworlds.com/en/news/time-to-make-the-mods). Tool versions can differ slightly in their labels.
 
-## What I need back from you
+## Recorded result and remaining checks
 
-Please report these three results:
+Bleu reported successful selection, movement between slots, and hover text on 2026-09-15. Reconnects, map changes, and a second real client remain to be checked in game. The original checklist is retained below:
 
 - **Selection:** Is the badge available to choose, and does it remain selected after reconnecting or loading the map again?
 - **Appearance:** Does the 2018 gold badge render correctly beside your name, without a missing texture or duplicate badge?

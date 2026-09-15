@@ -30,18 +30,18 @@ Season 12 divisions share three textures but have separate award identifiers and
 
 - `assets/badges/2019/master.png`: selected option C master, copied unchanged from the reviewed alternative.
 - `assets/badges/2019/ensl_2019_{gold,silver,bronze}.png`: selected 32 x 32 source textures, identical to reviewed C exports.
-- The comparison uses each selected 32 px source and browser scaling to 20 px. Runtime DDS packaging remains to be implemented.
+- The comparison uses each selected 32 px source and browser scaling to 20 px. Runtime DDS files are now packaged as lossless uncompressed RGBA exports of these selected 32 px PNGs; the pixel round trip is checked.
 - `docs/medal-comparison.png`: all five seasons, enlarged and small.
 - `docs/nismen-hover-comparison.png`: illustrative native-style hover panel.
 - `docs/hover-behavior.md`: source audit and proposed badge names.
 
-The installed declarations reference separate scoreboard paths for some medals, but corresponding `_20.dds` files were absent from the inspected folder. Verify the actual texture paths and filtering in NS2 before claiming a working implementation. The first S13 D3 prototype now includes `source/ui/badges/ensl_lost_s13_d3_gold.dds`, a byte-identical copy of the original 2018 gold DDS, and its runtime registration. S14/S15 selected artwork is not yet packaged as runtime DDS files.
+The installed declarations reference separate scoreboard paths for some medals, but corresponding `_20.dds` files were absent from the inspected folder. Verify the actual texture paths and filtering in NS2 before claiming a working implementation. The first S13 D3 prototype now includes `source/ui/badges/ensl_lost_s13_d3_gold.dds`, a byte-identical copy of the original 2018 gold DDS, and its runtime registration. S14/S15 selected artwork is now packaged as native DDS files for all established awards. Live NS2 rendering remains to be checked.
 
-Earlier `corrected_2019_*`, `year-edit_2019_*`, and their masters remain as historical drafts. The current comparison uses the selected option C files from `assets/badges/2019/`.
+Superseded `corrected_2019_*`, `year-edit_2019_*`, and alternative masters were removed from the current checkout. They remain recoverable at Git tag `v0.8`. The current comparison uses the selected option C files from `assets/badges/2019/`.
 
 ## Final digit alternatives
 
-The user selected **C** from the [labeled comparison mosaic](nine-alternatives.md). That mosaic and all three alternatives remain available as design history. The main comparison has been updated to C.
+The user selected **C** in the [documented artwork review](nine-alternatives.md). The selection mosaic and rejected alternatives are archived in Git tag `v0.8`; selected C sources remain in `assets/badges/2019/`. The main comparison has been updated to C.
 
 ## Workshop cover
 

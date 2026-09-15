@@ -7,6 +7,13 @@ local badgeName = 'ensl_lost_s13_d3_gold'
 local formalName = 'The ENSL Season 13 Division 3 Winner'
 local ownerId = 37745947
 local connections, clientVMs = {}, {}
+local sharedFile = assert(io.open(source .. 'lua/ENSLLostSeasonBadges/Shared.lua', 'r'))
+local customNames = {}
+for name in sharedFile:read('*a'):gmatch('name = "(ensl_lost_[^"]+)"') do
+    customNames[#customNames + 1] = name
+end
+sharedFile:close()
+assert(#customNames == 16, 'Expected the 16 established award definitions')
 local server
 local function exists(file)
     local f = io.open(file, 'rb')
@@ -38,7 +45,10 @@ local function newVM(isServer, clientIndex, savedOptions)
         RegisterNetworkMessage = function() end,
         GetMatchingFileNames = function(pattern,recursive,files)
             assert(pattern == 'ui/badges/*.dds' and recursive == false)
-            files[#files+1] = 'ui/badges/' .. badgeName .. '.dds'
+            for _, name in ipairs(customNames) do
+                assert(exists(source .. 'ui/badges/' .. name .. '.dds'), 'Missing award texture')
+                files[#files+1] = 'ui/badges/' .. name .. '.dds'
+            end
             files[#files+1] = 'ui/badges/ensl_2018_gold.dds'
         end
     }
@@ -117,21 +127,29 @@ assert(server.Badges_GetBadgeDataByName('ensl_s12_d3_gold').name ~= formalName)
 local bleu,bleuClient = connect(21,ownerId)
 assert(bleu.gBadges[badgeName] == badgeId, 'Server/client registration mismatch')
 assert(bleu.Badges_GetOwnedBadges()[badgeId] == 960, 'Owner did not receive four eligible slots')
-assert(bleu.options.Badge7 == badgeName, 'Native empty-slot auto-selection failed')
+local secondBadge = 'ensl_lost_s14_bronze'
+local secondId = assert(server.gBadges[secondBadge])
+assert(bleu.Badges_GetOwnedBadges()[secondId] == 960, 'Bleu did not receive earned S14 bronze')
+assert(bleu.options.Badge7 == badgeName or bleu.options.Badge8 == badgeName, 'Native empty-slot auto-selection failed')
 assert(not bleu.loaded['lua/ENSLLostSeasonBadges/Recipients_Server.lua'], 'Client loaded server assignment logic')
 local textures,names = bleu.Badges_GetBadgeTextures(21,'scoreboard')
-assert(#textures == 1 and textures[1] == data.scoreboardTexture and names[1] == formalName)
+local function contains(list,value)
+    for _,item in ipairs(list) do if item == value then return true end end
+    return false
+end
+assert(#textures == 2 and contains(textures,data.scoreboardTexture) and contains(names,formalName))
+assert(contains(names, 'The ENSL Season 14 Second Runner-Up'), 'S14 hover name missing')
 assert(server.Badges_SetBadge(21,badgeId,10), 'Allowed slot rejected')
 assert(not server.Badges_SetBadge(21,badgeId,5), 'Disallowed slot accepted')
 textures = bleu.Badges_GetBadgeTextures(21,'scoreboard')
-assert(#textures == 1, 'Moving the badge produced duplicate displayed badges')
+assert(#textures == 2, 'Moving one badge duplicated it or removed another award')
 
 local other,otherClient = connect(22,ownerId+1)
 server.Badges_FetchBadges(22,{}) -- Simulate vanilla's later stats callback.
 assert(not other.Badges_GetOwnedBadges()[badgeId], 'Unlisted account received ownership')
 assert(not server.Badges_OnClientBadgeRequest(22,{badge=badgeId,column=7}), 'Unlisted account selected badge')
 textures,names = other.Badges_GetBadgeTextures(21,'scoreboard')
-assert(#textures == 1 and names[1] == formalName, 'Late joiner did not see owner badge and name')
+assert(#textures == 2 and contains(names,formalName), 'Late joiner did not see owner badge and name')
 
 event(server,'ClientDisconnect',bleuClient)
 connections[21],clientVMs[21] = nil,nil
@@ -139,7 +157,7 @@ local saved = { Badge7='ensl_s12_d3_gold', Badge8='ensl_s16_gold', Badge9='dev',
 local rejoined = connect(23,ownerId,saved)
 assert(rejoined.Badges_GetOwnedBadges()[badgeId] == 960, 'Reconnect lost ownership')
 assert(rejoined.options.Badge7 == 'ensl_s12_d3_gold' and rejoined.options.Badge8 == 'ensl_s16_gold' and rejoined.options.Badge9 == 'dev', 'Existing choices overwritten')
-assert(rejoined.options.Badge10 == badgeName, 'Native selection did not use available slot')
+assert(rejoined.options.Badge10 == badgeName or rejoined.options.Badge10 == secondBadge, 'Native selection did not use available slot')
 
 local bot = connect(24,ownerId,nil,true)
 assert(not bot.Badges_GetOwnedBadges()[badgeId], 'Virtual connection received grant')
@@ -147,4 +165,31 @@ connections,clientVMs = {},{}
 server = newVM(true) -- Fresh VM represents a map/server reload.
 local afterReload = connect(25,ownerId)
 assert(afterReload.Badges_GetOwnedBadges()[server.gBadges[badgeName]] == 960, 'Reload lost configured award')
+
+-- Validate every real configured account against native ownership, and reject
+-- every unearned custom award, including accounts earning medals in two seasons.
+local checkedAccounts, checkedAwards = 0, 0
+for userId, earned in pairs(server.ENSL_LostSeasonBadges.Recipients) do
+    local expected = {}
+    for _,name in ipairs(earned) do expected[name] = true end
+    local vm,client = connect(100,userId)
+    for _,award in ipairs(server.ENSL_LostSeasonBadges.Awards) do
+        local id = server.gBadges[award.name]
+        assert(vm.gBadges[award.name] == id, 'Badge ordering mismatch')
+        local meta = vm.Badges_GetBadgeDataByName(award.name)
+        assert(meta.name == award.formalName and meta.columns == 960 and not meta.isOfficial)
+        if expected[award.name] then
+            assert(vm.Badges_GetOwnedBadges()[id] == 960, 'Missing earned award')
+            checkedAwards = checkedAwards + 1
+        else
+            assert(not vm.Badges_GetOwnedBadges()[id], 'Unearned award granted')
+            assert(not server.Badges_OnClientBadgeRequest(100,{badge=id,column=7}), 'Unearned award selectable')
+        end
+    end
+    checkedAccounts = checkedAccounts + 1
+    event(server,'ClientDisconnect',client)
+    connections[100],clientVMs[100] = nil,nil
+end
+print('Verified all native entitlements: ' .. checkedAwards .. ' awards across ' .. checkedAccounts .. ' accounts')
+
 print('PASS: native registration, metadata, owner-only grants, permitted slots, selection, exact hover name, late-join visibility, reconnect, existing choices, virtual-client exclusion and fresh-VM reload')

@@ -1,30 +1,2624 @@
 {
-  "schema_version": 1,
-  "scope": "First Launchpad prototype; not the complete Season 13-15 assignment list",
-  "recipients": [
+  "schema_version": 2,
+  "checked_on": "2026-09-15",
+  "policy": "Current Hall of Fame rosters; skip disqualified teams and promote the next eligible teams. Uncertain accounts are excluded from runtime.",
+  "awards": [
     {
-      "nickname": "Bleu",
-      "ns2_id": 37745947,
-      "steam_id": "STEAM_0:1:18872973",
-      "steam_id64": "76561197998011675",
-      "steam_profile_url": "https://steamcommunity.com/profiles/76561197998011675",
-      "steam_identity_provenance": "NS2 ID supplied directly by the account owner in this task; other Steam formats derived mathematically. Profile ownership has not been independently checked on Steam.",
-      "ensl_profile_url": null,
-      "awards": [
-        {
-          "badge": "ensl_lost_s13_d3_gold",
-          "season": 13,
-          "division": 3,
-          "team": "Nismen",
-          "published_place": 1,
-          "awarded_place": 1,
-          "source_url": "https://www.ensl.org/halloffame",
-          "source_section": "NSL Season 13, Division 3",
-          "roster_verified": true,
-          "account_verification": "confirmed_by_account_owner",
-          "checked_on": "2026-09-15"
-        }
-      ]
+      "badge": "ensl_lost_s13_d1_gold",
+      "season": 13,
+      "division": 1,
+      "team": "DEFORMED",
+      "awarded_place": 1,
+      "published_place": 2,
+      "roster": [
+        "Spring",
+        "asdf",
+        "Zafod",
+        "whiii",
+        "phonee",
+        "lebra",
+        "herakles",
+        "Tyr"
+      ],
+      "source_url": "https://www.ensl.org/halloffame",
+      "promotion_reason": "Removed disqualified team ahead in current Hall of Fame standings."
+    },
+    {
+      "badge": "ensl_lost_s13_d1_silver",
+      "season": 13,
+      "division": 1,
+      "team": "ELOGain",
+      "awarded_place": 2,
+      "published_place": 3,
+      "roster": [
+        "crowbar",
+        "paddy",
+        "Deathcore",
+        "Mephilles",
+        "Hyste",
+        "mirez",
+        "Preda",
+        "d3Base"
+      ],
+      "source_url": "https://www.ensl.org/halloffame",
+      "promotion_reason": "Removed disqualified team ahead in current Hall of Fame standings."
+    },
+    {
+      "badge": "ensl_lost_s13_d2_gold",
+      "season": 13,
+      "division": 2,
+      "team": "FaLLeN SouLs",
+      "awarded_place": 1,
+      "published_place": 1,
+      "roster": [
+        "bobager",
+        "leooood",
+        "keo",
+        "314",
+        "GAR",
+        "Reguliym",
+        "YHero",
+        "Well",
+        "Hitman",
+        "Void",
+        "vladka"
+      ],
+      "source_url": "https://www.ensl.org/halloffame",
+      "promotion_reason": "Published placement retained."
+    },
+    {
+      "badge": "ensl_lost_s13_d2_silver",
+      "season": 13,
+      "division": 2,
+      "team": "patriarchy",
+      "awarded_place": 2,
+      "published_place": 2,
+      "roster": [
+        "sweets",
+        "malx",
+        "Hobbeson",
+        "ydy",
+        "nous",
+        "vman",
+        "Knox",
+        "GaussWaffle"
+      ],
+      "source_url": "https://www.ensl.org/halloffame",
+      "promotion_reason": "Published placement retained."
+    },
+    {
+      "badge": "ensl_lost_s13_d2_bronze",
+      "season": 13,
+      "division": 2,
+      "team": "Saunabois",
+      "awarded_place": 3,
+      "published_place": 3,
+      "roster": [
+        "Gung-Ho",
+        "Aazu",
+        "Malware",
+        "Pawni",
+        "Joopommi",
+        "YoloJeesus",
+        "Kapuh",
+        "StoBez"
+      ],
+      "source_url": "https://www.ensl.org/halloffame",
+      "promotion_reason": "Published placement retained."
+    },
+    {
+      "badge": "ensl_lost_s13_d3_gold",
+      "season": 13,
+      "division": 3,
+      "team": "Nismen",
+      "awarded_place": 1,
+      "published_place": 1,
+      "roster": [
+        "Bleu",
+        "Shadowdark",
+        "Neuromancer",
+        "Litansan",
+        "qu4zar",
+        "Herrsheimer",
+        "Nibraz",
+        "Godman"
+      ],
+      "source_url": "https://www.ensl.org/halloffame",
+      "promotion_reason": "Published placement retained."
+    },
+    {
+      "badge": "ensl_lost_s13_d3_silver",
+      "season": 13,
+      "division": 3,
+      "team": "For The Lolz",
+      "awarded_place": 2,
+      "published_place": 2,
+      "roster": [
+        "Kash",
+        "DaWick3DKing",
+        "SneakyDragon",
+        "Kari",
+        "Alt+F4",
+        "Anriller"
+      ],
+      "source_url": "https://www.ensl.org/halloffame",
+      "promotion_reason": "Published placement retained."
+    },
+    {
+      "badge": "ensl_lost_s13_d3_bronze",
+      "season": 13,
+      "division": 3,
+      "team": "Intergalactic",
+      "awarded_place": 3,
+      "published_place": 3,
+      "roster": [
+        "AlexeyLExaLExa",
+        "kessoft",
+        "Perunus",
+        "Karasu_Tengu",
+        "JINMOH",
+        "Kefirdon",
+        "LightDay",
+        "Made_in_Russia"
+      ],
+      "source_url": "https://www.ensl.org/halloffame",
+      "promotion_reason": "Published placement retained."
+    },
+    {
+      "badge": "ensl_lost_s14_gold",
+      "season": 14,
+      "division": null,
+      "team": "Thots",
+      "awarded_place": 1,
+      "published_place": 2,
+      "roster": [
+        "DerEinzige",
+        "Loganater",
+        "NeckSnapper",
+        "GLock",
+        "Shizzkizz",
+        "Stark_",
+        "kesuga7",
+        "forever_rusty",
+        "ADHD"
+      ],
+      "source_url": "https://www.ensl.org/halloffame",
+      "promotion_reason": "Removed disqualified team ahead in current Hall of Fame standings."
+    },
+    {
+      "badge": "ensl_lost_s14_silver",
+      "season": 14,
+      "division": null,
+      "team": "Pubstars",
+      "awarded_place": 2,
+      "published_place": 3,
+      "roster": [
+        "dja",
+        "Mega",
+        "Barns",
+        "valo",
+        "Seperim",
+        "POPI",
+        "Handschuh"
+      ],
+      "source_url": "https://www.ensl.org/halloffame",
+      "promotion_reason": "Removed disqualified team ahead in current Hall of Fame standings."
+    },
+    {
+      "badge": "ensl_lost_s14_bronze",
+      "season": 14,
+      "division": null,
+      "team": "Nismen",
+      "awarded_place": 3,
+      "published_place": 4,
+      "roster": [
+        "Bleu",
+        "Litansan",
+        "Neuromancer",
+        "Shadowdark",
+        "Tik",
+        "Godman",
+        "Limbo",
+        "Starcetereus"
+      ],
+      "source_url": "https://www.ensl.org/halloffame",
+      "promotion_reason": "Removed disqualified team ahead in current Hall of Fame standings."
+    },
+    {
+      "badge": "ensl_lost_s15_d1_gold",
+      "season": 15,
+      "division": 1,
+      "team": "Code of Misconduct",
+      "awarded_place": 1,
+      "published_place": 2,
+      "roster": [
+        "lome",
+        "turtsmcgurts",
+        "herakles",
+        "Spring",
+        "Zafod",
+        "Wake",
+        "Starcetereus"
+      ],
+      "source_url": "https://www.ensl.org/halloffame",
+      "promotion_reason": "Removed disqualified team ahead in current Hall of Fame standings."
+    },
+    {
+      "badge": "ensl_lost_s15_d1_silver",
+      "season": 15,
+      "division": 1,
+      "team": "5 piece combo",
+      "awarded_place": 2,
+      "published_place": 3,
+      "roster": [
+        "y4mz",
+        "ydy",
+        "Doggo",
+        "tap",
+        "Nightsy",
+        "OMEGAWEAPON"
+      ],
+      "source_url": "https://www.ensl.org/halloffame",
+      "promotion_reason": "Removed disqualified team ahead in current Hall of Fame standings."
+    },
+    {
+      "badge": "ensl_lost_s15_d2_gold",
+      "season": 15,
+      "division": 2,
+      "team": "California Burrito",
+      "awarded_place": 1,
+      "published_place": 1,
+      "roster": [
+        "Noky",
+        "Simba",
+        "RobP",
+        "Jotobo",
+        "bily",
+        "Roland",
+        "Stark_"
+      ],
+      "source_url": "https://www.ensl.org/halloffame",
+      "promotion_reason": "Published placement retained."
+    },
+    {
+      "badge": "ensl_lost_s15_d2_silver",
+      "season": 15,
+      "division": 2,
+      "team": "Shoobs",
+      "awarded_place": 2,
+      "published_place": 2,
+      "roster": [
+        "DerEinzige",
+        "NeckSnapper",
+        "Sakhan",
+        "xankar",
+        "Keo",
+        "Bill"
+      ],
+      "source_url": "https://www.ensl.org/halloffame",
+      "promotion_reason": "Published placement retained."
+    },
+    {
+      "badge": "ensl_lost_s15_d2_bronze",
+      "season": 15,
+      "division": 2,
+      "team": "Tim Tam Slams",
+      "awarded_place": 3,
+      "published_place": 3,
+      "roster": [
+        "RedNight",
+        "Critique",
+        "flip",
+        "clowning",
+        "Sylvi",
+        "Sardine"
+      ],
+      "source_url": "https://www.ensl.org/halloffame",
+      "promotion_reason": "Published placement retained."
     }
-  ]
+  ],
+  "omitted": [
+    {
+      "season": 13,
+      "division": 1,
+      "place": 3,
+      "reason": "Historical records unavailable; user accepted omission."
+    },
+    {
+      "season": 15,
+      "division": 1,
+      "place": 3,
+      "reason": "No next eligible team established in available final standings."
+    }
+  ],
+  "assignments": [
+    {
+      "badge": "ensl_lost_s13_d1_gold",
+      "nickname": "Spring",
+      "status": "verified",
+      "candidates": [],
+      "source_url": "https://www.ensl.org/halloffame",
+      "checked_on": "2026-09-15",
+      "account": {
+        "nickname": "Spring",
+        "ensl_profile_url": "https://www.ensl.org/users/6080",
+        "steam_id": "STEAM_0:0:18311373",
+        "steam_id3": "[U:1:36622746]",
+        "steam_id64": "76561197996888474",
+        "ns2_id": 36622746
+      },
+      "verification": "hall_roster_and_team_history_and_profile",
+      "team_source_url": "https://www.ensl.org/teams/1058",
+      "team_joined": "29 Mar 18"
+    },
+    {
+      "badge": "ensl_lost_s13_d1_gold",
+      "nickname": "asdf",
+      "status": "verified",
+      "candidates": [],
+      "source_url": "https://www.ensl.org/halloffame",
+      "checked_on": "2026-09-15",
+      "account": {
+        "nickname": "asdfg",
+        "ensl_profile_url": "https://www.ensl.org/users/6726",
+        "steam_id": "STEAM_0:0:53858458",
+        "steam_id3": "[U:1:107716916]",
+        "steam_id64": "76561198067982644",
+        "ns2_id": 107716916
+      },
+      "verification": "hall_roster_and_team_history_and_profile",
+      "team_source_url": "https://www.ensl.org/teams/1058",
+      "team_joined": "29 Mar 18",
+      "alias_note": "Hall of Fame 'asdf' matched to 'asdfg' on the awarded team's historical roster."
+    },
+    {
+      "badge": "ensl_lost_s13_d1_gold",
+      "nickname": "Zafod",
+      "status": "verified",
+      "candidates": [],
+      "source_url": "https://www.ensl.org/halloffame",
+      "checked_on": "2026-09-15",
+      "account": {
+        "nickname": "Zafod",
+        "ensl_profile_url": "https://www.ensl.org/users/6263",
+        "steam_id": "STEAM_0:1:27930583",
+        "steam_id3": "[U:1:55861167]",
+        "steam_id64": "76561198016126895",
+        "ns2_id": 55861167
+      },
+      "verification": "hall_roster_and_team_history_and_profile",
+      "team_source_url": "https://www.ensl.org/teams/1058",
+      "team_joined": "29 Mar 18"
+    },
+    {
+      "badge": "ensl_lost_s13_d1_gold",
+      "nickname": "whiii",
+      "status": "verified",
+      "candidates": [],
+      "source_url": "https://www.ensl.org/halloffame",
+      "checked_on": "2026-09-15",
+      "account": {
+        "nickname": "whiiii",
+        "ensl_profile_url": "https://www.ensl.org/users/3086",
+        "steam_id": "STEAM_0:1:333961",
+        "steam_id3": "[U:1:667923]",
+        "steam_id64": "76561197960933651",
+        "ns2_id": 667923
+      },
+      "verification": "hall_roster_and_team_history_and_profile",
+      "team_source_url": "https://www.ensl.org/teams/1058",
+      "team_joined": "29 Mar 18",
+      "alias_note": "Hall of Fame 'whiii' matched to 'whiiii' on the awarded team's historical roster."
+    },
+    {
+      "badge": "ensl_lost_s13_d1_gold",
+      "nickname": "phonee",
+      "status": "verified",
+      "candidates": [],
+      "source_url": "https://www.ensl.org/halloffame",
+      "checked_on": "2026-09-15",
+      "account": {
+        "nickname": "phone",
+        "ensl_profile_url": "https://www.ensl.org/users/2106",
+        "steam_id": "STEAM_0:0:16215173",
+        "steam_id3": "[U:1:32430346]",
+        "steam_id64": "76561197992696074",
+        "ns2_id": 32430346
+      },
+      "verification": "hall_roster_and_team_history_and_profile",
+      "team_source_url": "https://www.ensl.org/teams/1058",
+      "team_joined": "29 Mar 18",
+      "alias_note": "Hall of Fame 'phonee' matched to 'phone' on the awarded team's historical roster."
+    },
+    {
+      "badge": "ensl_lost_s13_d1_gold",
+      "nickname": "lebra",
+      "status": "verified",
+      "candidates": [],
+      "source_url": "https://www.ensl.org/halloffame",
+      "checked_on": "2026-09-15",
+      "account": {
+        "nickname": "lebra",
+        "ensl_profile_url": "https://www.ensl.org/users/4568",
+        "steam_id": "STEAM_0:1:24732",
+        "steam_id3": "[U:1:49465]",
+        "steam_id64": "76561197960315193",
+        "ns2_id": 49465
+      },
+      "verification": "hall_roster_and_team_history_and_profile",
+      "team_source_url": "https://www.ensl.org/teams/1058",
+      "team_joined": "29 Mar 18"
+    },
+    {
+      "badge": "ensl_lost_s13_d1_gold",
+      "nickname": "herakles",
+      "status": "verified",
+      "candidates": [],
+      "source_url": "https://www.ensl.org/halloffame",
+      "checked_on": "2026-09-15",
+      "account": {
+        "nickname": "herakles",
+        "ensl_profile_url": "https://www.ensl.org/users/2244",
+        "steam_id": "STEAM_0:0:401581",
+        "steam_id3": "[U:1:803162]",
+        "steam_id64": "76561197961068890",
+        "ns2_id": 803162
+      },
+      "verification": "hall_roster_and_team_history_and_profile",
+      "team_source_url": "https://www.ensl.org/teams/1058",
+      "team_joined": "30 Mar 18"
+    },
+    {
+      "badge": "ensl_lost_s13_d1_gold",
+      "nickname": "Tyr",
+      "status": "verified",
+      "candidates": [],
+      "source_url": "https://www.ensl.org/halloffame",
+      "checked_on": "2026-09-15",
+      "account": {
+        "nickname": "Tyr",
+        "ensl_profile_url": "https://www.ensl.org/users/6018",
+        "steam_id": "STEAM_0:0:1559823",
+        "steam_id3": "[U:1:3119646]",
+        "steam_id64": "76561197963385374",
+        "ns2_id": 3119646
+      },
+      "verification": "hall_roster_and_team_history_and_profile",
+      "team_source_url": "https://www.ensl.org/teams/1058",
+      "team_joined": "30 Mar 18"
+    },
+    {
+      "badge": "ensl_lost_s13_d1_silver",
+      "nickname": "crowbar",
+      "status": "verified",
+      "candidates": [],
+      "source_url": "https://www.ensl.org/halloffame",
+      "checked_on": "2026-09-15",
+      "account": {
+        "nickname": "crowbar",
+        "ensl_profile_url": "https://www.ensl.org/users/5318",
+        "steam_id": "STEAM_0:0:11040916",
+        "steam_id3": "[U:1:22081832]",
+        "steam_id64": "76561197982347560",
+        "ns2_id": 22081832
+      },
+      "verification": "hall_roster_and_team_history_and_profile",
+      "team_source_url": "https://www.ensl.org/teams/987",
+      "team_joined": "06 Feb 17"
+    },
+    {
+      "badge": "ensl_lost_s13_d1_silver",
+      "nickname": "paddy",
+      "status": "verified",
+      "candidates": [],
+      "source_url": "https://www.ensl.org/halloffame",
+      "checked_on": "2026-09-15",
+      "account": {
+        "nickname": "paddy",
+        "ensl_profile_url": "https://www.ensl.org/users/6870",
+        "steam_id": "STEAM_0:0:12383973",
+        "steam_id3": "[U:1:24767946]",
+        "steam_id64": "76561197985033674",
+        "ns2_id": 24767946
+      },
+      "verification": "hall_roster_and_team_history_and_profile",
+      "team_source_url": "https://www.ensl.org/teams/987",
+      "team_joined": "11 Feb 17"
+    },
+    {
+      "badge": "ensl_lost_s13_d1_silver",
+      "nickname": "Deathcore",
+      "status": "verified",
+      "candidates": [],
+      "source_url": "https://www.ensl.org/halloffame",
+      "checked_on": "2026-09-15",
+      "account": {
+        "nickname": "Deathcore",
+        "ensl_profile_url": "https://www.ensl.org/users/5875",
+        "steam_id": "STEAM_0:1:21583175",
+        "steam_id3": "[U:1:43166351]",
+        "steam_id64": "76561198003432079",
+        "ns2_id": 43166351
+      },
+      "verification": "hall_roster_and_team_history_and_profile",
+      "team_source_url": "https://www.ensl.org/teams/987",
+      "team_joined": "16 Mar 17"
+    },
+    {
+      "badge": "ensl_lost_s13_d1_silver",
+      "nickname": "Mephilles",
+      "status": "verified",
+      "candidates": [],
+      "source_url": "https://www.ensl.org/halloffame",
+      "checked_on": "2026-09-15",
+      "account": {
+        "nickname": "Mephilles",
+        "ensl_profile_url": "https://www.ensl.org/users/5805",
+        "steam_id": "STEAM_0:0:25498443",
+        "steam_id3": "[U:1:50996886]",
+        "steam_id64": "76561198011262614",
+        "ns2_id": 50996886
+      },
+      "verification": "hall_roster_and_team_history_and_profile",
+      "team_source_url": "https://www.ensl.org/teams/987",
+      "team_joined": "24 Jul 17"
+    },
+    {
+      "badge": "ensl_lost_s13_d1_silver",
+      "nickname": "Hyste",
+      "status": "verified",
+      "candidates": [],
+      "source_url": "https://www.ensl.org/halloffame",
+      "checked_on": "2026-09-15",
+      "account": {
+        "nickname": "Hyste",
+        "ensl_profile_url": "https://www.ensl.org/users/6188",
+        "steam_id": "STEAM_0:1:63349363",
+        "steam_id3": "[U:1:126698727]",
+        "steam_id64": "76561198086964455",
+        "ns2_id": 126698727
+      },
+      "verification": "hall_roster_and_team_history_and_profile",
+      "team_source_url": "https://www.ensl.org/teams/987",
+      "team_joined": "05 Oct 17"
+    },
+    {
+      "badge": "ensl_lost_s13_d1_silver",
+      "nickname": "mirez",
+      "status": "verified",
+      "candidates": [],
+      "source_url": "https://www.ensl.org/halloffame",
+      "checked_on": "2026-09-15",
+      "account": {
+        "nickname": "mirez",
+        "ensl_profile_url": "https://www.ensl.org/users/540",
+        "steam_id": "STEAM_0:1:2399217",
+        "steam_id3": "[U:1:4798435]",
+        "steam_id64": "76561197965064163",
+        "ns2_id": 4798435
+      },
+      "verification": "hall_roster_and_team_history_and_profile",
+      "team_source_url": "https://www.ensl.org/teams/987",
+      "team_joined": "20 Mar 18"
+    },
+    {
+      "badge": "ensl_lost_s13_d1_silver",
+      "nickname": "Preda",
+      "status": "verified",
+      "candidates": [],
+      "source_url": "https://www.ensl.org/halloffame",
+      "checked_on": "2026-09-15",
+      "account": {
+        "nickname": "Preda",
+        "ensl_profile_url": "https://www.ensl.org/users/5921",
+        "steam_id": "STEAM_0:0:23567901",
+        "steam_id3": "[U:1:47135802]",
+        "steam_id64": "76561198007401530",
+        "ns2_id": 47135802
+      },
+      "verification": "hall_roster_and_team_history_and_profile",
+      "team_source_url": "https://www.ensl.org/teams/987",
+      "team_joined": "09 Apr 18"
+    },
+    {
+      "badge": "ensl_lost_s13_d1_silver",
+      "nickname": "d3Base",
+      "status": "needs_confirmation",
+      "candidates": [
+        {
+          "nickname": "d3Base",
+          "ensl_profile_url": "https://www.ensl.org/users/6876",
+          "steam_id": "STEAM_0:0:35102288",
+          "steam_id3": "[U:1:70204576]",
+          "steam_id64": "76561198030470304",
+          "ns2_id": 70204576
+        }
+      ],
+      "source_url": "https://www.ensl.org/halloffame",
+      "checked_on": "2026-09-15",
+      "reason": "Hall of Fame recipient missing from surviving team membership records; confirm candidate or provide account."
+    },
+    {
+      "badge": "ensl_lost_s13_d2_gold",
+      "nickname": "bobager",
+      "status": "verified",
+      "candidates": [],
+      "source_url": "https://www.ensl.org/halloffame",
+      "checked_on": "2026-09-15",
+      "account": {
+        "nickname": "bobager",
+        "ensl_profile_url": "https://www.ensl.org/users/7256",
+        "steam_id": "STEAM_0:0:65212516",
+        "steam_id3": "[U:1:130425032]",
+        "steam_id64": "76561198090690760",
+        "ns2_id": 130425032
+      },
+      "verification": "hall_roster_and_team_history_and_profile",
+      "team_source_url": "https://www.ensl.org/teams/1020",
+      "team_joined": "05 Aug 17"
+    },
+    {
+      "badge": "ensl_lost_s13_d2_gold",
+      "nickname": "leooood",
+      "status": "verified",
+      "candidates": [],
+      "source_url": "https://www.ensl.org/halloffame",
+      "checked_on": "2026-09-15",
+      "account": {
+        "nickname": "leooood",
+        "ensl_profile_url": "https://www.ensl.org/users/7451",
+        "steam_id": "STEAM_0:1:59325439",
+        "steam_id3": "[U:1:118650879]",
+        "steam_id64": "76561198078916607",
+        "ns2_id": 118650879
+      },
+      "verification": "hall_roster_and_team_history_and_profile",
+      "team_source_url": "https://www.ensl.org/teams/1020",
+      "team_joined": "13 Mar 18"
+    },
+    {
+      "badge": "ensl_lost_s13_d2_gold",
+      "nickname": "keo",
+      "status": "verified",
+      "candidates": [],
+      "source_url": "https://www.ensl.org/halloffame",
+      "checked_on": "2026-09-15",
+      "account": {
+        "nickname": "keo",
+        "ensl_profile_url": "https://www.ensl.org/users/6023",
+        "steam_id": "STEAM_0:1:42049633",
+        "steam_id3": "[U:1:84099267]",
+        "steam_id64": "76561198044364995",
+        "ns2_id": 84099267
+      },
+      "verification": "hall_roster_and_team_history_and_profile",
+      "team_source_url": "https://www.ensl.org/teams/1020",
+      "team_joined": "16 Mar 18"
+    },
+    {
+      "badge": "ensl_lost_s13_d2_gold",
+      "nickname": "314",
+      "status": "verified",
+      "candidates": [],
+      "source_url": "https://www.ensl.org/halloffame",
+      "checked_on": "2026-09-15",
+      "account": {
+        "nickname": "314",
+        "ensl_profile_url": "https://www.ensl.org/users/6814",
+        "steam_id": "STEAM_0:0:88402873",
+        "steam_id3": "[U:1:176805746]",
+        "steam_id64": "76561198137071474",
+        "ns2_id": 176805746
+      },
+      "verification": "hall_roster_and_team_history_and_profile",
+      "team_source_url": "https://www.ensl.org/teams/1020",
+      "team_joined": "18 Jan 18"
+    },
+    {
+      "badge": "ensl_lost_s13_d2_gold",
+      "nickname": "GAR",
+      "status": "verified",
+      "candidates": [],
+      "source_url": "https://www.ensl.org/halloffame",
+      "checked_on": "2026-09-15",
+      "account": {
+        "nickname": "GAR",
+        "ensl_profile_url": "https://www.ensl.org/users/7200",
+        "steam_id": "STEAM_0:1:15666377",
+        "steam_id3": "[U:1:31332755]",
+        "steam_id64": "76561197991598483",
+        "ns2_id": 31332755
+      },
+      "verification": "hall_roster_and_team_history_and_profile",
+      "team_source_url": "https://www.ensl.org/teams/1020",
+      "team_joined": "25 Feb 18"
+    },
+    {
+      "badge": "ensl_lost_s13_d2_gold",
+      "nickname": "Reguliym",
+      "status": "verified",
+      "candidates": [],
+      "source_url": "https://www.ensl.org/halloffame",
+      "checked_on": "2026-09-15",
+      "account": {
+        "nickname": "Reguliym",
+        "ensl_profile_url": "https://www.ensl.org/users/6501",
+        "steam_id": "STEAM_0:0:30103964",
+        "steam_id3": "[U:1:60207928]",
+        "steam_id64": "76561198020473656",
+        "ns2_id": 60207928
+      },
+      "verification": "hall_roster_and_team_history_and_profile",
+      "team_source_url": "https://www.ensl.org/teams/1020",
+      "team_joined": "17 Mar 18"
+    },
+    {
+      "badge": "ensl_lost_s13_d2_gold",
+      "nickname": "YHero",
+      "status": "verified",
+      "candidates": [],
+      "source_url": "https://www.ensl.org/halloffame",
+      "checked_on": "2026-09-15",
+      "account": {
+        "nickname": "YHero",
+        "ensl_profile_url": "https://www.ensl.org/users/6115",
+        "steam_id": "STEAM_0:1:55551513",
+        "steam_id3": "[U:1:111103027]",
+        "steam_id64": "76561198071368755",
+        "ns2_id": 111103027
+      },
+      "verification": "hall_roster_and_team_history_and_profile",
+      "team_source_url": "https://www.ensl.org/teams/1020",
+      "team_joined": "18 Mar 18"
+    },
+    {
+      "badge": "ensl_lost_s13_d2_gold",
+      "nickname": "Well",
+      "status": "needs_confirmation",
+      "candidates": [
+        {
+          "nickname": "Well",
+          "ensl_profile_url": "https://www.ensl.org/users/1282",
+          "steam_id": "STEAM_0:1:9465818",
+          "steam_id3": "[U:1:18931637]",
+          "steam_id64": "76561197979197365",
+          "ns2_id": 18931637
+        }
+      ],
+      "source_url": "https://www.ensl.org/halloffame",
+      "checked_on": "2026-09-15",
+      "reason": "Hall of Fame recipient missing from surviving team membership records; confirm candidate or provide account."
+    },
+    {
+      "badge": "ensl_lost_s13_d2_gold",
+      "nickname": "Hitman",
+      "status": "needs_confirmation",
+      "candidates": [
+        {
+          "nickname": "Hitman",
+          "ensl_profile_url": "https://www.ensl.org/users/1818",
+          "steam_id": "STEAM_0:1:21269003",
+          "steam_id3": "[U:1:42538007]",
+          "steam_id64": "76561198002803735",
+          "ns2_id": 42538007
+        }
+      ],
+      "source_url": "https://www.ensl.org/halloffame",
+      "checked_on": "2026-09-15",
+      "reason": "Hall of Fame recipient missing from surviving team membership records; confirm candidate or provide account."
+    },
+    {
+      "badge": "ensl_lost_s13_d2_gold",
+      "nickname": "Void",
+      "status": "needs_confirmation",
+      "candidates": [
+        {
+          "nickname": "Void",
+          "ensl_profile_url": "https://www.ensl.org/users/3621",
+          "steam_id": "STEAM_0:0:14628230",
+          "steam_id3": "[U:1:29256460]",
+          "steam_id64": "76561197989522188",
+          "ns2_id": 29256460
+        },
+        {
+          "nickname": "void",
+          "ensl_profile_url": "https://www.ensl.org/users/8400",
+          "steam_id": "STEAM_0:0:33451",
+          "steam_id3": "[U:1:66902]",
+          "steam_id64": "76561197960332630",
+          "ns2_id": 66902
+        }
+      ],
+      "source_url": "https://www.ensl.org/halloffame",
+      "checked_on": "2026-09-15",
+      "reason": "Hall of Fame recipient missing from surviving team membership records; confirm candidate or provide account."
+    },
+    {
+      "badge": "ensl_lost_s13_d2_gold",
+      "nickname": "vladka",
+      "status": "needs_confirmation",
+      "candidates": [
+        {
+          "nickname": "vladka",
+          "ensl_profile_url": "https://www.ensl.org/users/6789",
+          "steam_id": "STEAM_0:1:125938291",
+          "steam_id3": "[U:1:251876583]",
+          "steam_id64": "76561198212142311",
+          "ns2_id": 251876583
+        }
+      ],
+      "source_url": "https://www.ensl.org/halloffame",
+      "checked_on": "2026-09-15",
+      "reason": "Hall of Fame recipient missing from surviving team membership records; confirm candidate or provide account."
+    },
+    {
+      "badge": "ensl_lost_s13_d2_silver",
+      "nickname": "sweets",
+      "status": "needs_confirmation",
+      "candidates": [
+        {
+          "nickname": "sweets",
+          "ensl_profile_url": "https://www.ensl.org/users/7456",
+          "steam_id": "STEAM_0:0:15551566",
+          "steam_id3": "[U:1:31103132]",
+          "steam_id64": "76561197991368860",
+          "ns2_id": 31103132
+        }
+      ],
+      "source_url": "https://www.ensl.org/halloffame",
+      "checked_on": "2026-09-15",
+      "reason": "Awarded team page unavailable; account candidates need confirmation."
+    },
+    {
+      "badge": "ensl_lost_s13_d2_silver",
+      "nickname": "malx",
+      "status": "needs_confirmation",
+      "candidates": [
+        {
+          "nickname": "malx",
+          "ensl_profile_url": "https://www.ensl.org/users/2960",
+          "steam_id": "STEAM_0:1:6156261",
+          "steam_id3": "[U:1:12312523]",
+          "steam_id64": "76561197972578251",
+          "ns2_id": 12312523
+        }
+      ],
+      "source_url": "https://www.ensl.org/halloffame",
+      "checked_on": "2026-09-15",
+      "reason": "Awarded team page unavailable; account candidates need confirmation."
+    },
+    {
+      "badge": "ensl_lost_s13_d2_silver",
+      "nickname": "Hobbeson",
+      "status": "needs_confirmation",
+      "candidates": [
+        {
+          "nickname": "Hobbeson",
+          "ensl_profile_url": "https://www.ensl.org/users/6875",
+          "steam_id": "STEAM_0:0:135818824",
+          "steam_id3": "[U:1:271637648]",
+          "steam_id64": "76561198231903376",
+          "ns2_id": 271637648
+        }
+      ],
+      "source_url": "https://www.ensl.org/halloffame",
+      "checked_on": "2026-09-15",
+      "reason": "Awarded team page unavailable; account candidates need confirmation."
+    },
+    {
+      "badge": "ensl_lost_s13_d2_silver",
+      "nickname": "ydy",
+      "status": "needs_confirmation",
+      "candidates": [
+        {
+          "nickname": "ydy",
+          "ensl_profile_url": "https://www.ensl.org/users/2347",
+          "steam_id": "STEAM_0:1:623603",
+          "steam_id3": "[U:1:1247207]",
+          "steam_id64": "76561197961512935",
+          "ns2_id": 1247207
+        }
+      ],
+      "source_url": "https://www.ensl.org/halloffame",
+      "checked_on": "2026-09-15",
+      "reason": "Awarded team page unavailable; account candidates need confirmation."
+    },
+    {
+      "badge": "ensl_lost_s13_d2_silver",
+      "nickname": "nous",
+      "status": "needs_confirmation",
+      "candidates": [
+        {
+          "nickname": "nous",
+          "ensl_profile_url": "https://www.ensl.org/users/7482",
+          "steam_id": "STEAM_0:1:6154095",
+          "steam_id3": "[U:1:12308191]",
+          "steam_id64": "76561197972573919",
+          "ns2_id": 12308191
+        }
+      ],
+      "source_url": "https://www.ensl.org/halloffame",
+      "checked_on": "2026-09-15",
+      "reason": "Awarded team page unavailable; account candidates need confirmation."
+    },
+    {
+      "badge": "ensl_lost_s13_d2_silver",
+      "nickname": "vman",
+      "status": "needs_confirmation",
+      "candidates": [
+        {
+          "nickname": "vman",
+          "ensl_profile_url": "https://www.ensl.org/users/5849",
+          "steam_id": "STEAM_0:0:17786791",
+          "steam_id3": "[U:1:35573582]",
+          "steam_id64": "76561197995839310",
+          "ns2_id": 35573582
+        }
+      ],
+      "source_url": "https://www.ensl.org/halloffame",
+      "checked_on": "2026-09-15",
+      "reason": "Awarded team page unavailable; account candidates need confirmation."
+    },
+    {
+      "badge": "ensl_lost_s13_d2_silver",
+      "nickname": "Knox",
+      "status": "needs_confirmation",
+      "candidates": [
+        {
+          "nickname": "Knox",
+          "ensl_profile_url": "https://www.ensl.org/users/6186",
+          "steam_id": "STEAM_0:0:54990200",
+          "steam_id3": "[U:1:109980400]",
+          "steam_id64": "76561198070246128",
+          "ns2_id": 109980400
+        }
+      ],
+      "source_url": "https://www.ensl.org/halloffame",
+      "checked_on": "2026-09-15",
+      "reason": "Awarded team page unavailable; account candidates need confirmation."
+    },
+    {
+      "badge": "ensl_lost_s13_d2_silver",
+      "nickname": "GaussWaffle",
+      "status": "needs_confirmation",
+      "candidates": [
+        {
+          "nickname": "GaussWaffle",
+          "ensl_profile_url": "https://www.ensl.org/users/2069",
+          "steam_id": "STEAM_0:1:37991602",
+          "steam_id3": "[U:1:75983205]",
+          "steam_id64": "76561198036248933",
+          "ns2_id": 75983205
+        }
+      ],
+      "source_url": "https://www.ensl.org/halloffame",
+      "checked_on": "2026-09-15",
+      "reason": "Awarded team page unavailable; account candidates need confirmation."
+    },
+    {
+      "badge": "ensl_lost_s13_d2_bronze",
+      "nickname": "Gung-Ho",
+      "status": "verified",
+      "candidates": [],
+      "source_url": "https://www.ensl.org/halloffame",
+      "checked_on": "2026-09-15",
+      "account": {
+        "nickname": "Gung-Ho",
+        "ensl_profile_url": "https://www.ensl.org/users/7394",
+        "steam_id": "STEAM_0:1:2189418",
+        "steam_id3": "[U:1:4378837]",
+        "steam_id64": "76561197964644565",
+        "ns2_id": 4378837
+      },
+      "verification": "hall_roster_and_team_history_and_profile",
+      "team_source_url": "https://www.ensl.org/teams/1030",
+      "team_joined": "04 Oct 17"
+    },
+    {
+      "badge": "ensl_lost_s13_d2_bronze",
+      "nickname": "Aazu",
+      "status": "verified",
+      "candidates": [],
+      "source_url": "https://www.ensl.org/halloffame",
+      "checked_on": "2026-09-15",
+      "account": {
+        "nickname": "Aazu",
+        "ensl_profile_url": "https://www.ensl.org/users/7148",
+        "steam_id": "STEAM_0:1:3873667",
+        "steam_id3": "[U:1:7747335]",
+        "steam_id64": "76561197968013063",
+        "ns2_id": 7747335
+      },
+      "verification": "hall_roster_and_team_history_and_profile",
+      "team_source_url": "https://www.ensl.org/teams/1030",
+      "team_joined": "04 Oct 17"
+    },
+    {
+      "badge": "ensl_lost_s13_d2_bronze",
+      "nickname": "Malware",
+      "status": "verified",
+      "candidates": [],
+      "source_url": "https://www.ensl.org/halloffame",
+      "checked_on": "2026-09-15",
+      "account": {
+        "nickname": "Malware",
+        "ensl_profile_url": "https://www.ensl.org/users/5877",
+        "steam_id": "STEAM_0:1:83902496",
+        "steam_id3": "[U:1:167804993]",
+        "steam_id64": "76561198128070721",
+        "ns2_id": 167804993
+      },
+      "verification": "hall_roster_and_team_history_and_profile",
+      "team_source_url": "https://www.ensl.org/teams/1030",
+      "team_joined": "15 Dec 17"
+    },
+    {
+      "badge": "ensl_lost_s13_d2_bronze",
+      "nickname": "Pawni",
+      "status": "verified",
+      "candidates": [],
+      "source_url": "https://www.ensl.org/halloffame",
+      "checked_on": "2026-09-15",
+      "account": {
+        "nickname": "Pawni",
+        "ensl_profile_url": "https://www.ensl.org/users/7474",
+        "steam_id": "STEAM_0:0:19324191",
+        "steam_id3": "[U:1:38648382]",
+        "steam_id64": "76561197998914110",
+        "ns2_id": 38648382
+      },
+      "verification": "hall_roster_and_team_history_and_profile",
+      "team_source_url": "https://www.ensl.org/teams/1030",
+      "team_joined": "04 Oct 17"
+    },
+    {
+      "badge": "ensl_lost_s13_d2_bronze",
+      "nickname": "Joopommi",
+      "status": "verified",
+      "candidates": [],
+      "source_url": "https://www.ensl.org/halloffame",
+      "checked_on": "2026-09-15",
+      "account": {
+        "nickname": "Joopommi",
+        "ensl_profile_url": "https://www.ensl.org/users/7449",
+        "steam_id": "STEAM_0:0:51515758",
+        "steam_id3": "[U:1:103031516]",
+        "steam_id64": "76561198063297244",
+        "ns2_id": 103031516
+      },
+      "verification": "hall_roster_and_team_history_and_profile",
+      "team_source_url": "https://www.ensl.org/teams/1030",
+      "team_joined": "04 Oct 17"
+    },
+    {
+      "badge": "ensl_lost_s13_d2_bronze",
+      "nickname": "YoloJeesus",
+      "status": "verified",
+      "candidates": [],
+      "source_url": "https://www.ensl.org/halloffame",
+      "checked_on": "2026-09-15",
+      "account": {
+        "nickname": "YoloJeesus",
+        "ensl_profile_url": "https://www.ensl.org/users/7452",
+        "steam_id": "STEAM_0:0:359678",
+        "steam_id3": "[U:1:719356]",
+        "steam_id64": "76561197960985084",
+        "ns2_id": 719356
+      },
+      "verification": "hall_roster_and_team_history_and_profile",
+      "team_source_url": "https://www.ensl.org/teams/1030",
+      "team_joined": "04 Oct 17"
+    },
+    {
+      "badge": "ensl_lost_s13_d2_bronze",
+      "nickname": "Kapuh",
+      "status": "verified",
+      "candidates": [],
+      "source_url": "https://www.ensl.org/halloffame",
+      "checked_on": "2026-09-15",
+      "account": {
+        "nickname": "Kapuh",
+        "ensl_profile_url": "https://www.ensl.org/users/7440",
+        "steam_id": "STEAM_0:1:4573963",
+        "steam_id3": "[U:1:9147927]",
+        "steam_id64": "76561197969413655",
+        "ns2_id": 9147927
+      },
+      "verification": "hall_roster_and_team_history_and_profile",
+      "team_source_url": "https://www.ensl.org/teams/1030",
+      "team_joined": "06 Oct 17"
+    },
+    {
+      "badge": "ensl_lost_s13_d2_bronze",
+      "nickname": "StoBez",
+      "status": "verified",
+      "candidates": [],
+      "source_url": "https://www.ensl.org/halloffame",
+      "checked_on": "2026-09-15",
+      "account": {
+        "nickname": "StoBez",
+        "ensl_profile_url": "https://www.ensl.org/users/2047",
+        "steam_id": "STEAM_0:0:2171946",
+        "steam_id3": "[U:1:4343892]",
+        "steam_id64": "76561197964609620",
+        "ns2_id": 4343892
+      },
+      "verification": "hall_roster_and_team_history_and_profile",
+      "team_source_url": "https://www.ensl.org/teams/1030",
+      "team_joined": "19 Oct 17"
+    },
+    {
+      "badge": "ensl_lost_s13_d3_gold",
+      "nickname": "Bleu",
+      "status": "verified",
+      "candidates": [],
+      "source_url": "https://www.ensl.org/halloffame",
+      "checked_on": "2026-09-15",
+      "account": {
+        "nickname": "Bleu",
+        "ensl_profile_url": "https://www.ensl.org/users/6497",
+        "steam_id": "STEAM_0:1:18872973",
+        "steam_id3": "[U:1:37745947]",
+        "steam_id64": "76561197998011675",
+        "ns2_id": 37745947
+      },
+      "verification": "hall_roster_and_team_history_and_profile",
+      "team_source_url": "https://www.ensl.org/teams/1036",
+      "team_joined": "21 Jan 18",
+      "owner_confirmation": "NS2 ID 37745947 supplied by Bleu in this task; S13 D3 win also directly confirmed."
+    },
+    {
+      "badge": "ensl_lost_s13_d3_gold",
+      "nickname": "Shadowdark",
+      "status": "verified",
+      "candidates": [],
+      "source_url": "https://www.ensl.org/halloffame",
+      "checked_on": "2026-09-15",
+      "account": {
+        "nickname": "Shadowdark",
+        "ensl_profile_url": "https://www.ensl.org/users/6590",
+        "steam_id": "STEAM_0:1:40504601",
+        "steam_id3": "[U:1:81009203]",
+        "steam_id64": "76561198041274931",
+        "ns2_id": 81009203
+      },
+      "verification": "hall_roster_and_team_history_and_profile",
+      "team_source_url": "https://www.ensl.org/teams/1036",
+      "team_joined": "21 Jan 18"
+    },
+    {
+      "badge": "ensl_lost_s13_d3_gold",
+      "nickname": "Neuromancer",
+      "status": "verified",
+      "candidates": [],
+      "source_url": "https://www.ensl.org/halloffame",
+      "checked_on": "2026-09-15",
+      "account": {
+        "nickname": "Neuromancer",
+        "ensl_profile_url": "https://www.ensl.org/users/2388",
+        "steam_id": "STEAM_0:0:39544726",
+        "steam_id3": "[U:1:79089452]",
+        "steam_id64": "76561198039355180",
+        "ns2_id": 79089452
+      },
+      "verification": "hall_roster_and_team_history_and_profile",
+      "team_source_url": "https://www.ensl.org/teams/1036",
+      "team_joined": "21 Jan 18"
+    },
+    {
+      "badge": "ensl_lost_s13_d3_gold",
+      "nickname": "Litansan",
+      "status": "verified",
+      "candidates": [],
+      "source_url": "https://www.ensl.org/halloffame",
+      "checked_on": "2026-09-15",
+      "account": {
+        "nickname": "Litansan",
+        "ensl_profile_url": "https://www.ensl.org/users/7503",
+        "steam_id": "STEAM_0:1:33879352",
+        "steam_id3": "[U:1:67758705]",
+        "steam_id64": "76561198028024433",
+        "ns2_id": 67758705
+      },
+      "verification": "hall_roster_and_team_history_and_profile",
+      "team_source_url": "https://www.ensl.org/teams/1036",
+      "team_joined": "21 Jan 18"
+    },
+    {
+      "badge": "ensl_lost_s13_d3_gold",
+      "nickname": "qu4zar",
+      "status": "verified",
+      "candidates": [],
+      "source_url": "https://www.ensl.org/halloffame",
+      "checked_on": "2026-09-15",
+      "account": {
+        "nickname": "qu4zar",
+        "ensl_profile_url": "https://www.ensl.org/users/7541",
+        "steam_id": "STEAM_0:0:39522251",
+        "steam_id3": "[U:1:79044502]",
+        "steam_id64": "76561198039310230",
+        "ns2_id": 79044502
+      },
+      "verification": "hall_roster_and_team_history_and_profile",
+      "team_source_url": "https://www.ensl.org/teams/1036",
+      "team_joined": "10 Apr 18"
+    },
+    {
+      "badge": "ensl_lost_s13_d3_gold",
+      "nickname": "Herrsheimer",
+      "status": "verified",
+      "candidates": [],
+      "source_url": "https://www.ensl.org/halloffame",
+      "checked_on": "2026-09-15",
+      "account": {
+        "nickname": "Herrsheimer",
+        "ensl_profile_url": "https://www.ensl.org/users/1892",
+        "steam_id": "STEAM_0:1:21123815",
+        "steam_id3": "[U:1:42247631]",
+        "steam_id64": "76561198002513359",
+        "ns2_id": 42247631
+      },
+      "verification": "hall_roster_and_team_history_and_profile",
+      "team_source_url": "https://www.ensl.org/teams/1036",
+      "team_joined": "21 Jan 18"
+    },
+    {
+      "badge": "ensl_lost_s13_d3_gold",
+      "nickname": "Nibraz",
+      "status": "verified",
+      "candidates": [],
+      "source_url": "https://www.ensl.org/halloffame",
+      "checked_on": "2026-09-15",
+      "account": {
+        "nickname": "Nibraz",
+        "ensl_profile_url": "https://www.ensl.org/users/7544",
+        "steam_id": "STEAM_0:0:34222759",
+        "steam_id3": "[U:1:68445518]",
+        "steam_id64": "76561198028711246",
+        "ns2_id": 68445518
+      },
+      "verification": "hall_roster_and_team_history_and_profile",
+      "team_source_url": "https://www.ensl.org/teams/1036",
+      "team_joined": "12 Apr 18"
+    },
+    {
+      "badge": "ensl_lost_s13_d3_gold",
+      "nickname": "Godman",
+      "status": "verified",
+      "candidates": [],
+      "source_url": "https://www.ensl.org/halloffame",
+      "checked_on": "2026-09-15",
+      "account": {
+        "nickname": "Godman",
+        "ensl_profile_url": "https://www.ensl.org/users/1507",
+        "steam_id": "STEAM_0:1:17291915",
+        "steam_id3": "[U:1:34583831]",
+        "steam_id64": "76561197994849559",
+        "ns2_id": 34583831
+      },
+      "verification": "hall_roster_and_user_confirmed_identity",
+      "confirmation_source": "Bleu confirmed all three proposed NS2 IDs in this task on 2026-09-15."
+    },
+    {
+      "badge": "ensl_lost_s13_d3_silver",
+      "nickname": "Kash",
+      "status": "verified",
+      "candidates": [],
+      "source_url": "https://www.ensl.org/halloffame",
+      "checked_on": "2026-09-15",
+      "account": {
+        "nickname": "Kash",
+        "ensl_profile_url": "https://www.ensl.org/users/5447",
+        "steam_id": "STEAM_0:0:42510832",
+        "steam_id3": "[U:1:85021664]",
+        "steam_id64": "76561198045287392",
+        "ns2_id": 85021664
+      },
+      "verification": "hall_roster_and_team_history_and_profile",
+      "team_source_url": "https://www.ensl.org/teams/1006",
+      "team_joined": "09 Apr 17"
+    },
+    {
+      "badge": "ensl_lost_s13_d3_silver",
+      "nickname": "DaWick3DKing",
+      "status": "verified",
+      "candidates": [],
+      "source_url": "https://www.ensl.org/halloffame",
+      "checked_on": "2026-09-15",
+      "account": {
+        "nickname": "DaWick3DKing",
+        "ensl_profile_url": "https://www.ensl.org/users/6482",
+        "steam_id": "STEAM_0:0:55650376",
+        "steam_id3": "[U:1:111300752]",
+        "steam_id64": "76561198071566480",
+        "ns2_id": 111300752
+      },
+      "verification": "hall_roster_and_team_history_and_profile",
+      "team_source_url": "https://www.ensl.org/teams/1006",
+      "team_joined": "09 Apr 17"
+    },
+    {
+      "badge": "ensl_lost_s13_d3_silver",
+      "nickname": "SneakyDragon",
+      "status": "verified",
+      "candidates": [],
+      "source_url": "https://www.ensl.org/halloffame",
+      "checked_on": "2026-09-15",
+      "account": {
+        "nickname": "SneakyDragon",
+        "ensl_profile_url": "https://www.ensl.org/users/6929",
+        "steam_id": "STEAM_0:0:22860712",
+        "steam_id3": "[U:1:45721424]",
+        "steam_id64": "76561198005987152",
+        "ns2_id": 45721424
+      },
+      "verification": "hall_roster_and_team_history_and_profile",
+      "team_source_url": "https://www.ensl.org/teams/1006",
+      "team_joined": "09 Apr 17"
+    },
+    {
+      "badge": "ensl_lost_s13_d3_silver",
+      "nickname": "Kari",
+      "status": "verified",
+      "candidates": [],
+      "source_url": "https://www.ensl.org/halloffame",
+      "checked_on": "2026-09-15",
+      "account": {
+        "nickname": "Kari",
+        "ensl_profile_url": "https://www.ensl.org/users/6651",
+        "steam_id": "STEAM_0:1:59348224",
+        "steam_id3": "[U:1:118696449]",
+        "steam_id64": "76561198078962177",
+        "ns2_id": 118696449
+      },
+      "verification": "hall_roster_and_team_history_and_profile",
+      "team_source_url": "https://www.ensl.org/teams/1006",
+      "team_joined": "09 Apr 17"
+    },
+    {
+      "badge": "ensl_lost_s13_d3_silver",
+      "nickname": "Alt+F4",
+      "status": "verified",
+      "candidates": [],
+      "source_url": "https://www.ensl.org/halloffame",
+      "checked_on": "2026-09-15",
+      "account": {
+        "nickname": "Alt+F4",
+        "ensl_profile_url": "https://www.ensl.org/users/6945",
+        "steam_id": "STEAM_0:1:1225741",
+        "steam_id3": "[U:1:2451483]",
+        "steam_id64": "76561197962717211",
+        "ns2_id": 2451483
+      },
+      "verification": "hall_roster_and_team_history_and_profile",
+      "team_source_url": "https://www.ensl.org/teams/1006",
+      "team_joined": "10 Oct 17"
+    },
+    {
+      "badge": "ensl_lost_s13_d3_silver",
+      "nickname": "Anriller",
+      "status": "verified",
+      "candidates": [],
+      "source_url": "https://www.ensl.org/halloffame",
+      "checked_on": "2026-09-15",
+      "account": {
+        "nickname": "Anriller",
+        "ensl_profile_url": "https://www.ensl.org/users/6938",
+        "steam_id": "STEAM_0:1:84902765",
+        "steam_id3": "[U:1:169805531]",
+        "steam_id64": "76561198130071259",
+        "ns2_id": 169805531
+      },
+      "verification": "hall_roster_and_team_history_and_profile",
+      "team_source_url": "https://www.ensl.org/teams/1006",
+      "team_joined": "15 Mar 18"
+    },
+    {
+      "badge": "ensl_lost_s13_d3_bronze",
+      "nickname": "AlexeyLExaLExa",
+      "status": "verified",
+      "candidates": [],
+      "source_url": "https://www.ensl.org/halloffame",
+      "checked_on": "2026-09-15",
+      "account": {
+        "nickname": "AlexeyLExaLExa",
+        "ensl_profile_url": "https://www.ensl.org/users/7525",
+        "steam_id": "STEAM_0:0:242268816",
+        "steam_id3": "[U:1:484537632]",
+        "steam_id64": "76561198444803360",
+        "ns2_id": 484537632
+      },
+      "verification": "hall_roster_and_team_history_and_profile",
+      "team_source_url": "https://www.ensl.org/teams/1057",
+      "team_joined": "25 Mar 18"
+    },
+    {
+      "badge": "ensl_lost_s13_d3_bronze",
+      "nickname": "kessoft",
+      "status": "verified",
+      "candidates": [],
+      "source_url": "https://www.ensl.org/halloffame",
+      "checked_on": "2026-09-15",
+      "account": {
+        "nickname": "kessoft",
+        "ensl_profile_url": "https://www.ensl.org/users/7434",
+        "steam_id": "STEAM_0:0:15141361",
+        "steam_id3": "[U:1:30282722]",
+        "steam_id64": "76561197990548450",
+        "ns2_id": 30282722
+      },
+      "verification": "hall_roster_and_team_history_and_profile",
+      "team_source_url": "https://www.ensl.org/teams/1057",
+      "team_joined": "25 Mar 18"
+    },
+    {
+      "badge": "ensl_lost_s13_d3_bronze",
+      "nickname": "Perunus",
+      "status": "verified",
+      "candidates": [],
+      "source_url": "https://www.ensl.org/halloffame",
+      "checked_on": "2026-09-15",
+      "account": {
+        "nickname": "Perunus",
+        "ensl_profile_url": "https://www.ensl.org/users/7528",
+        "steam_id": "STEAM_0:1:51308909",
+        "steam_id3": "[U:1:102617819]",
+        "steam_id64": "76561198062883547",
+        "ns2_id": 102617819
+      },
+      "verification": "hall_roster_and_team_history_and_profile",
+      "team_source_url": "https://www.ensl.org/teams/1057",
+      "team_joined": "25 Mar 18"
+    },
+    {
+      "badge": "ensl_lost_s13_d3_bronze",
+      "nickname": "Karasu_Tengu",
+      "status": "verified",
+      "candidates": [],
+      "source_url": "https://www.ensl.org/halloffame",
+      "checked_on": "2026-09-15",
+      "account": {
+        "nickname": "Karasu_Tengu",
+        "ensl_profile_url": "https://www.ensl.org/users/6598",
+        "steam_id": "STEAM_0:0:11263852",
+        "steam_id3": "[U:1:22527704]",
+        "steam_id64": "76561197982793432",
+        "ns2_id": 22527704
+      },
+      "verification": "hall_roster_and_team_history_and_profile",
+      "team_source_url": "https://www.ensl.org/teams/1057",
+      "team_joined": "25 Mar 18"
+    },
+    {
+      "badge": "ensl_lost_s13_d3_bronze",
+      "nickname": "JINMOH",
+      "status": "verified",
+      "candidates": [],
+      "source_url": "https://www.ensl.org/halloffame",
+      "checked_on": "2026-09-15",
+      "account": {
+        "nickname": "JlNMOH",
+        "ensl_profile_url": "https://www.ensl.org/users/7042",
+        "steam_id": "STEAM_0:0:64515834",
+        "steam_id3": "[U:1:129031668]",
+        "steam_id64": "76561198089297396",
+        "ns2_id": 129031668
+      },
+      "verification": "hall_roster_and_team_history_and_profile",
+      "team_source_url": "https://www.ensl.org/teams/1057",
+      "team_joined": "28 Mar 18",
+      "alias_note": "Hall of Fame 'JINMOH' matched to 'JlNMOH' on the awarded team's historical roster."
+    },
+    {
+      "badge": "ensl_lost_s13_d3_bronze",
+      "nickname": "Kefirdon",
+      "status": "verified",
+      "candidates": [],
+      "source_url": "https://www.ensl.org/halloffame",
+      "checked_on": "2026-09-15",
+      "account": {
+        "nickname": "Kefirdon",
+        "ensl_profile_url": "https://www.ensl.org/users/7252",
+        "steam_id": "STEAM_0:1:97171161",
+        "steam_id3": "[U:1:194342323]",
+        "steam_id64": "76561198154608051",
+        "ns2_id": 194342323
+      },
+      "verification": "hall_roster_and_team_history_and_profile",
+      "team_source_url": "https://www.ensl.org/teams/1057",
+      "team_joined": "25 Mar 18"
+    },
+    {
+      "badge": "ensl_lost_s13_d3_bronze",
+      "nickname": "LightDay",
+      "status": "verified",
+      "candidates": [],
+      "source_url": "https://www.ensl.org/halloffame",
+      "checked_on": "2026-09-15",
+      "account": {
+        "nickname": "LightDay",
+        "ensl_profile_url": "https://www.ensl.org/users/7555",
+        "steam_id": "STEAM_0:0:36982552",
+        "steam_id3": "[U:1:73965104]",
+        "steam_id64": "76561198034230832",
+        "ns2_id": 73965104
+      },
+      "verification": "hall_roster_and_team_history_and_profile",
+      "team_source_url": "https://www.ensl.org/teams/1057",
+      "team_joined": "20 Apr 18"
+    },
+    {
+      "badge": "ensl_lost_s13_d3_bronze",
+      "nickname": "Made_in_Russia",
+      "status": "needs_confirmation",
+      "candidates": [],
+      "source_url": "https://www.ensl.org/halloffame",
+      "checked_on": "2026-09-15",
+      "reason": "No matching ENSL nickname/profile found; provide a profile, alias, or NS2 ID."
+    },
+    {
+      "badge": "ensl_lost_s14_gold",
+      "nickname": "DerEinzige",
+      "status": "needs_confirmation",
+      "candidates": [
+        {
+          "nickname": "DerEinzige",
+          "ensl_profile_url": "https://www.ensl.org/users/7508",
+          "steam_id": "STEAM_0:0:20562686",
+          "steam_id3": "[U:1:41125372]",
+          "steam_id64": "76561198001391100",
+          "ns2_id": 41125372
+        }
+      ],
+      "source_url": "https://www.ensl.org/halloffame",
+      "checked_on": "2026-09-15",
+      "reason": "Awarded team page unavailable; account candidates need confirmation."
+    },
+    {
+      "badge": "ensl_lost_s14_gold",
+      "nickname": "Loganater",
+      "status": "needs_confirmation",
+      "candidates": [
+        {
+          "nickname": "Loganater",
+          "ensl_profile_url": "https://www.ensl.org/users/7563",
+          "steam_id": "STEAM_0:1:24952935",
+          "steam_id3": "[U:1:49905871]",
+          "steam_id64": "76561198010171599",
+          "ns2_id": 49905871
+        }
+      ],
+      "source_url": "https://www.ensl.org/halloffame",
+      "checked_on": "2026-09-15",
+      "reason": "Awarded team page unavailable; account candidates need confirmation."
+    },
+    {
+      "badge": "ensl_lost_s14_gold",
+      "nickname": "NeckSnapper",
+      "status": "needs_confirmation",
+      "candidates": [
+        {
+          "nickname": "NeckSnapper",
+          "ensl_profile_url": "https://www.ensl.org/users/7468",
+          "steam_id": "STEAM_0:0:102675514",
+          "steam_id3": "[U:1:205351028]",
+          "steam_id64": "76561198165616756",
+          "ns2_id": 205351028
+        }
+      ],
+      "source_url": "https://www.ensl.org/halloffame",
+      "checked_on": "2026-09-15",
+      "reason": "Awarded team page unavailable; account candidates need confirmation."
+    },
+    {
+      "badge": "ensl_lost_s14_gold",
+      "nickname": "GLock",
+      "status": "needs_confirmation",
+      "candidates": [
+        {
+          "nickname": "GLock",
+          "ensl_profile_url": "https://www.ensl.org/users/6861",
+          "steam_id": "STEAM_0:1:15500501",
+          "steam_id3": "[U:1:31001003]",
+          "steam_id64": "76561197991266731",
+          "ns2_id": 31001003
+        }
+      ],
+      "source_url": "https://www.ensl.org/halloffame",
+      "checked_on": "2026-09-15",
+      "reason": "Awarded team page unavailable; account candidates need confirmation."
+    },
+    {
+      "badge": "ensl_lost_s14_gold",
+      "nickname": "Shizzkizz",
+      "status": "needs_confirmation",
+      "candidates": [
+        {
+          "nickname": "Shizzkizz",
+          "ensl_profile_url": "https://www.ensl.org/users/6862",
+          "steam_id": "STEAM_0:1:44921248",
+          "steam_id3": "[U:1:89842497]",
+          "steam_id64": "76561198050108225",
+          "ns2_id": 89842497
+        }
+      ],
+      "source_url": "https://www.ensl.org/halloffame",
+      "checked_on": "2026-09-15",
+      "reason": "Awarded team page unavailable; account candidates need confirmation."
+    },
+    {
+      "badge": "ensl_lost_s14_gold",
+      "nickname": "Stark_",
+      "status": "needs_confirmation",
+      "candidates": [
+        {
+          "nickname": "Stark_",
+          "ensl_profile_url": "https://www.ensl.org/users/6194",
+          "steam_id": "STEAM_0:0:25811842",
+          "steam_id3": "[U:1:51623684]",
+          "steam_id64": "76561198011889412",
+          "ns2_id": 51623684
+        }
+      ],
+      "source_url": "https://www.ensl.org/halloffame",
+      "checked_on": "2026-09-15",
+      "reason": "Awarded team page unavailable; account candidates need confirmation."
+    },
+    {
+      "badge": "ensl_lost_s14_gold",
+      "nickname": "kesuga7",
+      "status": "needs_confirmation",
+      "candidates": [
+        {
+          "nickname": "kesuga7",
+          "ensl_profile_url": "https://www.ensl.org/users/7506",
+          "steam_id": "STEAM_0:0:27510644",
+          "steam_id3": "[U:1:55021288]",
+          "steam_id64": "76561198015287016",
+          "ns2_id": 55021288
+        }
+      ],
+      "source_url": "https://www.ensl.org/halloffame",
+      "checked_on": "2026-09-15",
+      "reason": "Awarded team page unavailable; account candidates need confirmation."
+    },
+    {
+      "badge": "ensl_lost_s14_gold",
+      "nickname": "forever_rusty",
+      "status": "needs_confirmation",
+      "candidates": [
+        {
+          "nickname": "forever_rusty",
+          "ensl_profile_url": "https://www.ensl.org/users/2666",
+          "steam_id": "STEAM_0:0:1800898",
+          "steam_id3": "[U:1:3601796]",
+          "steam_id64": "76561197963867524",
+          "ns2_id": 3601796
+        }
+      ],
+      "source_url": "https://www.ensl.org/halloffame",
+      "checked_on": "2026-09-15",
+      "reason": "Awarded team page unavailable; account candidates need confirmation."
+    },
+    {
+      "badge": "ensl_lost_s14_gold",
+      "nickname": "ADHD",
+      "status": "needs_confirmation",
+      "candidates": [
+        {
+          "nickname": "ADHD",
+          "ensl_profile_url": "https://www.ensl.org/users/2553",
+          "steam_id": "STEAM_0:0:79031",
+          "steam_id3": "[U:1:158062]",
+          "steam_id64": "76561197960423790",
+          "ns2_id": 158062
+        },
+        {
+          "nickname": "adhd",
+          "ensl_profile_url": "https://www.ensl.org/users/8420",
+          "steam_id": "STEAM_0:0:10778579",
+          "steam_id3": "[U:1:21557158]",
+          "steam_id64": "76561197981822886",
+          "ns2_id": 21557158
+        }
+      ],
+      "source_url": "https://www.ensl.org/halloffame",
+      "checked_on": "2026-09-15",
+      "reason": "Awarded team page unavailable; account candidates need confirmation."
+    },
+    {
+      "badge": "ensl_lost_s14_silver",
+      "nickname": "dja",
+      "status": "verified",
+      "candidates": [],
+      "source_url": "https://www.ensl.org/halloffame",
+      "checked_on": "2026-09-15",
+      "account": {
+        "nickname": "dja",
+        "ensl_profile_url": "https://www.ensl.org/users/7144",
+        "steam_id": "STEAM_0:1:409364",
+        "steam_id3": "[U:1:818729]",
+        "steam_id64": "76561197961084457",
+        "ns2_id": 818729
+      },
+      "verification": "hall_roster_and_team_history_and_profile",
+      "team_source_url": "https://www.ensl.org/teams/971",
+      "team_joined": "12 Oct 16"
+    },
+    {
+      "badge": "ensl_lost_s14_silver",
+      "nickname": "Mega",
+      "status": "verified",
+      "candidates": [],
+      "source_url": "https://www.ensl.org/halloffame",
+      "checked_on": "2026-09-15",
+      "account": {
+        "nickname": "Mega",
+        "ensl_profile_url": "https://www.ensl.org/users/1942",
+        "steam_id": "STEAM_0:0:28673",
+        "steam_id3": "[U:1:57346]",
+        "steam_id64": "76561197960323074",
+        "ns2_id": 57346
+      },
+      "verification": "hall_roster_and_team_history_and_profile",
+      "team_source_url": "https://www.ensl.org/teams/971",
+      "team_joined": "12 Oct 16"
+    },
+    {
+      "badge": "ensl_lost_s14_silver",
+      "nickname": "Barns",
+      "status": "verified",
+      "candidates": [],
+      "source_url": "https://www.ensl.org/halloffame",
+      "checked_on": "2026-09-15",
+      "account": {
+        "nickname": "Barns",
+        "ensl_profile_url": "https://www.ensl.org/users/7194",
+        "steam_id": "STEAM_0:1:5418733",
+        "steam_id3": "[U:1:10837467]",
+        "steam_id64": "76561197971103195",
+        "ns2_id": 10837467
+      },
+      "verification": "hall_roster_and_team_history_and_profile",
+      "team_source_url": "https://www.ensl.org/teams/971",
+      "team_joined": "12 Oct 16"
+    },
+    {
+      "badge": "ensl_lost_s14_silver",
+      "nickname": "valo",
+      "status": "verified",
+      "candidates": [],
+      "source_url": "https://www.ensl.org/halloffame",
+      "checked_on": "2026-09-15",
+      "account": {
+        "nickname": "Valo",
+        "ensl_profile_url": "https://www.ensl.org/users/1198",
+        "steam_id": "STEAM_0:1:2539271",
+        "steam_id3": "[U:1:5078543]",
+        "steam_id64": "76561197965344271",
+        "ns2_id": 5078543
+      },
+      "verification": "hall_roster_and_team_history_and_profile",
+      "team_source_url": "https://www.ensl.org/teams/971",
+      "team_joined": "13 Oct 16"
+    },
+    {
+      "badge": "ensl_lost_s14_silver",
+      "nickname": "Seperim",
+      "status": "verified",
+      "candidates": [],
+      "source_url": "https://www.ensl.org/halloffame",
+      "checked_on": "2026-09-15",
+      "account": {
+        "nickname": "Seperim",
+        "ensl_profile_url": "https://www.ensl.org/users/7040",
+        "steam_id": "STEAM_0:0:1696515",
+        "steam_id3": "[U:1:3393030]",
+        "steam_id64": "76561197963658758",
+        "ns2_id": 3393030
+      },
+      "verification": "hall_roster_and_team_history_and_profile",
+      "team_source_url": "https://www.ensl.org/teams/971",
+      "team_joined": "09 Nov 16"
+    },
+    {
+      "badge": "ensl_lost_s14_silver",
+      "nickname": "POPI",
+      "status": "verified",
+      "candidates": [],
+      "source_url": "https://www.ensl.org/halloffame",
+      "checked_on": "2026-09-15",
+      "account": {
+        "nickname": "POPI",
+        "ensl_profile_url": "https://www.ensl.org/users/7196",
+        "steam_id": "STEAM_0:1:17338931",
+        "steam_id3": "[U:1:34677863]",
+        "steam_id64": "76561197994943591",
+        "ns2_id": 34677863
+      },
+      "verification": "hall_roster_and_team_history_and_profile",
+      "team_source_url": "https://www.ensl.org/teams/971",
+      "team_joined": "12 Feb 17"
+    },
+    {
+      "badge": "ensl_lost_s14_silver",
+      "nickname": "Handschuh",
+      "status": "verified",
+      "candidates": [],
+      "source_url": "https://www.ensl.org/halloffame",
+      "checked_on": "2026-09-15",
+      "account": {
+        "nickname": "Handschuh",
+        "ensl_profile_url": "https://www.ensl.org/users/1468",
+        "steam_id": "STEAM_0:1:510984",
+        "steam_id3": "[U:1:1021969]",
+        "steam_id64": "76561197961287697",
+        "ns2_id": 1021969
+      },
+      "verification": "hall_roster_and_team_history_and_profile",
+      "team_source_url": "https://www.ensl.org/teams/971",
+      "team_joined": "02 Mar 18"
+    },
+    {
+      "badge": "ensl_lost_s14_bronze",
+      "nickname": "Bleu",
+      "status": "verified",
+      "candidates": [],
+      "source_url": "https://www.ensl.org/halloffame",
+      "checked_on": "2026-09-15",
+      "account": {
+        "nickname": "Bleu",
+        "ensl_profile_url": "https://www.ensl.org/users/6497",
+        "steam_id": "STEAM_0:1:18872973",
+        "steam_id3": "[U:1:37745947]",
+        "steam_id64": "76561197998011675",
+        "ns2_id": 37745947
+      },
+      "verification": "hall_roster_and_team_history_and_profile",
+      "team_source_url": "https://www.ensl.org/teams/1036",
+      "team_joined": "21 Jan 18",
+      "owner_confirmation": "NS2 ID 37745947 supplied by Bleu in this task; S13 D3 win also directly confirmed."
+    },
+    {
+      "badge": "ensl_lost_s14_bronze",
+      "nickname": "Litansan",
+      "status": "verified",
+      "candidates": [],
+      "source_url": "https://www.ensl.org/halloffame",
+      "checked_on": "2026-09-15",
+      "account": {
+        "nickname": "Litansan",
+        "ensl_profile_url": "https://www.ensl.org/users/7503",
+        "steam_id": "STEAM_0:1:33879352",
+        "steam_id3": "[U:1:67758705]",
+        "steam_id64": "76561198028024433",
+        "ns2_id": 67758705
+      },
+      "verification": "hall_roster_and_team_history_and_profile",
+      "team_source_url": "https://www.ensl.org/teams/1036",
+      "team_joined": "21 Jan 18"
+    },
+    {
+      "badge": "ensl_lost_s14_bronze",
+      "nickname": "Neuromancer",
+      "status": "verified",
+      "candidates": [],
+      "source_url": "https://www.ensl.org/halloffame",
+      "checked_on": "2026-09-15",
+      "account": {
+        "nickname": "Neuromancer",
+        "ensl_profile_url": "https://www.ensl.org/users/2388",
+        "steam_id": "STEAM_0:0:39544726",
+        "steam_id3": "[U:1:79089452]",
+        "steam_id64": "76561198039355180",
+        "ns2_id": 79089452
+      },
+      "verification": "hall_roster_and_team_history_and_profile",
+      "team_source_url": "https://www.ensl.org/teams/1036",
+      "team_joined": "21 Jan 18"
+    },
+    {
+      "badge": "ensl_lost_s14_bronze",
+      "nickname": "Shadowdark",
+      "status": "verified",
+      "candidates": [],
+      "source_url": "https://www.ensl.org/halloffame",
+      "checked_on": "2026-09-15",
+      "account": {
+        "nickname": "Shadowdark",
+        "ensl_profile_url": "https://www.ensl.org/users/6590",
+        "steam_id": "STEAM_0:1:40504601",
+        "steam_id3": "[U:1:81009203]",
+        "steam_id64": "76561198041274931",
+        "ns2_id": 81009203
+      },
+      "verification": "hall_roster_and_team_history_and_profile",
+      "team_source_url": "https://www.ensl.org/teams/1036",
+      "team_joined": "21 Jan 18"
+    },
+    {
+      "badge": "ensl_lost_s14_bronze",
+      "nickname": "Tik",
+      "status": "verified",
+      "candidates": [],
+      "source_url": "https://www.ensl.org/halloffame",
+      "checked_on": "2026-09-15",
+      "account": {
+        "nickname": "Tik",
+        "ensl_profile_url": "https://www.ensl.org/users/7566",
+        "steam_id": "STEAM_0:1:11593290",
+        "steam_id3": "[U:1:23186581]",
+        "steam_id64": "76561197983452309",
+        "ns2_id": 23186581
+      },
+      "verification": "hall_roster_and_user_confirmed_identity",
+      "confirmation_source": "Bleu confirmed all three proposed NS2 IDs in this task on 2026-09-15."
+    },
+    {
+      "badge": "ensl_lost_s14_bronze",
+      "nickname": "Godman",
+      "status": "verified",
+      "candidates": [],
+      "source_url": "https://www.ensl.org/halloffame",
+      "checked_on": "2026-09-15",
+      "account": {
+        "nickname": "Godman",
+        "ensl_profile_url": "https://www.ensl.org/users/1507",
+        "steam_id": "STEAM_0:1:17291915",
+        "steam_id3": "[U:1:34583831]",
+        "steam_id64": "76561197994849559",
+        "ns2_id": 34583831
+      },
+      "verification": "hall_roster_and_user_confirmed_identity",
+      "confirmation_source": "Bleu confirmed all three proposed NS2 IDs in this task on 2026-09-15."
+    },
+    {
+      "badge": "ensl_lost_s14_bronze",
+      "nickname": "Limbo",
+      "status": "verified",
+      "candidates": [],
+      "source_url": "https://www.ensl.org/halloffame",
+      "checked_on": "2026-09-15",
+      "account": {
+        "nickname": "Limbo",
+        "ensl_profile_url": "https://www.ensl.org/users/7542",
+        "steam_id": "STEAM_0:1:28791337",
+        "steam_id3": "[U:1:57582675]",
+        "steam_id64": "76561198017848403",
+        "ns2_id": 57582675
+      },
+      "verification": "hall_roster_and_team_history_and_profile",
+      "team_source_url": "https://www.ensl.org/teams/1036",
+      "team_joined": "10 Apr 18"
+    },
+    {
+      "badge": "ensl_lost_s14_bronze",
+      "nickname": "Starcetereus",
+      "status": "verified",
+      "candidates": [],
+      "source_url": "https://www.ensl.org/halloffame",
+      "checked_on": "2026-09-15",
+      "account": {
+        "nickname": "Starcetereus",
+        "ensl_profile_url": "https://www.ensl.org/users/6800",
+        "steam_id": "STEAM_0:1:22309473",
+        "steam_id3": "[U:1:44618947]",
+        "steam_id64": "76561198004884675",
+        "ns2_id": 44618947
+      },
+      "verification": "hall_roster_and_user_confirmed_identity",
+      "confirmation_source": "Bleu confirmed all three proposed NS2 IDs in this task on 2026-09-15."
+    },
+    {
+      "badge": "ensl_lost_s15_d1_gold",
+      "nickname": "lome",
+      "status": "verified",
+      "candidates": [],
+      "source_url": "https://www.ensl.org/halloffame",
+      "checked_on": "2026-09-15",
+      "account": {
+        "nickname": "loMe",
+        "ensl_profile_url": "https://www.ensl.org/users/6338",
+        "steam_id": "STEAM_0:1:132849",
+        "steam_id3": "[U:1:265699]",
+        "steam_id64": "76561197960531427",
+        "ns2_id": 265699
+      },
+      "verification": "hall_roster_and_team_history_and_profile",
+      "team_source_url": "https://www.ensl.org/teams/1078",
+      "team_joined": "14 Sep 19"
+    },
+    {
+      "badge": "ensl_lost_s15_d1_gold",
+      "nickname": "turtsmcgurts",
+      "status": "verified",
+      "candidates": [],
+      "source_url": "https://www.ensl.org/halloffame",
+      "checked_on": "2026-09-15",
+      "account": {
+        "nickname": "turtsmcgurts",
+        "ensl_profile_url": "https://www.ensl.org/users/6767",
+        "steam_id": "STEAM_0:0:16568932",
+        "steam_id3": "[U:1:33137864]",
+        "steam_id64": "76561197993403592",
+        "ns2_id": 33137864
+      },
+      "verification": "hall_roster_and_team_history_and_profile",
+      "team_source_url": "https://www.ensl.org/teams/1078",
+      "team_joined": "14 Sep 19"
+    },
+    {
+      "badge": "ensl_lost_s15_d1_gold",
+      "nickname": "herakles",
+      "status": "verified",
+      "candidates": [],
+      "source_url": "https://www.ensl.org/halloffame",
+      "checked_on": "2026-09-15",
+      "account": {
+        "nickname": "herakles",
+        "ensl_profile_url": "https://www.ensl.org/users/2244",
+        "steam_id": "STEAM_0:0:401581",
+        "steam_id3": "[U:1:803162]",
+        "steam_id64": "76561197961068890",
+        "ns2_id": 803162
+      },
+      "verification": "hall_roster_and_team_history_and_profile",
+      "team_source_url": "https://www.ensl.org/teams/1078",
+      "team_joined": "14 Sep 19"
+    },
+    {
+      "badge": "ensl_lost_s15_d1_gold",
+      "nickname": "Spring",
+      "status": "verified",
+      "candidates": [],
+      "source_url": "https://www.ensl.org/halloffame",
+      "checked_on": "2026-09-15",
+      "account": {
+        "nickname": "Spring",
+        "ensl_profile_url": "https://www.ensl.org/users/6080",
+        "steam_id": "STEAM_0:0:18311373",
+        "steam_id3": "[U:1:36622746]",
+        "steam_id64": "76561197996888474",
+        "ns2_id": 36622746
+      },
+      "verification": "hall_roster_and_team_history_and_profile",
+      "team_source_url": "https://www.ensl.org/teams/1078",
+      "team_joined": "17 Sep 19"
+    },
+    {
+      "badge": "ensl_lost_s15_d1_gold",
+      "nickname": "Zafod",
+      "status": "verified",
+      "candidates": [],
+      "source_url": "https://www.ensl.org/halloffame",
+      "checked_on": "2026-09-15",
+      "account": {
+        "nickname": "Zafod",
+        "ensl_profile_url": "https://www.ensl.org/users/6263",
+        "steam_id": "STEAM_0:1:27930583",
+        "steam_id3": "[U:1:55861167]",
+        "steam_id64": "76561198016126895",
+        "ns2_id": 55861167
+      },
+      "verification": "hall_roster_and_team_history_and_profile",
+      "team_source_url": "https://www.ensl.org/teams/1078",
+      "team_joined": "25 Oct 19"
+    },
+    {
+      "badge": "ensl_lost_s15_d1_gold",
+      "nickname": "Wake",
+      "status": "verified",
+      "candidates": [],
+      "source_url": "https://www.ensl.org/halloffame",
+      "checked_on": "2026-09-15",
+      "account": {
+        "nickname": "Wake",
+        "ensl_profile_url": "https://www.ensl.org/users/5486",
+        "steam_id": "STEAM_0:0:5182884",
+        "steam_id3": "[U:1:10365768]",
+        "steam_id64": "76561197970631496",
+        "ns2_id": 10365768
+      },
+      "verification": "hall_roster_and_team_history_and_profile",
+      "team_source_url": "https://www.ensl.org/teams/1078",
+      "team_joined": "14 Sep 19"
+    },
+    {
+      "badge": "ensl_lost_s15_d1_gold",
+      "nickname": "Starcetereus",
+      "status": "verified",
+      "candidates": [],
+      "source_url": "https://www.ensl.org/halloffame",
+      "checked_on": "2026-09-15",
+      "account": {
+        "nickname": "Starcetereus",
+        "ensl_profile_url": "https://www.ensl.org/users/6800",
+        "steam_id": "STEAM_0:1:22309473",
+        "steam_id3": "[U:1:44618947]",
+        "steam_id64": "76561198004884675",
+        "ns2_id": 44618947
+      },
+      "verification": "hall_roster_and_team_history_and_profile",
+      "team_source_url": "https://www.ensl.org/teams/1078",
+      "team_joined": "14 Sep 19"
+    },
+    {
+      "badge": "ensl_lost_s15_d1_silver",
+      "nickname": "y4mz",
+      "status": "verified",
+      "candidates": [],
+      "source_url": "https://www.ensl.org/halloffame",
+      "checked_on": "2026-09-15",
+      "account": {
+        "nickname": "y4mz",
+        "ensl_profile_url": "https://www.ensl.org/users/7373",
+        "steam_id": "STEAM_0:1:23089566",
+        "steam_id3": "[U:1:46179133]",
+        "steam_id64": "76561198006444861",
+        "ns2_id": 46179133
+      },
+      "verification": "hall_roster_and_team_history_and_profile",
+      "team_source_url": "https://www.ensl.org/teams/1089",
+      "team_joined": "18 Oct 19"
+    },
+    {
+      "badge": "ensl_lost_s15_d1_silver",
+      "nickname": "ydy",
+      "status": "verified",
+      "candidates": [],
+      "source_url": "https://www.ensl.org/halloffame",
+      "checked_on": "2026-09-15",
+      "account": {
+        "nickname": "ydy",
+        "ensl_profile_url": "https://www.ensl.org/users/2347",
+        "steam_id": "STEAM_0:1:623603",
+        "steam_id3": "[U:1:1247207]",
+        "steam_id64": "76561197961512935",
+        "ns2_id": 1247207
+      },
+      "verification": "hall_roster_and_team_history_and_profile",
+      "team_source_url": "https://www.ensl.org/teams/1089",
+      "team_joined": "18 Oct 19"
+    },
+    {
+      "badge": "ensl_lost_s15_d1_silver",
+      "nickname": "Doggo",
+      "status": "verified",
+      "candidates": [],
+      "source_url": "https://www.ensl.org/halloffame",
+      "checked_on": "2026-09-15",
+      "account": {
+        "nickname": "Doggo",
+        "ensl_profile_url": "https://www.ensl.org/users/7321",
+        "steam_id": "STEAM_0:0:72434548",
+        "steam_id3": "[U:1:144869096]",
+        "steam_id64": "76561198105134824",
+        "ns2_id": 144869096
+      },
+      "verification": "hall_roster_and_team_history_and_profile",
+      "team_source_url": "https://www.ensl.org/teams/1089",
+      "team_joined": "19 Oct 19"
+    },
+    {
+      "badge": "ensl_lost_s15_d1_silver",
+      "nickname": "tap",
+      "status": "verified",
+      "candidates": [],
+      "source_url": "https://www.ensl.org/halloffame",
+      "checked_on": "2026-09-15",
+      "account": {
+        "nickname": "tap",
+        "ensl_profile_url": "https://www.ensl.org/users/5819",
+        "steam_id": "STEAM_0:0:30580735",
+        "steam_id3": "[U:1:61161470]",
+        "steam_id64": "76561198021427198",
+        "ns2_id": 61161470
+      },
+      "verification": "hall_roster_and_team_history_and_profile",
+      "team_source_url": "https://www.ensl.org/teams/1089",
+      "team_joined": "08 Oct 19"
+    },
+    {
+      "badge": "ensl_lost_s15_d1_silver",
+      "nickname": "Nightsy",
+      "status": "verified",
+      "candidates": [],
+      "source_url": "https://www.ensl.org/halloffame",
+      "checked_on": "2026-09-15",
+      "account": {
+        "nickname": "Nightsy",
+        "ensl_profile_url": "https://www.ensl.org/users/6455",
+        "steam_id": "STEAM_0:0:36703535",
+        "steam_id3": "[U:1:73407070]",
+        "steam_id64": "76561198033672798",
+        "ns2_id": 73407070
+      },
+      "verification": "hall_roster_and_team_history_and_profile",
+      "team_source_url": "https://www.ensl.org/teams/1089",
+      "team_joined": "08 Oct 19"
+    },
+    {
+      "badge": "ensl_lost_s15_d1_silver",
+      "nickname": "OMEGAWEAPON",
+      "status": "verified",
+      "candidates": [],
+      "source_url": "https://www.ensl.org/halloffame",
+      "checked_on": "2026-09-15",
+      "account": {
+        "nickname": "OMEGAWEAPON",
+        "ensl_profile_url": "https://www.ensl.org/users/2732",
+        "steam_id": "STEAM_0:1:12091041",
+        "steam_id3": "[U:1:24182083]",
+        "steam_id64": "76561197984447811",
+        "ns2_id": 24182083
+      },
+      "verification": "hall_roster_and_team_history_and_profile",
+      "team_source_url": "https://www.ensl.org/teams/1089",
+      "team_joined": "25 Oct 19"
+    },
+    {
+      "badge": "ensl_lost_s15_d2_gold",
+      "nickname": "Noky",
+      "status": "verified",
+      "candidates": [],
+      "source_url": "https://www.ensl.org/halloffame",
+      "checked_on": "2026-09-15",
+      "account": {
+        "nickname": "Noky",
+        "ensl_profile_url": "https://www.ensl.org/users/7562",
+        "steam_id": "STEAM_0:1:1287347",
+        "steam_id3": "[U:1:2574695]",
+        "steam_id64": "76561197962840423",
+        "ns2_id": 2574695
+      },
+      "verification": "hall_roster_and_team_history_and_profile",
+      "team_source_url": "https://www.ensl.org/teams/1077",
+      "team_joined": "12 Sep 19"
+    },
+    {
+      "badge": "ensl_lost_s15_d2_gold",
+      "nickname": "Simba",
+      "status": "verified",
+      "candidates": [],
+      "source_url": "https://www.ensl.org/halloffame",
+      "checked_on": "2026-09-15",
+      "account": {
+        "nickname": "Simba",
+        "ensl_profile_url": "https://www.ensl.org/users/2854",
+        "steam_id": "STEAM_0:1:35248020",
+        "steam_id3": "[U:1:70496041]",
+        "steam_id64": "76561198030761769",
+        "ns2_id": 70496041
+      },
+      "verification": "hall_roster_and_team_history_and_profile",
+      "team_source_url": "https://www.ensl.org/teams/1077",
+      "team_joined": "29 Sep 19"
+    },
+    {
+      "badge": "ensl_lost_s15_d2_gold",
+      "nickname": "RobP",
+      "status": "verified",
+      "candidates": [],
+      "source_url": "https://www.ensl.org/halloffame",
+      "checked_on": "2026-09-15",
+      "account": {
+        "nickname": "RobP",
+        "ensl_profile_url": "https://www.ensl.org/users/6159",
+        "steam_id": "STEAM_0:0:29812681",
+        "steam_id3": "[U:1:59625362]",
+        "steam_id64": "76561198019891090",
+        "ns2_id": 59625362
+      },
+      "verification": "hall_roster_and_team_history_and_profile",
+      "team_source_url": "https://www.ensl.org/teams/1077",
+      "team_joined": "30 Sep 19"
+    },
+    {
+      "badge": "ensl_lost_s15_d2_gold",
+      "nickname": "Jotobo",
+      "status": "verified",
+      "candidates": [],
+      "source_url": "https://www.ensl.org/halloffame",
+      "checked_on": "2026-09-15",
+      "account": {
+        "nickname": "PecanSam",
+        "ensl_profile_url": "https://www.ensl.org/users/7614",
+        "steam_id": "STEAM_0:0:7987457",
+        "steam_id3": "[U:1:15974914]",
+        "steam_id64": "76561197976240642",
+        "ns2_id": 15974914
+      },
+      "verification": "hall_roster_and_team_history_and_profile",
+      "team_source_url": "https://www.ensl.org/teams/1077",
+      "team_joined": "07 Oct 19",
+      "alias_note": "ENSL team roster lists PecanSam; its Steam account currently identifies itself as Jotobo.",
+      "steam_source_url": "https://steamcommunity.com/profiles/76561197976240642"
+    },
+    {
+      "badge": "ensl_lost_s15_d2_gold",
+      "nickname": "bily",
+      "status": "verified",
+      "candidates": [],
+      "source_url": "https://www.ensl.org/halloffame",
+      "checked_on": "2026-09-15",
+      "account": {
+        "nickname": "bily",
+        "ensl_profile_url": "https://www.ensl.org/users/2618",
+        "steam_id": "STEAM_0:1:1850391",
+        "steam_id3": "[U:1:3700783]",
+        "steam_id64": "76561197963966511",
+        "ns2_id": 3700783
+      },
+      "verification": "hall_roster_and_team_history_and_profile",
+      "team_source_url": "https://www.ensl.org/teams/1077",
+      "team_joined": "10 Oct 19"
+    },
+    {
+      "badge": "ensl_lost_s15_d2_gold",
+      "nickname": "Roland",
+      "status": "verified",
+      "candidates": [],
+      "source_url": "https://www.ensl.org/halloffame",
+      "checked_on": "2026-09-15",
+      "account": {
+        "nickname": "Roland",
+        "ensl_profile_url": "https://www.ensl.org/users/7239",
+        "steam_id": "STEAM_0:0:31188259",
+        "steam_id3": "[U:1:62376518]",
+        "steam_id64": "76561198022642246",
+        "ns2_id": 62376518
+      },
+      "verification": "hall_roster_and_team_history_and_profile",
+      "team_source_url": "https://www.ensl.org/teams/1077",
+      "team_joined": "14 Dec 19"
+    },
+    {
+      "badge": "ensl_lost_s15_d2_gold",
+      "nickname": "Stark_",
+      "status": "verified",
+      "candidates": [],
+      "source_url": "https://www.ensl.org/halloffame",
+      "checked_on": "2026-09-15",
+      "account": {
+        "nickname": "Stark_",
+        "ensl_profile_url": "https://www.ensl.org/users/6194",
+        "steam_id": "STEAM_0:0:25811842",
+        "steam_id3": "[U:1:51623684]",
+        "steam_id64": "76561198011889412",
+        "ns2_id": 51623684
+      },
+      "verification": "hall_roster_and_team_history_and_profile",
+      "team_source_url": "https://www.ensl.org/teams/1077",
+      "team_joined": "26 Sep 19"
+    },
+    {
+      "badge": "ensl_lost_s15_d2_silver",
+      "nickname": "DerEinzige",
+      "status": "verified",
+      "candidates": [],
+      "source_url": "https://www.ensl.org/halloffame",
+      "checked_on": "2026-09-15",
+      "account": {
+        "nickname": "DerEinzige",
+        "ensl_profile_url": "https://www.ensl.org/users/7508",
+        "steam_id": "STEAM_0:0:20562686",
+        "steam_id3": "[U:1:41125372]",
+        "steam_id64": "76561198001391100",
+        "ns2_id": 41125372
+      },
+      "verification": "hall_roster_and_team_history_and_profile",
+      "team_source_url": "https://www.ensl.org/teams/1067",
+      "team_joined": "23 Aug 19"
+    },
+    {
+      "badge": "ensl_lost_s15_d2_silver",
+      "nickname": "NeckSnapper",
+      "status": "verified",
+      "candidates": [],
+      "source_url": "https://www.ensl.org/halloffame",
+      "checked_on": "2026-09-15",
+      "account": {
+        "nickname": "NeckSnapper",
+        "ensl_profile_url": "https://www.ensl.org/users/7468",
+        "steam_id": "STEAM_0:0:102675514",
+        "steam_id3": "[U:1:205351028]",
+        "steam_id64": "76561198165616756",
+        "ns2_id": 205351028
+      },
+      "verification": "hall_roster_and_team_history_and_profile",
+      "team_source_url": "https://www.ensl.org/teams/1067",
+      "team_joined": "24 Aug 19"
+    },
+    {
+      "badge": "ensl_lost_s15_d2_silver",
+      "nickname": "Sakhan",
+      "status": "verified",
+      "candidates": [],
+      "source_url": "https://www.ensl.org/halloffame",
+      "checked_on": "2026-09-15",
+      "account": {
+        "nickname": "Sakhan",
+        "ensl_profile_url": "https://www.ensl.org/users/7568",
+        "steam_id": "STEAM_0:1:94299311",
+        "steam_id3": "[U:1:188598623]",
+        "steam_id64": "76561198148864351",
+        "ns2_id": 188598623
+      },
+      "verification": "hall_roster_and_team_history_and_profile",
+      "team_source_url": "https://www.ensl.org/teams/1067",
+      "team_joined": "20 Oct 19"
+    },
+    {
+      "badge": "ensl_lost_s15_d2_silver",
+      "nickname": "xankar",
+      "status": "verified",
+      "candidates": [],
+      "source_url": "https://www.ensl.org/halloffame",
+      "checked_on": "2026-09-15",
+      "account": {
+        "nickname": "xankar",
+        "ensl_profile_url": "https://www.ensl.org/users/7602",
+        "steam_id": "STEAM_0:0:47586945",
+        "steam_id3": "[U:1:95173890]",
+        "steam_id64": "76561198055439618",
+        "ns2_id": 95173890
+      },
+      "verification": "hall_roster_and_team_history_and_profile",
+      "team_source_url": "https://www.ensl.org/teams/1067",
+      "team_joined": "24 Oct 19"
+    },
+    {
+      "badge": "ensl_lost_s15_d2_silver",
+      "nickname": "Keo",
+      "status": "verified",
+      "candidates": [],
+      "source_url": "https://www.ensl.org/halloffame",
+      "checked_on": "2026-09-15",
+      "account": {
+        "nickname": "keo",
+        "ensl_profile_url": "https://www.ensl.org/users/6023",
+        "steam_id": "STEAM_0:1:42049633",
+        "steam_id3": "[U:1:84099267]",
+        "steam_id64": "76561198044364995",
+        "ns2_id": 84099267
+      },
+      "verification": "hall_roster_and_team_history_and_profile",
+      "team_source_url": "https://www.ensl.org/teams/1067",
+      "team_joined": "16 Nov 19"
+    },
+    {
+      "badge": "ensl_lost_s15_d2_silver",
+      "nickname": "Bill",
+      "status": "verified",
+      "candidates": [],
+      "source_url": "https://www.ensl.org/halloffame",
+      "checked_on": "2026-09-15",
+      "account": {
+        "nickname": "bill",
+        "ensl_profile_url": "https://www.ensl.org/users/4310",
+        "steam_id": "STEAM_0:0:17078746",
+        "steam_id3": "[U:1:34157492]",
+        "steam_id64": "76561197994423220",
+        "ns2_id": 34157492
+      },
+      "verification": "hall_roster_and_team_history_and_profile",
+      "team_source_url": "https://www.ensl.org/teams/1067",
+      "team_joined": "22 Nov 19"
+    },
+    {
+      "badge": "ensl_lost_s15_d2_bronze",
+      "nickname": "RedNight",
+      "status": "verified",
+      "candidates": [],
+      "source_url": "https://www.ensl.org/halloffame",
+      "checked_on": "2026-09-15",
+      "account": {
+        "nickname": "RedNight",
+        "ensl_profile_url": "https://www.ensl.org/users/7634",
+        "steam_id": "STEAM_0:1:67742632",
+        "steam_id3": "[U:1:135485265]",
+        "steam_id64": "76561198095750993",
+        "ns2_id": 135485265
+      },
+      "verification": "hall_roster_and_team_history_and_profile",
+      "team_source_url": "https://www.ensl.org/teams/1085",
+      "team_joined": "01 Oct 19"
+    },
+    {
+      "badge": "ensl_lost_s15_d2_bronze",
+      "nickname": "Critique",
+      "status": "verified",
+      "candidates": [],
+      "source_url": "https://www.ensl.org/halloffame",
+      "checked_on": "2026-09-15",
+      "account": {
+        "nickname": "Critique",
+        "ensl_profile_url": "https://www.ensl.org/users/6888",
+        "steam_id": "STEAM_0:0:27269489",
+        "steam_id3": "[U:1:54538978]",
+        "steam_id64": "76561198014804706",
+        "ns2_id": 54538978
+      },
+      "verification": "hall_roster_and_team_history_and_profile",
+      "team_source_url": "https://www.ensl.org/teams/1085",
+      "team_joined": "01 Oct 19"
+    },
+    {
+      "badge": "ensl_lost_s15_d2_bronze",
+      "nickname": "flip",
+      "status": "verified",
+      "candidates": [],
+      "source_url": "https://www.ensl.org/halloffame",
+      "checked_on": "2026-09-15",
+      "account": {
+        "nickname": "flip",
+        "ensl_profile_url": "https://www.ensl.org/users/7635",
+        "steam_id": "STEAM_0:1:56726264",
+        "steam_id3": "[U:1:113452529]",
+        "steam_id64": "76561198073718257",
+        "ns2_id": 113452529
+      },
+      "verification": "hall_roster_and_team_history_and_profile",
+      "team_source_url": "https://www.ensl.org/teams/1085",
+      "team_joined": "01 Oct 19"
+    },
+    {
+      "badge": "ensl_lost_s15_d2_bronze",
+      "nickname": "clowning",
+      "status": "verified",
+      "candidates": [],
+      "source_url": "https://www.ensl.org/halloffame",
+      "checked_on": "2026-09-15",
+      "account": {
+        "nickname": "clowning",
+        "ensl_profile_url": "https://www.ensl.org/users/3524",
+        "steam_id": "STEAM_0:1:103396",
+        "steam_id3": "[U:1:206793]",
+        "steam_id64": "76561197960472521",
+        "ns2_id": 206793
+      },
+      "verification": "hall_roster_and_team_history_and_profile",
+      "team_source_url": "https://www.ensl.org/teams/1085",
+      "team_joined": "02 Oct 19"
+    },
+    {
+      "badge": "ensl_lost_s15_d2_bronze",
+      "nickname": "Sylvi",
+      "status": "verified",
+      "candidates": [],
+      "source_url": "https://www.ensl.org/halloffame",
+      "checked_on": "2026-09-15",
+      "account": {
+        "nickname": "Sylvi",
+        "ensl_profile_url": "https://www.ensl.org/users/5198",
+        "steam_id": "STEAM_0:1:45205878",
+        "steam_id3": "[U:1:90411757]",
+        "steam_id64": "76561198050677485",
+        "ns2_id": 90411757
+      },
+      "verification": "hall_roster_and_team_history_and_profile",
+      "team_source_url": "https://www.ensl.org/teams/1085",
+      "team_joined": "18 Oct 19"
+    },
+    {
+      "badge": "ensl_lost_s15_d2_bronze",
+      "nickname": "Sardine",
+      "status": "verified",
+      "candidates": [],
+      "source_url": "https://www.ensl.org/halloffame",
+      "checked_on": "2026-09-15",
+      "account": {
+        "nickname": "Sardine",
+        "ensl_profile_url": "https://www.ensl.org/users/5433",
+        "steam_id": "STEAM_0:0:55850026",
+        "steam_id3": "[U:1:111700052]",
+        "steam_id64": "76561198071965780",
+        "ns2_id": 111700052
+      },
+      "verification": "hall_roster_and_team_history_and_profile",
+      "team_source_url": "https://www.ensl.org/teams/1085",
+      "team_joined": "02 Oct 19"
+    }
+  ],
+  "runtime_scope": "Verified assignments for Seasons 13-15; unresolved cases explicitly excluded."
 }

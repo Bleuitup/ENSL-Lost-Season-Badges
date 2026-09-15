@@ -15,7 +15,7 @@ Within each medal, a thin subtly metallic square outline, a flat low-contrast in
 The official Marine/arc/Skulk silhouette occupies the top 75 percent of each medal. A small simple "2019" below occupies the remaining bottom band, matching existing NS2 year numerals.
 All three medals use the identical correct logo, in their respective metal color. Clear simple shapes suitable for downsampling to 32x32 and 20x20. Keep the logo the focus; do not add decorative design details. Exact text only "2019" on each of the three medals.
 
-Output: `assets/drafts/2019-medals-master.png`.
+Historical output: `assets/drafts/2019-medals-master.png`, now archived at Git tag `v0.8`. Selected C artwork remains in `assets/badges/2019/`.
 
 ## Promotional cover
 

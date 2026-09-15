@@ -31,4 +31,4 @@ Event.Hook("ClientConnect", function(client)
     end
 end)
 
-Shared.Message("[ENSL Lost Season Badges] Prototype loaded: " .. count .. " earned account award(s).")
+Shared.Message("[ENSL Lost Season Badges] Loaded: " .. count .. " earned account award(s).")

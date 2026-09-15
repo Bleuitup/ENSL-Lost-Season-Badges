@@ -2,7 +2,7 @@
 
 Status: the user selected C (tapered tail) on 2026-09-15. Its three 32 px medal exports are copied unchanged into `assets/badges/2019/` as the selected S14/S15 artwork.
 
-![Current version and three alternatives](nine-alternatives-mosaic.png)
+The selection mosaic and superseded candidates are archived in Git tag `v0.8`. Only selected option C and the current [five-season comparison](medal-comparison.png) remain in the working tree.
 
 Generated on 2026-09-15 with the built-in ImageGen tool, one separate edit call per alternative. Input for each call: `assets/drafts/year-edit-2019-master.png`. All three calls requested a change only to the final 9, matching the height and baseline of the other digits and avoiding a flared base. Generative edits are not guaranteed to preserve all other pixels or reproduce the same glyph exactly across medal colors.
 
@@ -14,9 +14,9 @@ These names describe the requested direction; the displayed output is what the u
 
 ## Files and comparison method
 
-`assets/drafts/nine-alternatives/` contains the three original generated masters and nine 32 x 32 medal exports. Each master is a 1254 x 1254 atlas with gold top-left, silver top-right and bronze bottom-left. The cells were cropped and reduced with high-quality bicubic resampling. The mosaic shows 32 px exports enlarged to 96 px using nearest-neighbor scaling; its date details are a 4x enlargement of the same exports. Small badges are 20 px in the PNG, with the same filtering for every option. Viewer scaling can change their physical size on screen. This is an art review, not an NS2 screenshot.
+At Git tag `v0.8`, `assets/drafts/nine-alternatives/` contains the three original generated masters and nine 32 x 32 medal exports. Each master is a 1254 x 1254 atlas with gold top-left, silver top-right and bronze bottom-left. The cells were cropped and reduced with high-quality bicubic resampling. The mosaic shows 32 px exports enlarged to 96 px using nearest-neighbor scaling; its date details are a 4x enlargement of the same exports. Small badges are 20 px in the PNG, with the same filtering for every option. Viewer scaling can change their physical size on screen. This is an art review, not an NS2 screenshot.
 
-The mosaic is retained as selection history: its CURRENT column shows the prior year-edit master. The main five-season comparison now uses selected option C. The chosen art is ready for native texture packaging and in-game integration.
+The mosaic is retained in Git history: its CURRENT column shows the prior year-edit master. The main five-season comparison now uses selected option C. The chosen art is ready for native texture packaging and in-game integration.
 
 ## Exact prompts
 

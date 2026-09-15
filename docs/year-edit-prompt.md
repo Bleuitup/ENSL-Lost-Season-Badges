@@ -10,7 +10,9 @@ The tool returned a 1254 x 1254 image. Each 627 x 627 medal cell was cropped and
 
 Visual review confirms a much closer match to the originals in arc size, year lettering size, medal colors, and background treatment. Generative editing and resampling still modify pixels outside the final digit; this is not a bit-for-bit source-preserving edit. For exact production matching, a localized native-resolution pixel edit with all other source pixels retained would be the most reliable finishing method. No final DDS or in-game verification is implied.
 
-## Files
+## Historical files
+
+The edit input and superseded candidates below were removed from the current checkout and remain recoverable at Git tag `v0.8`. The current comparison and selected C artwork are retained.
 
 - `docs/vanilla-2018-edit-input.png`: original source atlas supplied to ImageGen.
 - `assets/drafts/year-edit-2019-master.png`: generated output.

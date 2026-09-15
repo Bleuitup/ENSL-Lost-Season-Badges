@@ -2,20 +2,23 @@
 
 A Natural Selection 2 mod project restoring tournament badges for NSL Seasons 13–15, using existing ENSL badges as the visual and behavioral reference.
 
-**Status:** first Launchpad prototype ready for user testing: Bleu (NS2 ID 37745947) receives the S13 Division 3 winner badge. Native badge logic checks pass; live in-game verification is pending. Other recipients and S14/S15 runtime awards remain to be implemented; their option C artwork is approved.
+**Status:** Workshop **v0.8**, tagged `v0.8` in Git. Bleu confirmed in-game badge selection, moving between slots, and hover text on 2026-09-15. This release grants Bleu (NS2 ID 37745947) the S13 Division 3 winner badge. **Local development build:** all 16 established medal definitions, including approved option C art for S14/S15; 98 verified awards for 88 accounts. There are 23 unresolved awards, excluded from grants. This expanded build has not been uploaded or visually tested in NS2.
 
 ![Workshop preview](preview.png)
 
-## Test the first prototype
+## Tested v0.8 prototype
 
-Open this project in NS2 Launchpad and follow the [test instructions](docs/launchpad-test.md). The local `output` folder is prepared. The one included award is earned by Bleu, confirmed by the user and corroborated in the Hall of Fame roster. It is not a temporary grant of other medals.
+Open this project in NS2 Launchpad and follow the [test instructions](docs/launchpad-test.md). The local `output` folder is prepared. The v0.8 tag contains the original one-badge prototype. The current local build includes verified recipients across S13–15. Bleu can now test both S13 D3 gold and S14 bronze; both are earned awards listed in the Hall of Fame.
+
+The upload is built exclusively from `source/`. Research, markdown, reference images, and selected artwork masters stay outside the runtime package. Superseded image candidates were removed from the current checkout; they remain recoverable from Git tag `v0.8`.
 
 ## Project documents
 
 - [Accepted implementation plan](PLAN.md)
 - [Launchpad test and requested feedback](docs/launchpad-test.md)
 - [Prototype architecture and provenance](docs/prototype-architecture.md)
-- [First recipient evidence](data/recipients.json)
+- [Recipient review and remaining questions](docs/recipient-review.md)
+- [Recipient evidence manifest](data/recipients.json)
 - [Selected artwork and comparison](docs/artwork.md)
 - [Approved option C and generation prompts](docs/nine-alternatives.md)
 - [Hover panels and proposed badge names](docs/hover-behavior.md)
@@ -23,7 +26,7 @@ Open this project in NS2 Launchpad and follow the [test instructions](docs/launc
 - [Earlier artwork correction prompts](docs/artwork-correction-prompts.md)
 - [Historical preview prompts](docs/preview-prompt.md)
 
-The cover is available as 512 x 512 PNG and JPEG. [Compare S12, proposed S13–15, and S16 medals](docs/medal-comparison.png) enlarged and at the scoreboard base size. S13 proposes reuse of original 2018 art; S14/S15 use approved option C, stored in `assets/badges/2019/`. The S13 test badge has a native DDS and registration; S14/S15 packaging and account assignments remain to be completed.
+The cover is available as 512 x 512 PNG and JPEG. [Compare S12, proposed S13–15, and S16 medals](docs/medal-comparison.png) enlarged and at the scoreboard base size. S13 proposes reuse of original 2018 art; S14/S15 use approved option C, stored in `assets/badges/2019/`. All 16 established awards have native DDS files and registration. S13 uses byte-identical shipped 2018 textures; S14/S15 use lossless 32 x 32 DDS exports of the approved C PNGs. The expanded set still needs an in-game visual check.
 
 ## Award policy
 
@@ -35,4 +38,4 @@ Primary results source: [ENSL Hall of Fame](https://www.ensl.org/halloffame).
 
 ## Distribution
 
-The proposed mod grants account-specific custom badges on servers running it. It does not issue official Steam inventory items. A GitHub remote and Workshop release have not been created.
+The proposed mod grants account-specific custom badges on servers running it. It does not issue official Steam inventory items. The user published [Workshop v0.8](https://steamcommunity.com/sharedfiles/filedetails/?id=3802094438). The annotated Git tag `v0.8` records the tested source and uploaded project metadata/preview. No Git remote is configured.
