@@ -1703,28 +1703,20 @@
     {
       "badge": "ensl_lost_s14_gold",
       "nickname": "ADHD",
-      "status": "needs_confirmation",
-      "candidates": [
-        {
-          "nickname": "ADHD",
-          "ensl_profile_url": "https://www.ensl.org/users/2553",
-          "steam_id": "STEAM_0:0:79031",
-          "steam_id3": "[U:1:158062]",
-          "steam_id64": "76561197960423790",
-          "ns2_id": 158062
-        },
-        {
-          "nickname": "adhd",
-          "ensl_profile_url": "https://www.ensl.org/users/8420",
-          "steam_id": "STEAM_0:0:10778579",
-          "steam_id3": "[U:1:21557158]",
-          "steam_id64": "76561197981822886",
-          "ns2_id": 21557158
-        }
-      ],
+      "status": "verified",
+      "candidates": [],
       "source_url": "https://www.ensl.org/halloffame",
       "checked_on": "2026-09-15",
-      "reason": "Awarded team page unavailable; account candidates need confirmation."
+      "account": {
+        "nickname": "ADHD",
+        "ensl_profile_url": "https://www.ensl.org/users/2553",
+        "steam_id": "STEAM_0:0:79031",
+        "steam_id3": "[U:1:158062]",
+        "steam_id64": "76561197960423790",
+        "ns2_id": 158062
+      },
+      "verification": "hall_roster_and_user_confirmed_identity",
+      "confirmation_source": "Bleu confirmed ADHD as NS2 ID 158062 in this task on 2026-09-15."
     },
     {
       "badge": "ensl_lost_s14_silver",

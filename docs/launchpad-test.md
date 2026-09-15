@@ -2,7 +2,7 @@
 
 ## Next test: expanded local build
 
-The current local output includes 98 verified awards across 88 accounts. On Bleu's account, check that both earned medals can be equipped together and moved independently:
+The current local output includes 99 verified awards across 89 accounts. On Bleu's account, check that both earned medals can be equipped together and moved independently:
 
 - S13 D3 gold: **The ENSL Season 13 Division 3 Winner**
 - S14 bronze: **The ENSL Season 14 Second Runner-Up**

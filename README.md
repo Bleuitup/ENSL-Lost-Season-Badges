@@ -2,9 +2,9 @@
 
 A Natural Selection 2 mod project restoring tournament badges for NSL Seasons 13–15, using existing ENSL badges as the visual and behavioral reference.
 
-**Status:** Workshop **v0.8**, tagged `v0.8` in Git. Bleu confirmed in-game badge selection, moving between slots, and hover text on 2026-09-15. This release grants Bleu (NS2 ID 37745947) the S13 Division 3 winner badge. **Local development build:** all 16 established medal definitions, including approved option C art for S14/S15; 98 verified awards for 88 accounts. There are 23 unresolved awards, excluded from grants. This expanded build has not been uploaded or visually tested in NS2.
+**Status:** Workshop **v0.8**, tagged `v0.8` in Git. Bleu confirmed in-game badge selection, moving between slots, and hover text on 2026-09-15. This release grants Bleu (NS2 ID 37745947) the S13 Division 3 winner badge. **v0.81 prepared locally:** all 16 established medal definitions, including approved option C art for S14/S15; 99 verified awards for 89 accounts. There are 22 unresolved awards, excluded from grants. This expanded build has not been uploaded or visually tested in NS2.
 
-![Workshop preview](preview.png)
+![Workshop preview](preview.jpg)
 
 ## Tested v0.8 prototype
 
@@ -13,6 +13,8 @@ Open this project in NS2 Launchpad and follow the [test instructions](docs/launc
 The upload is built exclusively from `source/`. Research, markdown, reference images, and selected artwork masters stay outside the runtime package. Superseded image candidates were removed from the current checkout; they remain recoverable from Git tag `v0.8`.
 
 ## Project documents
+
+- [v0.81 preparation and release notes](docs/release-notes.md)
 
 - [Accepted implementation plan](PLAN.md)
 - [Launchpad test and requested feedback](docs/launchpad-test.md)
@@ -26,7 +28,7 @@ The upload is built exclusively from `source/`. Research, markdown, reference im
 - [Earlier artwork correction prompts](docs/artwork-correction-prompts.md)
 - [Historical preview prompts](docs/preview-prompt.md)
 
-The cover is available as 512 x 512 PNG and JPEG. [Compare S12, proposed S13–15, and S16 medals](docs/medal-comparison.png) enlarged and at the scoreboard base size. S13 proposes reuse of original 2018 art; S14/S15 use approved option C, stored in `assets/badges/2019/`. All 16 established awards have native DDS files and registration. S13 uses byte-identical shipped 2018 textures; S14/S15 use lossless 32 x 32 DDS exports of the approved C PNGs. The expanded set still needs an in-game visual check.
+The Workshop cover is the 512 x 512 `preview.jpg` in the project root. [Compare S12, proposed S13–15, and S16 medals](docs/medal-comparison.png) enlarged and at the scoreboard base size. S13 proposes reuse of original 2018 art; S14/S15 use approved option C, stored in `assets/badges/2019/`. All 16 established awards have native DDS files and registration. S13 uses byte-identical shipped 2018 textures; S14/S15 use lossless 32 x 32 DDS exports of the approved C PNGs. The expanded set still needs an in-game visual check.
 
 ## Award policy
 

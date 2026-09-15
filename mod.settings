@@ -1,8 +1,39 @@
 name        = "ENSL - Lost Season Badges"
 source_dir  = "source"
 output_dir  = "output"
-description = [=[]=]
+description = [=[[b]Restore the missing ENSL Season 13, 14 and 15 medals in Natural Selection 2.[/b]
+
+ENSL Lost Season Badges gives verified tournament recipients their earned medals through the game's native badge system. Equip them in the normal badge picker, move them between the usual ENSL badge slots, and hover over them to see the season, division and placing.
+
+[h1]Included in v0.81[/h1]
+[list]
+[*] 16 medal definitions covering Seasons 13-15.
+[*] 99 verified player awards across 89 Steam accounts, including ADHD's confirmed Season 14 winner badge with Thots.
+[*] Artwork based on the original ENSL medals, with matching 2018 and 2019 designs.
+[*] Native badge selection and hover descriptions. Multiple earned medals can be equipped together.
+[/list]
+
+[h1]Who receives a badge?[/h1]
+Recipients come from the [url=https://www.ensl.org/halloffame]ENSL Hall of Fame[/url]. Accounts are checked against ENSL player and team records, or confirmed directly. Awards follow the current standings: disqualified teams are removed and the next eligible teams move up.
+
+Account verification is ongoing. 22 player awards still await confirmation. Season 13 Division 1 bronze is omitted because the records are unavailable; Season 15 Division 1 bronze is omitted until a next eligible team can be established.
+
+[h1]Installation and use[/h1]
+[list]
+[*] Server owners: enable Workshop mod 3802094438 on your server.
+[*] Eligible players: join a server running this mod, then equip your medals in the native badge picker.
+[*] Standalone mod; no Shine dependency. No gameplay changes.
+[/list]
+
+These are custom server badges. They appear on servers running the mod and do not issue official Steam inventory items.
+
+[h1]Missing or incorrect award?[/h1]
+Leave a Workshop comment with your ENSL profile, Steam profile or NS2 ID, plus the season, team and division. Uncertain identities remain pending until confirmed.
+
+[h1]Credits[/h1]
+Original NS2 medal artwork and the ENSL emblem belong to their respective creators. Tournament results and rosters are sourced from ENSL. Mod by Bleu.
+]=]
 image       = "preview.jpg"
-tag_modtype = ""
-tag_support = ""
+tag_modtype = "Look and Feel"
+tag_support = "Must be run on Server"
 publish_id = 3802094438

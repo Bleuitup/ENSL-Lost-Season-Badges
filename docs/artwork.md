@@ -45,11 +45,11 @@ The user selected **C** in the [documented artwork review](nine-alternatives.md)
 
 ## Workshop cover
 
-![Corrected 512 px cover](../preview.png)
+![Corrected 512 px cover](../preview.jpg)
 
 The corrected cover keeps the user's black/orange preview style and replaces the erroneous emblem. Medal interiors now have matching metallic tints. Promotional detail and glow are not intended for in-game icons.
 
-- `preview.png` and `preview.jpg`: exact 512 x 512 exports.
+- `preview.jpg`: the current 512 x 512 Workshop cover. The unused PNG export was removed.
 - `assets/preview-master.png`: corrected generated master.
 - `docs/artwork-correction-prompts.md`: exact built-in ImageGen correction prompts.
 - `docs/preview-prompt.md`: retained historical prompts, marked superseded where wrong.

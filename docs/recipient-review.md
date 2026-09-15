@@ -1,12 +1,12 @@
 # Recipient review — Seasons 13–15
 
-**2026-09-15:** 121 roster entries; 98 verified awards for 88 accounts; 23 awards pending confirmation. Only verified awards are included in the local development build. Workshop v0.8 remains the original one-badge release.
+**2026-09-15:** 121 roster entries; 99 verified awards for 89 accounts; 22 awards pending confirmation. Only verified awards are included in the local development build. Workshop v0.8 remains the original one-badge release.
 
 ## What Bleu needs to provide
 
 For each remaining name below, confirm the proposed NS2 ID or provide the correct ENSL/Steam profile or NS2 ID. A teammate can help confirm a group. Candidate lists are leads, not exhaustive identity matches. Leave uncertain cases pending.
 
-- **Void and ADHD:** more than one exact-name account exists; identify the correct player.
+- **Void:** more than one exact-name account exists; identify the correct player.
 - **Made_in_Russia:** supply a current alias, profile, or NS2 ID.
 - **patriarchy and Thots:** the Hall of Fame records their award rosters, but their team pages are unavailable in the current team directory. Confirm the proposed accounts as a group if known.
 
@@ -34,13 +34,12 @@ For each remaining name below, confirm the proposed NS2 ID or provide the correc
 | S14 gold / Thots | Stark_ | [Stark_](https://www.ensl.org/users/6194) — **51623684** |
 | S14 gold / Thots | kesuga7 | [kesuga7](https://www.ensl.org/users/7506) — **55021288** |
 | S14 gold / Thots | forever_rusty | [forever_rusty](https://www.ensl.org/users/2666) — **3601796** |
-| S14 gold / Thots | ADHD | [ADHD](https://www.ensl.org/users/2553) — **158062**<br>[adhd](https://www.ensl.org/users/8420) — **21557158** |
 
 ## Verification method
 
 The [Hall of Fame](https://www.ensl.org/halloffame) determines who earned each award. A surviving current/past team membership entry joined by the season end connects that roster name to an ENSL profile. Its Steam ID must agree with the profile. The membership page corroborates identity; the Hall of Fame is the season-specific eligibility evidence. Current teammates who are absent from the Hall of Fame are excluded.
 
-Bleu supplied their own NS2 ID and confirmed Godman (34583831), Tik (23186581), and Starcetereus (44618947). Their awarded rosters are independently listed in the Hall of Fame.
+Bleu supplied their own NS2 ID and confirmed Godman (34583831), Tik (23186581), and Starcetereus (44618947). Bleu also confirmed ADHD (158062) for Thots' S14 gold award. Their awarded rosters are independently listed in the Hall of Fame.
 
 ENSL exposes Steam2 IDs, so a third-party converter is unnecessary. `STEAM_0:Y:Z` (or `STEAM_1:Y:Z`) converts to NS2 account ID `2*Z+Y`. SteamID3 `[U:1:N]` already contains the NS2 ID `N`; do not double it again. SteamID64 is stored as the string representation of `76561197960265728 + N`. The generator validates all formats and rejects duplicate account awards.
 
@@ -108,6 +107,7 @@ ENSL exposes Steam2 IDs, so a third-party converter is unnecessary. `STEAM_0:Y:Z
 | S13 D3 bronze / Intergalactic | JINMOH → [JlNMOH](https://www.ensl.org/users/7042) | 129031668 | [Team history](https://www.ensl.org/teams/1057) |
 | S13 D3 bronze / Intergalactic | Kefirdon → [Kefirdon](https://www.ensl.org/users/7252) | 194342323 | [Team history](https://www.ensl.org/teams/1057) |
 | S13 D3 bronze / Intergalactic | LightDay → [LightDay](https://www.ensl.org/users/7555) | 73965104 | [Team history](https://www.ensl.org/teams/1057) |
+| S14 gold / Thots | ADHD → [ADHD](https://www.ensl.org/users/2553) | 158062 | Bleu confirmed account |
 | S14 silver / Pubstars | dja → [dja](https://www.ensl.org/users/7144) | 818729 | [Team history](https://www.ensl.org/teams/971) |
 | S14 silver / Pubstars | Mega → [Mega](https://www.ensl.org/users/1942) | 57346 | [Team history](https://www.ensl.org/teams/971) |
 | S14 silver / Pubstars | Barns → [Barns](https://www.ensl.org/users/7194) | 10837467 | [Team history](https://www.ensl.org/teams/971) |

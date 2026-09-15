@@ -2,6 +2,7 @@
 ENSL_LostSeasonBadges.Recipients = {
     [49465] = { "ensl_lost_s13_d1_gold" },
     [57346] = { "ensl_lost_s14_silver" },
+    [158062] = { "ensl_lost_s14_gold" },
     [206793] = { "ensl_lost_s15_d2_bronze" },
     [265699] = { "ensl_lost_s15_d1_gold" },
     [667923] = { "ensl_lost_s13_d1_gold" },
