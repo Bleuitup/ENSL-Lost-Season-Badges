@@ -1,7 +1,8 @@
-name = "ENSL Lost Season Badges"
-source_dir = "source"
-output_dir = "output"
-description = [=[Development prototype: restored ENSL Season 13 Division 3 winner badge for Bleu (NS2 ID 37745947). Full Season 13-15 recipient verification and integration are in progress.]=]
-image = "preview.jpg"
-tag_modtype = "Look and Feel"
-tag_support = "Must be run on Server"
+name        = "ENSL - Lost Season Badges"
+source_dir  = "source"
+output_dir  = "output"
+description = [=[]=]
+image       = "preview.jpg"
+tag_modtype = ""
+tag_support = ""
+publish_id = 3802094438
