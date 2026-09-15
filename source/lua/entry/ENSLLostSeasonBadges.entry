@@ -1,0 +1,5 @@
+modEntry = {
+    ModName = "ENSL Lost Season Badges",
+    FileHooks = "lua/ENSLLostSeasonBadges/FileHooks.lua",
+    Priority = 5
+}

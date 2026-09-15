@@ -35,7 +35,7 @@ Season 12 divisions share three textures but have separate award identifiers and
 - `docs/nismen-hover-comparison.png`: illustrative native-style hover panel.
 - `docs/hover-behavior.md`: source audit and proposed badge names.
 
-The installed declarations reference separate scoreboard paths for some medals, but corresponding `_20.dds` files were absent from the inspected folder. Verify the actual texture paths and filtering in NS2 before claiming a working implementation. No final DDS or runtime registration is included yet.
+The installed declarations reference separate scoreboard paths for some medals, but corresponding `_20.dds` files were absent from the inspected folder. Verify the actual texture paths and filtering in NS2 before claiming a working implementation. The first S13 D3 prototype now includes `source/ui/badges/ensl_lost_s13_d3_gold.dds`, a byte-identical copy of the original 2018 gold DDS, and its runtime registration. S14/S15 selected artwork is not yet packaged as runtime DDS files.
 
 Earlier `corrected_2019_*`, `year-edit_2019_*`, and their masters remain as historical drafts. The current comparison uses the selected option C files from `assets/badges/2019/`.
 

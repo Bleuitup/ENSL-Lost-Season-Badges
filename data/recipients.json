@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "scope": "First Launchpad prototype; not the complete Season 13-15 assignment list",
+  "recipients": [
+    {
+      "nickname": "Bleu",
+      "ns2_id": 37745947,
+      "steam_id": "STEAM_0:1:18872973",
+      "steam_id64": "76561197998011675",
+      "steam_profile_url": "https://steamcommunity.com/profiles/76561197998011675",
+      "steam_identity_provenance": "NS2 ID supplied directly by the account owner in this task; other Steam formats derived mathematically. Profile ownership has not been independently checked on Steam.",
+      "ensl_profile_url": null,
+      "awards": [
+        {
+          "badge": "ensl_lost_s13_d3_gold",
+          "season": 13,
+          "division": 3,
+          "team": "Nismen",
+          "published_place": 1,
+          "awarded_place": 1,
+          "source_url": "https://www.ensl.org/halloffame",
+          "source_section": "NSL Season 13, Division 3",
+          "roster_verified": true,
+          "account_verification": "confirmed_by_account_owner",
+          "checked_on": "2026-09-15"
+        }
+      ]
+    }
+  ]
+}
