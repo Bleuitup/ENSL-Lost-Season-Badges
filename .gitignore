@@ -1,0 +1,10 @@
+*.bak
+*.tmp
+Thumbs.db
+Desktop.ini
+.DS_Store
+.vscode/
+.idea/
+output/
+.output-build-info
+__pycache__/
