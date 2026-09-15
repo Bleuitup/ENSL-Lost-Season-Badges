@@ -11,10 +11,11 @@ A Natural Selection 2 mod project restoring tournament badges for NSL Seasons 13
 - [Accepted implementation plan](PLAN.md)
 - [Existing badge artwork and proposed direction](docs/artwork.md)
 - [Hover panels and proposed badge names](docs/hover-behavior.md)
-- [Corrected artwork prompts](docs/artwork-correction-prompts.md)
+- [Current year-edit prompt and method](docs/year-edit-prompt.md)
+- [Earlier artwork correction prompts](docs/artwork-correction-prompts.md)
 - [Historical preview prompts](docs/preview-prompt.md)
 
-The cover is available as 512 x 512 PNG and JPEG. [Compare S12, proposed S13–15, and S16 medals](docs/medal-comparison.png) enlarged and at the scoreboard base size. S13 proposes reuse of original 2018 art; S14/S15 use corrected 2019 drafts. Final game textures and registration remain to be completed.
+The cover is available as 512 x 512 PNG and JPEG. [Compare S12, proposed S13–15, and S16 medals](docs/medal-comparison.png) enlarged and at the scoreboard base size. S13 proposes reuse of original 2018 art; S14/S15 use source-guided 2019 year-edit candidates. Final game textures and registration remain to be completed.
 
 ## Award policy
 
