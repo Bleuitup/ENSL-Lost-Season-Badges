@@ -1,6 +1,6 @@
 # Alternatives for the final digit in 2019
 
-Status: awaiting the user's choice. None of A, B, or C has replaced the current year-edit candidate.
+Status: the user selected C (tapered tail) on 2026-09-15. Its three 32 px medal exports are copied unchanged into `assets/badges/2019/` as the selected S14/S15 artwork.
 
 ![Current version and three alternatives](nine-alternatives-mosaic.png)
 
@@ -16,7 +16,7 @@ These names describe the requested direction; the displayed output is what the u
 
 `assets/drafts/nine-alternatives/` contains the three original generated masters and nine 32 x 32 medal exports. Each master is a 1254 x 1254 atlas with gold top-left, silver top-right and bronze bottom-left. The cells were cropped and reduced with high-quality bicubic resampling. The mosaic shows 32 px exports enlarged to 96 px using nearest-neighbor scaling; its date details are a 4x enlargement of the same exports. Small badges are 20 px in the PNG, with the same filtering for every option. Viewer scaling can change their physical size on screen. This is an art review, not an NS2 screenshot.
 
-The current reference column uses the prior year-edit master. The main five-season comparison and proposed runtime art remain unchanged until a choice is made.
+The mosaic is retained as selection history: its CURRENT column shows the prior year-edit master. The main five-season comparison now uses selected option C. The chosen art is ready for native texture packaging and in-game integration.
 
 ## Exact prompts
 

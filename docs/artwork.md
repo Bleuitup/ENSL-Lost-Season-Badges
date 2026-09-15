@@ -1,4 +1,4 @@
-# Artwork reference and current drafts
+# Selected artwork and references
 
 ## Side-by-side comparison
 
@@ -10,11 +10,11 @@ Each large image is a nearest-neighbor 96 x 96 enlargement of a 32 x 32 texture.
 | --- | --- | --- |
 | 12 | Installed `ensl_2018_{gold,silver,bronze}.dds` | Original reference |
 | 13 | Same original 2018 textures | Proposed reuse under separate custom award identifiers |
-| 14 | Source-guided 2019 year edit | Draft; 2019 year treatment proposed for the 2018–2019 season |
-| 15 | Same 2019 year edit | Draft |
+| 14 | Option C, 2019 | Selected artwork; season crossed 2018–2019 |
+| 15 | Option C, 2019 | Selected artwork |
 | 16 | Installed `ensl_s16_{gold,silver,bronze}.dds` | Original reference |
 
-The revised S14/S15 candidate starts from the original S12 pixels and asks ImageGen to change only the last digit to 9. This brings the arc size, year lettering, colors, and background much closer to the shipped art. It still is not pixel-identical outside the date, because generation and resizing introduce changes. See [the exact year-edit prompt and method](year-edit-prompt.md). Verify the finished native textures in-game before release.
+The user selected option C for S14/S15 on 2026-09-15. This revision starts from the source-guided year edit and refines the final 9 with a tapered tail and corrected height. This brings the arc size, year lettering, colors, and background much closer to the shipped art. It still is not pixel-identical outside the date, because generation and resizing introduce changes. See [the exact year-edit prompt and method](year-edit-prompt.md). Verify the finished native textures in-game before release.
 
 ## Emblem correction
 
@@ -28,20 +28,20 @@ Season 12 divisions share three textures but have separate award identifiers and
 
 ## Files
 
-- `assets/drafts/year-edit-2019-master.png`: current source-guided year-edit candidate.
-- `assets/drafts/year-edit_2019_*_32.png`: 32 x 32 design drafts.
-- `assets/drafts/year-edit_2019_*_20.png`: independent 20 x 20 exports for inspection. The comparison uses the same 32 px source for every medal and browser scaling to 20 px.
+- `assets/badges/2019/master.png`: selected option C master, copied unchanged from the reviewed alternative.
+- `assets/badges/2019/ensl_2019_{gold,silver,bronze}.png`: selected 32 x 32 source textures, identical to reviewed C exports.
+- The comparison uses each selected 32 px source and browser scaling to 20 px. Runtime DDS packaging remains to be implemented.
 - `docs/medal-comparison.png`: all five seasons, enlarged and small.
 - `docs/nismen-hover-comparison.png`: illustrative native-style hover panel.
 - `docs/hover-behavior.md`: source audit and proposed badge names.
 
 The installed declarations reference separate scoreboard paths for some medals, but corresponding `_20.dds` files were absent from the inspected folder. Verify the actual texture paths and filtering in NS2 before claiming a working implementation. No final DDS or runtime registration is included yet.
 
-Earlier `corrected_2019_*` exports and `2019-medals-master.png` remain as superseded design drafts. The current comparison uses `year-edit_2019_*` exports.
+Earlier `corrected_2019_*`, `year-edit_2019_*`, and their masters remain as historical drafts. The current comparison uses the selected option C files from `assets/badges/2019/`.
 
 ## Final digit alternatives
 
-Three new shapes for the final 9 are available in the [labeled comparison mosaic](nine-alternatives.md), alongside the current reference, enlarged dates, and 20 px previews. The user has not selected an option; the main comparison still uses the prior year-edit candidate.
+The user selected **C** from the [labeled comparison mosaic](nine-alternatives.md). That mosaic and all three alternatives remain available as design history. The main comparison has been updated to C.
 
 ## Workshop cover
 

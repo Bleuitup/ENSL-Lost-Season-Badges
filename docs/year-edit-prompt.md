@@ -1,6 +1,6 @@
 # Source-guided 2019 year edit
 
-Generated with the built-in ImageGen tool on 2026-09-15. This revision supersedes the recreated 2019 artwork as the current S14/S15 candidate. The Workshop cover is unaffected.
+Generated with the built-in ImageGen tool on 2026-09-15. This was the source-guided S14/S15 candidate; the user subsequently selected [option C](nine-alternatives.md), which refines its final 9. The Workshop cover is unaffected.
 
 ## Method and result
 

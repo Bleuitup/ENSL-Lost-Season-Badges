@@ -1,6 +1,6 @@
 # ENSL Lost Season Badges — implementation plan
 
-Prepared 2026-09-15. Status: plan accepted; account research is the next milestone.
+Prepared 2026-09-15. Status: plan and option C artwork accepted; account research and native integration are the next milestones.
 
 ## Objective and scope
 
@@ -101,4 +101,4 @@ This can reproduce the experience on servers running the mod. It cannot issue of
 3. Demonstrate native integration and the visual reference.
 4. Complete all awards, validate compatibility, and prepare publication.
 
-The local Git repository contains the accepted plan, original medal references, a side-by-side S12–S16 comparison, corrected S14/S15 design drafts, a native hover source audit, and a corrected 512 x 512 Workshop cover with its generation prompts. No runtime code, final in-game badge textures, verified recipient manifest, remote repository, or Workshop item has been created.
+The local Git repository contains the accepted plan, original medal references, a side-by-side S12–S16 comparison, selected option C artwork for S14/S15, a native hover source audit, and a corrected 512 x 512 Workshop cover with its generation prompts. No runtime code, final in-game badge textures, verified recipient manifest, remote repository, or Workshop item has been created.

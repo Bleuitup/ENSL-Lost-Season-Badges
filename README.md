@@ -2,20 +2,21 @@
 
 A Natural Selection 2 mod project restoring tournament badges for NSL Seasons 13–15, using existing ENSL badges as the visual and behavioral reference.
 
-**Status:** plan accepted; corrected Workshop cover and in-game art comparison prepared; native hover behavior inspected. Recipient verification, final texture refinement, and runtime implementation remain. There is no playable mod yet.
+**Status:** plan accepted; option C approved and selected for the S14/S15 artwork; corrected Workshop cover and native hover audit prepared. Recipient verification, DDS packaging, and runtime implementation remain. There is no playable mod yet.
 
 ![Workshop preview](preview.png)
 
 ## Project documents
 
 - [Accepted implementation plan](PLAN.md)
-- [Existing badge artwork and proposed direction](docs/artwork.md)
+- [Selected artwork and comparison](docs/artwork.md)
+- [Approved option C and generation prompts](docs/nine-alternatives.md)
 - [Hover panels and proposed badge names](docs/hover-behavior.md)
-- [Current year-edit prompt and method](docs/year-edit-prompt.md)
+- [Initial year-edit prompt and method](docs/year-edit-prompt.md)
 - [Earlier artwork correction prompts](docs/artwork-correction-prompts.md)
 - [Historical preview prompts](docs/preview-prompt.md)
 
-The cover is available as 512 x 512 PNG and JPEG. [Compare S12, proposed S13–15, and S16 medals](docs/medal-comparison.png) enlarged and at the scoreboard base size. S13 proposes reuse of original 2018 art; S14/S15 use source-guided 2019 year-edit candidates. Final game textures and registration remain to be completed.
+The cover is available as 512 x 512 PNG and JPEG. [Compare S12, proposed S13–15, and S16 medals](docs/medal-comparison.png) enlarged and at the scoreboard base size. S13 proposes reuse of original 2018 art; S14/S15 use approved option C, stored in `assets/badges/2019/`. Native DDS packaging and badge registration remain to be completed.
 
 ## Award policy
 
