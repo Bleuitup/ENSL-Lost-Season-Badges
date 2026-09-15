@@ -39,6 +39,10 @@ The installed declarations reference separate scoreboard paths for some medals, 
 
 Earlier `corrected_2019_*` exports and `2019-medals-master.png` remain as superseded design drafts. The current comparison uses `year-edit_2019_*` exports.
 
+## Final digit alternatives
+
+Three new shapes for the final 9 are available in the [labeled comparison mosaic](nine-alternatives.md), alongside the current reference, enlarged dates, and 20 px previews. The user has not selected an option; the main comparison still uses the prior year-edit candidate.
+
 ## Workshop cover
 
 ![Corrected 512 px cover](../preview.png)
