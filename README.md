@@ -2,7 +2,7 @@
 
 A Natural Selection 2 mod project restoring tournament badges for NSL Seasons 13–15, using existing ENSL badges as the visual and behavioral reference.
 
-**Status:** plan accepted; Workshop cover prepared. Recipient verification and runtime implementation are next. There is no playable mod yet.
+**Status:** plan accepted; corrected Workshop cover and in-game art comparison prepared; native hover behavior inspected. Recipient verification, final texture refinement, and runtime implementation remain. There is no playable mod yet.
 
 ![Workshop preview](preview.png)
 
@@ -10,9 +10,11 @@ A Natural Selection 2 mod project restoring tournament badges for NSL Seasons 13
 
 - [Accepted implementation plan](PLAN.md)
 - [Existing badge artwork and proposed direction](docs/artwork.md)
-- [Preview generation prompt](docs/preview-prompt.md)
+- [Hover panels and proposed badge names](docs/hover-behavior.md)
+- [Corrected artwork prompts](docs/artwork-correction-prompts.md)
+- [Historical preview prompts](docs/preview-prompt.md)
 
-The cover is available as 512 x 512 PNG and JPEG. The badge comparison shows actual installed game textures; final Season 13/14/15 textures remain to be made.
+The cover is available as 512 x 512 PNG and JPEG. [Compare S12, proposed S13–15, and S16 medals](docs/medal-comparison.png) enlarged and at the scoreboard base size. S13 proposes reuse of original 2018 art; S14/S15 use corrected 2019 drafts. Final game textures and registration remain to be completed.
 
 ## Award policy
 

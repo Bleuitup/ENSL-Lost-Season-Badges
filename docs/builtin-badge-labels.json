@@ -1,0 +1,382 @@
+[
+  {
+    "badge": "dev",
+    "key": "BADGE_DEV",
+    "text": "Developer"
+  },
+  {
+    "badge": "dev_retired",
+    "key": "BADGE_DEV_RETIRED",
+    "text": "Retired Developer"
+  },
+  {
+    "badge": "maptester",
+    "key": "BADGE_MAPTESTER",
+    "text": "Maptester"
+  },
+  {
+    "badge": "playtester",
+    "key": "BADGE_PLAYTESTER",
+    "text": "Playtester"
+  },
+  {
+    "badge": "ns1_playtester",
+    "key": "BADGE_NS1_PLAYTESTER",
+    "text": "NS1 Playtester"
+  },
+  {
+    "badge": "constellation",
+    "key": "BADGE_CONSTELLATION",
+    "text": "Constellation"
+  },
+  {
+    "badge": "hughnicorn",
+    "key": "BADGE_HUGHNICORN",
+    "text": "Hughnicorn"
+  },
+  {
+    "badge": "squad5_blue",
+    "key": "BADGE_SQUAD5_BLUE",
+    "text": "Squad 5 Blue"
+  },
+  {
+    "badge": "squad5_silver",
+    "key": "BADGE_SQUAD5_SILVER",
+    "text": "Squad 5 Silver"
+  },
+  {
+    "badge": "squad5_gold",
+    "key": "BADGE_SQUAD5_GOLD",
+    "text": "Squad 5 Gold"
+  },
+  {
+    "badge": "commander",
+    "key": "BADGE_COMMANDER",
+    "text": "Commander"
+  },
+  {
+    "badge": "community_dev",
+    "key": "BADGE_COMMUNITY_DEV",
+    "text": "Community Developer"
+  },
+  {
+    "badge": "reinforced1",
+    "key": "BADGE_REINFORCED1",
+    "text": "Reinforced Blue"
+  },
+  {
+    "badge": "reinforced2",
+    "key": "BADGE_REINFORCED2",
+    "text": "Reinforced Silver"
+  },
+  {
+    "badge": "reinforced3",
+    "key": "BADGE_REINFORCED3",
+    "text": "Reinforced Gold"
+  },
+  {
+    "badge": "reinforced4",
+    "key": "BADGE_REINFORCED4",
+    "text": "Reinforced Diamond"
+  },
+  {
+    "badge": "reinforced5",
+    "key": "BADGE_REINFORCED5",
+    "text": "Reinforced Shadow"
+  },
+  {
+    "badge": "reinforced6",
+    "key": "BADGE_REINFORCED6",
+    "text": "Reinforced Onos"
+  },
+  {
+    "badge": "reinforced7",
+    "key": "BADGE_REINFORCED7",
+    "text": "Reinforced Insider"
+  },
+  {
+    "badge": "reinforced8",
+    "key": "BADGE_REINFORCED8",
+    "text": "Reinforced Game Director"
+  },
+  {
+    "badge": "wc2013_supporter",
+    "key": "BADGE_WC2013_SUPPORTER",
+    "text": "World Championship 2013 Supporter"
+  },
+  {
+    "badge": "wc2013_silver",
+    "key": "BADGE_WC2013_SILVER",
+    "text": "World Championship 2013 Silver"
+  },
+  {
+    "badge": "wc2013_gold",
+    "key": "BADGE_WC2013_GOLD",
+    "text": "World Championship 2013 Gold"
+  },
+  {
+    "badge": "wc2013_shadow",
+    "key": "BADGE_WC2013_SHADOW",
+    "text": "World Championship 2013 Shadow"
+  },
+  {
+    "badge": "pax2012",
+    "key": "BADGE_PAX2012",
+    "text": "PAX 2012"
+  },
+  {
+    "badge": "ensl_2017",
+    "key": "BADGE_ENSL_2017",
+    "text": "ENSL Season 10 Champion"
+  },
+  {
+    "badge": "ensl_nc_2017_blue",
+    "key": "BADGE_ENSL_NC_2017_BLUE",
+    "text": "ENSL Newcomer Tournament 2017 Participant"
+  },
+  {
+    "badge": "ensl_nc_2017_silver",
+    "key": "BADGE_ENSL_NC_2017_SILVER",
+    "text": "ENSL Newcomer Tournament 2017 Finalist"
+  },
+  {
+    "badge": "ensl_nc_2017_gold",
+    "key": "BADGE_ENSL_NC_2017_GOLD",
+    "text": "ENSL Newcomer Tournament 2017 Winner"
+  },
+  {
+    "badge": "ensl_wc_gold",
+    "key": "BADGE_ENSL_WC_GOLD",
+    "text": "World Championship 2014 Winner"
+  },
+  {
+    "badge": "ensl_wc_silver",
+    "key": "BADGE_ENSL_WC_SILVER",
+    "text": "World Championship 2014 Finalist"
+  },
+  {
+    "badge": "ensl_wc_bronze",
+    "key": "BADGE_ENSL_WC_BRONZE",
+    "text": "World Championship 2014 Semifinalist"
+  },
+  {
+    "badge": "tournament_mm_blue",
+    "key": "BADGE_TOURNAMENT_MM_BLUE",
+    "text": "Mod Madness 2017 Participant"
+  },
+  {
+    "badge": "tournament_mm_silver",
+    "key": "BADGE_TOURNAMENT_MM_SILVER",
+    "text": "Mod Madness 2017 Finalist"
+  },
+  {
+    "badge": "tournament_mm_gold",
+    "key": "BADGE_TOURNAMENT_MM_GOLD",
+    "text": "Mod Madness 2017 Winner"
+  },
+  {
+    "badge": "ensl_s11_gold",
+    "key": "BADGE_ENSL_S11_GOLD",
+    "text": "ENSL Season 11 Division 1 Winner"
+  },
+  {
+    "badge": "ensl_s11_silver",
+    "key": "BADGE_ENSL_S11_SILVER",
+    "text": "ENSL Season 11 Division 2 Winner"
+  },
+  {
+    "badge": "skulk_challenge_1_bronze",
+    "key": "BADGE_SKULK_CHALLENGE_1_BRONZE",
+    "text": "Skulk Challenge (Tram) Bronze"
+  },
+  {
+    "badge": "skulk_challenge_1_silver",
+    "key": "BADGE_SKULK_CHALLENGE_1_SILVER",
+    "text": "Skulk Challenge (Tram) Silver"
+  },
+  {
+    "badge": "skulk_challenge_1_gold",
+    "key": "BADGE_SKULK_CHALLENGE_1_GOLD",
+    "text": "Skulk Challenge (Tram) Gold"
+  },
+  {
+    "badge": "skulk_challenge_1_shadow",
+    "key": "BADGE_SKULK_CHALLENGE_1_SHADOW",
+    "text": "Skulk Challenge (Tram) Shadow"
+  },
+  {
+    "badge": "ensl_nc_2017_late_blue",
+    "key": "BADGE_ENSL_NC_2017_LATE_BLUE",
+    "text": "ENSL Newcomer Tournament Late 2017 Participant"
+  },
+  {
+    "badge": "ensl_nc_2017_late_silver",
+    "key": "BADGE_ENSL_NC_2017_LATE_SILVER",
+    "text": "ENSL Newcomer Tournament Late 2017 Finalist"
+  },
+  {
+    "badge": "ensl_nc_2017_late_gold",
+    "key": "BADGE_ENSL_NC_2017_LATE_GOLD",
+    "text": "ENSL Newcomer Tournament Late 2017 Winner"
+  },
+  {
+    "badge": "ensl_s12_d1_gold",
+    "key": "BADGE_ENSL_S12_D1_GOLD",
+    "text": "The ENSL Season 12 Division 1 Winner"
+  },
+  {
+    "badge": "ensl_s12_d1_silver",
+    "key": "BADGE_ENSL_S12_D1_SILVER",
+    "text": "The ENSL Season 12 Division 1 First Runner-Up"
+  },
+  {
+    "badge": "ensl_s12_d1_bronze",
+    "key": "BADGE_ENSL_S12_D1_BRONZE",
+    "text": "The ENSL Season 12 Division 1 Second Runner-Up"
+  },
+  {
+    "badge": "ensl_s12_d2_gold",
+    "key": "BADGE_ENSL_S12_D2_GOLD",
+    "text": "The ENSL Season 12 Division 2 Winner"
+  },
+  {
+    "badge": "ensl_s12_d2_silver",
+    "key": "BADGE_ENSL_S12_D2_SILVER",
+    "text": "The ENSL Season 12 Division 2 First Runner-Up"
+  },
+  {
+    "badge": "ensl_s12_d2_bronze",
+    "key": "BADGE_ENSL_S12_D2_BRONZE",
+    "text": "The ENSL Season 12 Division 2 Second Runner-Up"
+  },
+  {
+    "badge": "ensl_s12_d3_gold",
+    "key": "BADGE_ENSL_S12_D3_GOLD",
+    "text": "The ENSL Season 12 Division 3 Winner"
+  },
+  {
+    "badge": "ensl_s12_d3_silver",
+    "key": "BADGE_ENSL_S12_D3_SILVER",
+    "text": "The ENSL Season 12 Division 3 First Runner-Up"
+  },
+  {
+    "badge": "ensl_s12_d3_bronze",
+    "key": "BADGE_ENSL_S12_D3_BRONZE",
+    "text": "The ENSL Season 12 Division 3 Second Runner-Up"
+  },
+  {
+    "badge": "ensl_nc_2019_blue",
+    "key": "BADGE_ENSL_NC_2019_BLUE",
+    "text": "ENSL Newcomer Tournament Summer 2019 Participant"
+  },
+  {
+    "badge": "ensl_nc_2019_silver",
+    "key": "BADGE_ENSL_NC_2019_SILVER",
+    "text": "ENSL Newcomer Tournament Summer 2019 Runner-Up"
+  },
+  {
+    "badge": "ensl_nc_2019_gold",
+    "key": "BADGE_ENSL_NC_2019_GOLD",
+    "text": "ENSL Newcomer Tournament Summer 2019 Winner"
+  },
+  {
+    "badge": "ensl_community_champion_2019_bronze",
+    "key": "BADGE_ENSL_COMMUNITY_CHAMPION_2019_BRONZE",
+    "text": "ENSL Community Challenge2019 Second Runner-Up"
+  },
+  {
+    "badge": "ensl_community_champion_2019_silver",
+    "key": "BADGE_ENSL_COMMUNITY_CHAMPION_2019_SILVER",
+    "text": "ENSL Community Challenge 2019 First Runner-Up"
+  },
+  {
+    "badge": "ensl_community_champion_2019_gold",
+    "key": "BADGE_ENSL_COMMUNITY_CHAMPION_2019_GOLD",
+    "text": "ENSL Community Challenge 2019 Champion"
+  },
+  {
+    "badge": "ensl_intermediate_tournament_2019_bronze",
+    "key": "BADGE_ENSL_INTERMEDIATE_TOURNAMENT_2019_BRONZE",
+    "text": null
+  },
+  {
+    "badge": "ensl_intermediate_tournament_2019_silver",
+    "key": "BADGE_ENSL_INTERMEDIATE_TOURNAMENT_2019_SILVER",
+    "text": null
+  },
+  {
+    "badge": "ensl_intermediate_tournament_2019_gold",
+    "key": "BADGE_ENSL_INTERMEDIATE_TOURNAMENT_2019_GOLD",
+    "text": null
+  },
+  {
+    "badge": "ensl_s16_gold",
+    "key": "BADGE_ENSL_S16_GOLD",
+    "text": "ENSL Season 16 Winner"
+  },
+  {
+    "badge": "ensl_s16_silver",
+    "key": "BADGE_ENSL_S16_SILVER",
+    "text": "ENSL Season 16 First Runner-Up"
+  },
+  {
+    "badge": "ensl_s16_bronze",
+    "key": "BADGE_ENSL_S16_BRONZE",
+    "text": "ENSL Season 16 Second Runner-Up"
+  },
+  {
+    "badge": "ensl_s17_gold",
+    "key": "BADGE_ENSL_S17_GOLD",
+    "text": null
+  },
+  {
+    "badge": "ensl_s17_silver",
+    "key": "BADGE_ENSL_S17_SILVER",
+    "text": null
+  },
+  {
+    "badge": "ensl_s17_bronze",
+    "key": "BADGE_ENSL_S17_BRONZE",
+    "text": null
+  },
+  {
+    "badge": "td_tier1",
+    "key": "BADGE_TD_TIER1",
+    "text": "Matched Play - Tier 1"
+  },
+  {
+    "badge": "td_tier2",
+    "key": "BADGE_TD_TIER2",
+    "text": "Matched Play - Tier 2"
+  },
+  {
+    "badge": "td_tier3",
+    "key": "BADGE_TD_TIER3",
+    "text": "Matched Play - Tier 3"
+  },
+  {
+    "badge": "td_tier4",
+    "key": "BADGE_TD_TIER4",
+    "text": "Matched Play - Tier 4"
+  },
+  {
+    "badge": "td_tier5",
+    "key": "BADGE_TD_TIER5",
+    "text": "Matched Play - Tier 5"
+  },
+  {
+    "badge": "td_tier6",
+    "key": "BADGE_TD_TIER6",
+    "text": "Matched Play - Tier 6"
+  },
+  {
+    "badge": "td_tier7",
+    "key": "BADGE_TD_TIER7",
+    "text": "Matched Play - Tier 7"
+  },
+  {
+    "badge": "td_tier8",
+    "key": "BADGE_TD_TIER8",
+    "text": "Matched Play - Tier 8"
+  }
+]

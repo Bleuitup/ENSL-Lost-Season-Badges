@@ -1,37 +1,51 @@
-# Artwork reference and direction
+# Artwork reference and current drafts
 
-## Existing in-game medals
+## Side-by-side comparison
 
-![Existing ENSL medals](ensl-badge-reference.png)
+![S12, proposed S13–15, and S16 medals](medal-comparison.png)
 
-These are decoded copies of the installed NS2 textures, enlarged with nearest-neighbor scaling for inspection. The small versions underneath show the original 32 x 32 pixels. They are reference artwork, not new Season 13/14/15 textures.
+Each large image is a nearest-neighbor 96 x 96 enlargement of a 32 x 32 texture. The small images are displayed at 20 x 20 pixels, the scoreboard's base icon size. Actual game size is multiplied by its UI scaling factor; browser and operating-system scaling also affect physical screen size. The comparison is a browser rendering, not an NS2 screenshot.
 
-- Season 12: gold, silver, bronze; Gorge emblem and 2018 year. The three divisions share artwork but have separate names and award identifiers.
-- Seasons 16 and 17: the same general medal family with 2020 beneath the emblem.
-- Source files: ns2/ui/badges/ensl_2018_{gold,silver,bronze}.dds, ensl_s16_{gold,silver,bronze}.dds, and ensl_s17_{gold,silver,bronze}.dds from the local NS2 installation.
-- Original game artwork belongs to its respective creators; this reference sheet documents the design being matched.
+| Season | Artwork in this comparison | Status |
+| --- | --- | --- |
+| 12 | Installed `ensl_2018_{gold,silver,bronze}.dds` | Original reference |
+| 13 | Same original 2018 textures | Proposed reuse under separate custom award identifiers |
+| 14 | Corrected generated 2019 variants | Draft; 2019 year treatment proposed for the 2018–2019 season |
+| 15 | Same corrected 2019 variants | Draft |
+| 16 | Installed `ensl_s16_{gold,silver,bronze}.dds` | Original reference |
 
-## Proposed in-game direction
+The S14/S15 draft has the corrected emblem and colored interiors. It still differs from the originals in brightness, frame treatment, silhouette proportions, and numeral size. Final texture work should match the shipped art more closely before release. The generated high-resolution sheet is design input, not a native pixel-art master; downsampling alone does not make it a finished game texture.
 
-Keep the compact Gorge emblem, medal colors, transparent silhouette, and native scale. Use season/division/place in the tooltip. Season 13 took place in 2018; Season 14 crossed 2018–2019; Season 15 took place in 2019. Settle the Season 14 year treatment when preparing actual textures, instead of accidentally displaying Season 12's year.
+## Emblem correction
 
-There are 16 established awarded team placements. No S13 D1 bronze recipient or award is planned. S15 D1 bronze is unassigned unless the next eligible team can be verified. Distinct award identifiers may share the same visual texture.
+The ENSL emblem shows a helmeted Marine aiming a rifle left, an incomplete curved arc, and a Skulk facing right at the lower right. It is not a Gorge head or a laurel. The former interpretation and promotional art were incorrect and are superseded.
 
-The game declares separate scoreboard paths for some medals, but the installed ENSL Season 12/16/17 files inspected here only contain their base textures. Verify both display paths in the prototype.
+Authoritative shape reference: [ENSL website logo](https://www.ensl.org/assets/themes/default/logo-19ca99c1.png), preserved as `ensl-site-logo.png`. The lettering and blue website banner are excluded from the medal emblem.
+
+Badge interiors should carry a subdued tint of their metal: gold/brown, steel blue/gray, or copper/brown. They should not be treated as plain black or assumed to be transparent. Preserve the original asset's alpha when referencing it; the new generated drafts are opaque.
+
+Season 12 divisions share three textures but have separate award identifiers and names. Our divisions can do the same. S13 D1 bronze is omitted, and S15 D1 bronze remains unassigned; displaying a bronze design here is not an eligibility decision.
+
+## Files
+
+- `assets/drafts/2019-medals-master.png`: corrected generated design sheet.
+- `assets/drafts/corrected_2019_*_32.png`: 32 x 32 design drafts.
+- `assets/drafts/corrected_2019_*_20.png`: independent 20 x 20 exports for inspection. The comparison uses the same 32 px source for every medal and browser scaling to 20 px.
+- `docs/medal-comparison.png`: all five seasons, enlarged and small.
+- `docs/nismen-hover-comparison.png`: illustrative native-style hover panel.
+- `docs/hover-behavior.md`: source audit and proposed badge names.
+
+The installed declarations reference separate scoreboard paths for some medals, but corresponding `_20.dds` files were absent from the inspected folder. Verify the actual texture paths and filtering in NS2 before claiming a working implementation. No final DDS or runtime registration is included yet.
 
 ## Workshop cover
 
-![ENSL Lost Season Badges cover](../preview.png)
+![Corrected 512 px cover](../preview.png)
 
-The 512 x 512 cover matches the user's black/orange preview family, with metallic medals as the central illustration. This generated cover is promotional artwork; it is not the pixel-perfect in-game badge artwork.
+The corrected cover keeps the user's black/orange preview style and replaces the erroneous emblem. Medal interiors now have matching metallic tints. Promotional detail and glow are not intended for in-game icons.
 
-- preview.png: exact 512 x 512 PNG export.
-- preview.jpg: exact 512 x 512 JPEG export for the NS2 preview-file convention.
-- assets/preview-master.png: original generated master.
-- docs/preview-prompt.md: exact prompt, method, and references.
+- `preview.png` and `preview.jpg`: exact 512 x 512 exports.
+- `assets/preview-master.png`: corrected generated master.
+- `docs/artwork-correction-prompts.md`: exact built-in ImageGen correction prompts.
+- `docs/preview-prompt.md`: retained historical prompts, marked superseded where wrong.
 
-## Next implementation work
-
-1. Create the sourced recipient manifest for the accepted placements and verify Steam-to-NS2 account links.
-2. Prepare native-sized Season 13/14/15 badge textures based on these references.
-3. Implement and test one account-bound custom badge before expanding to all awards.
+Original NS2 artwork and the ENSL logo belong to their respective creators. These source references document the intended match; redistribution conditions remain part of release preparation.

@@ -1,5 +1,7 @@
 # Workshop preview generation
 
+> Historical prompts below contain the incorrect Gorge/laurel interpretation and are retained only as generation history. They are superseded by [the Marine/Skulk correction prompts](artwork-correction-prompts.md). The current preview master is the corrected version.
+
 Tool: built-in image_gen (reference-guided generation).
 
 Style references: Bleus-Improved-Tooltips/preview.jpg and Hive-Spawn-Selector/preview.jpg in the user's workspace. Content reference: installed NS2 medal textures, shown in ensl-badge-reference.png.

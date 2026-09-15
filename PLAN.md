@@ -66,7 +66,7 @@ Use a development-only test account fixture, excluded from release. Keep gamepla
 
 Inspect Season 12 and later ENSL medals at their actual display sizes. Prefer referencing suitable shipped artwork. If a visible year/season requires adaptation, prepare faithful variants for review and document sources and reuse conditions.
 
-Use distinct names such as “NSL Season 13 — Division 3 — Gold” and “NSL Season 14 — Bronze.” Match medal colors, transparency, scale, and tooltip behavior. Verify both scoreboard and player-status textures: source declarations alone do not prove every referenced texture exists.
+Use Season 12-style names such as “The ENSL Season 13 Division 3 Winner” and “The ENSL Season 14 Second Runner-Up.” Match the Marine/arc/Skulk emblem, medal-tinted interiors, source alpha, scale, and tooltip behavior. See [the source audit](docs/hover-behavior.md) and [corrected artwork comparison](docs/artwork.md). Verify both scoreboard and player-status textures: source declarations alone do not prove every referenced texture exists.
 
 Avoid duplicate entries from multiple DDS size variants. The default loader treats each unrecognized DDS as a separate badge; keep supplementary textures outside its discovery pattern or use narrowly scoped registration.
 
@@ -101,4 +101,4 @@ This can reproduce the experience on servers running the mod. It cannot issue of
 3. Demonstrate native integration and the visual reference.
 4. Complete all awards, validate compatibility, and prepare publication.
 
-The local Git repository contains the accepted plan, an existing-medal reference sheet, and a 512 x 512 Workshop cover with its generation prompt. No runtime code, final in-game badge textures, verified recipient manifest, remote repository, or Workshop item has been created.
+The local Git repository contains the accepted plan, original medal references, a side-by-side S12–S16 comparison, corrected S14/S15 design drafts, a native hover source audit, and a corrected 512 x 512 Workshop cover with its generation prompts. No runtime code, final in-game badge textures, verified recipient manifest, remote repository, or Workshop item has been created.
