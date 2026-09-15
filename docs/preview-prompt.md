@@ -6,7 +6,7 @@ Style references: Bleus-Improved-Tooltips/preview.jpg and Hive-Spawn-Selector/pr
 
 The generated master is retained in assets/preview-master.png. The cover is exported at exactly 512 x 512 pixels as preview.png and preview.jpg. This is promotional artwork, not a final in-game texture.
 
-## Exact generation prompt
+## Original generation prompt (Seasons 13 + 14)
 
 Use case: ads-marketing.
 Asset type: Natural Selection 2 Steam Workshop mod cover, EXACTLY 512 by 512 pixels, square PNG.
@@ -24,3 +24,18 @@ Below the emblems render this exact centered line:
 "SEASONS 13 + 14"
 Use understated light gray typography with a small orange accent. No additional words, year numbers, captions, logos, watermark, fake interface controls, or unrelated characters. Avoid clutter, smoky cinematic scenes, heavy lens flares and excessive bevels. Palette follows the user's black/orange/white family with metallic badge colors.
 Return exactly 512x512 pixels.
+
+## Current revision: Seasons 13–15
+
+Tool: built-in image_gen edit. Input: the previously approved preview master. The current master and both 512 x 512 exports replace that version; the prior version remains in Git history.
+
+### Exact edit prompt
+
+Use case: text-localization.
+Edit the supplied ENSL Lost Season Badges Workshop cover.
+Change ONLY the bottom subtitle from "SEASONS 13 + 14" to "SEASONS 13–15".
+Use an orange en dash between 13 and 15, keeping the letters and digits light silver/white as in the original.
+Keep the subtitle centered, with the same font style, baseline, and approximate visual width.
+Preserve the approved composition, title text, typography, black background texture, thin orange top and bottom rules, all three metallic Gorge badge emblems, their details, colors, positions, glows, and every other element.
+No new text, symbols, graphics, or changes to the medals.
+Square output; intended final export is exactly 512x512 pixels.

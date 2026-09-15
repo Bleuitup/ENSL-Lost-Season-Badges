@@ -4,9 +4,9 @@ Prepared 2026-09-15. Status: plan accepted; account research is the next milesto
 
 ## Objective and scope
 
-Create a standalone NS2 Workshop mod restoring Season 13 and Season 14 awards. Match existing ENSL artwork, tooltips, selection behavior, and in-game display as closely as the custom badge system permits. Assign eligibility to verified Steam accounts using NS2 account IDs.
+Create a standalone NS2 Workshop mod restoring Season 13, Season 14, and Season 15 awards. Match existing ENSL artwork, tooltips, selection behavior, and in-game display as closely as the custom badge system permits. Assign eligibility to verified Steam accounts using NS2 account IDs.
 
-Scope: NS2 Season 13 (2018), including all three divisions, and Season 14 (2018–2019). The older NS1 seasons and other tournaments are outside this project.
+Scope: NS2 Season 13 (2018), including all three divisions; Season 14 (2018–2019); and Season 15 (2019), including both divisions. The older NS1 seasons and other tournaments are outside this project.
 
 ## 1. Establish the award list
 
@@ -20,10 +20,14 @@ Accepted awards derived from the [Hall of Fame](https://www.ensl.org/halloffame)
 | Season 13, Division 2 | FaLLeN SouLs | patriarchy | Saunabois |
 | Season 13, Division 3 | Nismen | For The Lolz | Intergalactic |
 | Season 14 | Thots | Pubstars | Nismen |
+| Season 15, Division 1 | Code of Misconduct | 5 piece combo | Unassigned unless the next eligible team can be verified |
+| Season 15, Division 2 | California Burrito | Shoobs | Tim Tam Slams |
 
 Use Season 14's ladder order to fill the promoted podium. Its two-team playoff lists the same original top two, so it does not create a second set of awards.
 
 Season 13 Division 1 bronze is omitted. The user reported site data loss and accepted proceeding without reconstructing this placement. Do not infer a recipient from registration order or an unrelated group-stage ranking. Revisit only if reliable historical evidence becomes available; recovery is not a prerequisite for the mod.
+
+Season 15 adds five established award placements. Division 1 bronze remains unassigned: the Hall of Fame lists no next team, and the detailed playoffs page (https://www.ensl.org/contests/393) could not be retrieved. Do not guess a recipient. Include bronze only if reliable final standings and a historical roster establish the next eligible team; otherwise omit it. See [Season 15 scope and roster notes](docs/season-15.md).
 
 Record original and promoted ranks, source links, and promotion reasons. These are the mod's awards under the user's rule, not a claim that ENSL officially reassigned medals.
 
@@ -93,7 +97,7 @@ This can reproduce the experience on servers running the mod. It cannot issue of
 ## Review sequence
 
 1. Plan and award policy accepted; Season 13 Division 1 bronze omitted.
-2. Produce the account-matching table for the 11 awarded team placements.
+2. Produce the account-matching table for the 16 established awarded team placements; add S15 D1 bronze only if a next eligible team is verified.
 3. Demonstrate native integration and the visual reference.
 4. Complete all awards, validate compatibility, and prepare publication.
 
