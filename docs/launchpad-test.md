@@ -1,13 +1,13 @@
 # Launchpad testing
 
-## Next test: expanded local build
+## Follow-up checks for v1.0
 
 The current local output includes 119 distinct awards across 105 accounts. On Bleu's account, check that both earned medals can be equipped together and moved independently:
 
 - S13 D3 gold: **The ENSL Season 13 Division 3 Winner**
 - S14 bronze: **The ENSL Season 14 Second Runner-Up**
 
-Check the selected C bronze artwork in the picker and scoreboard, hover over both medals, reconnect or reload the map, and confirm both remain available. A second real client should confirm visibility when convenient. The expansion is not uploaded; Workshop v0.81 is the last confirmed published release. Git tag v1.0 identifies the prepared upload.
+Check the selected C bronze artwork in the picker and scoreboard, hover over both medals, reconnect or reload the map, and confirm both remain available. A second real client should confirm visibility when convenient. Bleu confirmed Workshop v1.0 publication on 2026-09-16. Git tag v1.0 identifies the uploaded package at 7a03dc2. Publication does not establish completion of the additional live checks described here.
 
 ## Original v0.8 test record
 

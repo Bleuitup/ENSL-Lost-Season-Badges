@@ -1,6 +1,6 @@
 # Release notes
 
-## v1.0 — prepared for upload
+## v1.0 — published by Bleu, confirmed 2026-09-16
 
 - 16 medal definitions, **119 distinct awards for 105 accounts**. Of 121 historical roster entries, 120 have account mappings; Void and Reguliym point to the same account award, counted once.
 - Applies Bleu's confirmation of the remaining proposed accounts and the corrected Void ID **60207928**. Earlier speculative Void candidates receive no entitlement.
@@ -10,7 +10,7 @@
 
 Recipient validation and integration checks against native NS2 badge code cover all configured accounts. The automated checks simulate engine services; broader live rendering/network/other-mod testing remains separate.
 
-**Upload:** open the project root in Launchpad and update Workshop item **3802094438** using the prepared output. Git tag **v1.0** identifies this package. This record describes preparation; Bleu will publish it.
+**Publication:** Bleu confirmed upload to [Workshop item 3802094438](https://steamcommunity.com/sharedfiles/filedetails/?id=3802094438) on 2026-09-16. Git tag **v1.0** remains at the uploaded package commit **7a03dc2**. Its annotation records the earlier preparation step; the [GitHub release](https://github.com/Bleuitup/ENSL-Lost-Season-Badges/releases/tag/v1.0) and this record confirm publication. Later documentation-only commits do not change the release package.
 
 ## v0.81 — published by Bleu; Git tag v0.81
 
