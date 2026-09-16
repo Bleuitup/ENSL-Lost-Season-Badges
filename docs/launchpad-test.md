@@ -2,12 +2,12 @@
 
 ## Next test: expanded local build
 
-The current local output includes 99 verified awards across 89 accounts. On Bleu's account, check that both earned medals can be equipped together and moved independently:
+The current local output includes 119 distinct awards across 105 accounts. On Bleu's account, check that both earned medals can be equipped together and moved independently:
 
 - S13 D3 gold: **The ENSL Season 13 Division 3 Winner**
 - S14 bronze: **The ENSL Season 14 Second Runner-Up**
 
-Check the selected C bronze artwork in the picker and scoreboard, hover over both medals, reconnect or reload the map, and confirm both remain available. A second real client should confirm visibility when convenient. The expansion is not uploaded; Workshop v0.8 and its Git tag remain the original tested prototype.
+Check the selected C bronze artwork in the picker and scoreboard, hover over both medals, reconnect or reload the map, and confirm both remain available. A second real client should confirm visibility when convenient. The expansion is not uploaded; Workshop v0.81 is the last confirmed published release. Git tag v1.0 identifies the prepared upload.
 
 ## Original v0.8 test record
 

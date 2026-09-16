@@ -5,10 +5,10 @@ description = [=[[b]Restore the missing ENSL Season 13, 14 and 15 medals in Natu
 
 ENSL Lost Season Badges gives verified tournament recipients their earned medals through the game's native badge system. Equip them in the normal badge picker, move them between the usual ENSL badge slots, and hover over them to see the season, division and placing.
 
-[h1]Included in v0.81[/h1]
+[h1]Included in v1.0[/h1]
 [list]
 [*] 16 medal definitions covering Seasons 13-15.
-[*] 99 verified player awards across 89 Steam accounts, including ADHD's confirmed Season 14 winner badge with Thots.
+[*] 119 confirmed player awards across 105 Steam accounts.
 [*] Artwork based on the original ENSL medals, with matching 2018 and 2019 designs.
 [*] Native badge selection and hover descriptions. Multiple earned medals can be equipped together.
 [/list]
@@ -16,7 +16,7 @@ ENSL Lost Season Badges gives verified tournament recipients their earned medals
 [h1]Who receives a badge?[/h1]
 Recipients come from the [url=https://www.ensl.org/halloffame]ENSL Hall of Fame[/url]. Accounts are checked against ENSL player and team records, or confirmed directly. Awards follow the current standings: disqualified teams are removed and the next eligible teams move up.
 
-Account verification is ongoing. 22 player awards still await confirmation. Season 13 Division 1 bronze is omitted because the records are unavailable; Season 15 Division 1 bronze is omitted until a next eligible team can be established.
+Made_in_Russia is the only recipient still awaiting an account match. The Void/Reguliym account overlap is documented and receives a single medal. Follow the remaining cases in [url=https://github.com/Bleuitup/ENSL-Lost-Season-Badges/issues]GitHub issues[/url]. Season 13 Division 1 bronze is omitted because the records are unavailable; Season 15 Division 1 bronze is omitted until a next eligible team can be established.
 
 [h1]Installation and use[/h1]
 [list]

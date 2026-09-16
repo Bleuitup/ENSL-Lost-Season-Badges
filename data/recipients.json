@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "checked_on": "2026-09-15",
+  "checked_on": "2026-09-16",
   "policy": "Current Hall of Fame rosters; skip disqualified teams and promote the next eligible teams. Uncertain accounts are excluded from runtime.",
   "awards": [
     {
@@ -623,20 +623,20 @@
     {
       "badge": "ensl_lost_s13_d1_silver",
       "nickname": "d3Base",
-      "status": "needs_confirmation",
-      "candidates": [
-        {
-          "nickname": "d3Base",
-          "ensl_profile_url": "https://www.ensl.org/users/6876",
-          "steam_id": "STEAM_0:0:35102288",
-          "steam_id3": "[U:1:70204576]",
-          "steam_id64": "76561198030470304",
-          "ns2_id": 70204576
-        }
-      ],
+      "status": "verified",
+      "candidates": [],
       "source_url": "https://www.ensl.org/halloffame",
-      "checked_on": "2026-09-15",
-      "reason": "Hall of Fame recipient missing from surviving team membership records; confirm candidate or provide account."
+      "checked_on": "2026-09-16",
+      "account": {
+        "nickname": "d3Base",
+        "ensl_profile_url": "https://www.ensl.org/users/6876",
+        "steam_id": "STEAM_0:0:35102288",
+        "steam_id3": "[U:1:70204576]",
+        "steam_id64": "76561198030470304",
+        "ns2_id": 70204576
+      },
+      "confirmation_source": "Bleu confirmed the remaining proposed accounts (\"The rest are ok\") in this task on 2026-09-16.",
+      "verification": "hall_roster_and_user_confirmed_identity"
     },
     {
       "badge": "ensl_lost_s13_d2_gold",
@@ -774,44 +774,55 @@
     {
       "badge": "ensl_lost_s13_d2_gold",
       "nickname": "Well",
-      "status": "needs_confirmation",
-      "candidates": [
-        {
-          "nickname": "Well",
-          "ensl_profile_url": "https://www.ensl.org/users/1282",
-          "steam_id": "STEAM_0:1:9465818",
-          "steam_id3": "[U:1:18931637]",
-          "steam_id64": "76561197979197365",
-          "ns2_id": 18931637
-        }
-      ],
+      "status": "verified",
+      "candidates": [],
       "source_url": "https://www.ensl.org/halloffame",
-      "checked_on": "2026-09-15",
-      "reason": "Hall of Fame recipient missing from surviving team membership records; confirm candidate or provide account."
+      "checked_on": "2026-09-16",
+      "account": {
+        "nickname": "Well",
+        "ensl_profile_url": "https://www.ensl.org/users/1282",
+        "steam_id": "STEAM_0:1:9465818",
+        "steam_id3": "[U:1:18931637]",
+        "steam_id64": "76561197979197365",
+        "ns2_id": 18931637
+      },
+      "confirmation_source": "Bleu confirmed the remaining proposed accounts (\"The rest are ok\") in this task on 2026-09-16.",
+      "verification": "hall_roster_and_user_confirmed_identity"
     },
     {
       "badge": "ensl_lost_s13_d2_gold",
       "nickname": "Hitman",
-      "status": "needs_confirmation",
-      "candidates": [
-        {
-          "nickname": "Hitman",
-          "ensl_profile_url": "https://www.ensl.org/users/1818",
-          "steam_id": "STEAM_0:1:21269003",
-          "steam_id3": "[U:1:42538007]",
-          "steam_id64": "76561198002803735",
-          "ns2_id": 42538007
-        }
-      ],
+      "status": "verified",
+      "candidates": [],
       "source_url": "https://www.ensl.org/halloffame",
-      "checked_on": "2026-09-15",
-      "reason": "Hall of Fame recipient missing from surviving team membership records; confirm candidate or provide account."
+      "checked_on": "2026-09-16",
+      "account": {
+        "nickname": "Hitman",
+        "ensl_profile_url": "https://www.ensl.org/users/1818",
+        "steam_id": "STEAM_0:1:21269003",
+        "steam_id3": "[U:1:42538007]",
+        "steam_id64": "76561198002803735",
+        "ns2_id": 42538007
+      },
+      "confirmation_source": "Bleu confirmed the remaining proposed accounts (\"The rest are ok\") in this task on 2026-09-16.",
+      "verification": "hall_roster_and_user_confirmed_identity"
     },
     {
       "badge": "ensl_lost_s13_d2_gold",
       "nickname": "Void",
-      "status": "needs_confirmation",
-      "candidates": [
+      "status": "verified",
+      "candidates": [],
+      "source_url": "https://www.ensl.org/halloffame",
+      "checked_on": "2026-09-16",
+      "account": {
+        "nickname": "Reguliym",
+        "ensl_profile_url": "https://www.ensl.org/users/6501",
+        "steam_id": "STEAM_0:0:30103964",
+        "steam_id3": "[U:1:60207928]",
+        "steam_id64": "76561198020473656",
+        "ns2_id": 60207928
+      },
+      "rejected_candidates": [
         {
           "nickname": "Void",
           "ensl_profile_url": "https://www.ensl.org/users/3621",
@@ -829,171 +840,173 @@
           "ns2_id": 66902
         }
       ],
-      "source_url": "https://www.ensl.org/halloffame",
-      "checked_on": "2026-09-15",
-      "reason": "Hall of Fame recipient missing from surviving team membership records; confirm candidate or provide account."
+      "same_account_award_as": "Reguliym",
+      "confirmation_source": "Bleu explicitly confirmed Void as NS2 ID 60207928 in this task on 2026-09-16.",
+      "alias_note": "This ID is also recorded for Reguliym on the same award. Preserve both roster entries and grant the account once; whether the names denote the same person remains unresolved.",
+      "issue_url": "https://github.com/Bleuitup/ENSL-Lost-Season-Badges/issues/2",
+      "verification": "hall_roster_and_user_confirmed_identity"
     },
     {
       "badge": "ensl_lost_s13_d2_gold",
       "nickname": "vladka",
-      "status": "needs_confirmation",
-      "candidates": [
-        {
-          "nickname": "vladka",
-          "ensl_profile_url": "https://www.ensl.org/users/6789",
-          "steam_id": "STEAM_0:1:125938291",
-          "steam_id3": "[U:1:251876583]",
-          "steam_id64": "76561198212142311",
-          "ns2_id": 251876583
-        }
-      ],
+      "status": "verified",
+      "candidates": [],
       "source_url": "https://www.ensl.org/halloffame",
-      "checked_on": "2026-09-15",
-      "reason": "Hall of Fame recipient missing from surviving team membership records; confirm candidate or provide account."
+      "checked_on": "2026-09-16",
+      "account": {
+        "nickname": "vladka",
+        "ensl_profile_url": "https://www.ensl.org/users/6789",
+        "steam_id": "STEAM_0:1:125938291",
+        "steam_id3": "[U:1:251876583]",
+        "steam_id64": "76561198212142311",
+        "ns2_id": 251876583
+      },
+      "confirmation_source": "Bleu confirmed the remaining proposed accounts (\"The rest are ok\") in this task on 2026-09-16.",
+      "verification": "hall_roster_and_user_confirmed_identity"
     },
     {
       "badge": "ensl_lost_s13_d2_silver",
       "nickname": "sweets",
-      "status": "needs_confirmation",
-      "candidates": [
-        {
-          "nickname": "sweets",
-          "ensl_profile_url": "https://www.ensl.org/users/7456",
-          "steam_id": "STEAM_0:0:15551566",
-          "steam_id3": "[U:1:31103132]",
-          "steam_id64": "76561197991368860",
-          "ns2_id": 31103132
-        }
-      ],
+      "status": "verified",
+      "candidates": [],
       "source_url": "https://www.ensl.org/halloffame",
-      "checked_on": "2026-09-15",
-      "reason": "Awarded team page unavailable; account candidates need confirmation."
+      "checked_on": "2026-09-16",
+      "account": {
+        "nickname": "sweets",
+        "ensl_profile_url": "https://www.ensl.org/users/7456",
+        "steam_id": "STEAM_0:0:15551566",
+        "steam_id3": "[U:1:31103132]",
+        "steam_id64": "76561197991368860",
+        "ns2_id": 31103132
+      },
+      "confirmation_source": "Bleu confirmed the remaining proposed accounts (\"The rest are ok\") in this task on 2026-09-16.",
+      "verification": "hall_roster_and_user_confirmed_identity"
     },
     {
       "badge": "ensl_lost_s13_d2_silver",
       "nickname": "malx",
-      "status": "needs_confirmation",
-      "candidates": [
-        {
-          "nickname": "malx",
-          "ensl_profile_url": "https://www.ensl.org/users/2960",
-          "steam_id": "STEAM_0:1:6156261",
-          "steam_id3": "[U:1:12312523]",
-          "steam_id64": "76561197972578251",
-          "ns2_id": 12312523
-        }
-      ],
+      "status": "verified",
+      "candidates": [],
       "source_url": "https://www.ensl.org/halloffame",
-      "checked_on": "2026-09-15",
-      "reason": "Awarded team page unavailable; account candidates need confirmation."
+      "checked_on": "2026-09-16",
+      "account": {
+        "nickname": "malx",
+        "ensl_profile_url": "https://www.ensl.org/users/2960",
+        "steam_id": "STEAM_0:1:6156261",
+        "steam_id3": "[U:1:12312523]",
+        "steam_id64": "76561197972578251",
+        "ns2_id": 12312523
+      },
+      "confirmation_source": "Bleu confirmed the remaining proposed accounts (\"The rest are ok\") in this task on 2026-09-16.",
+      "verification": "hall_roster_and_user_confirmed_identity"
     },
     {
       "badge": "ensl_lost_s13_d2_silver",
       "nickname": "Hobbeson",
-      "status": "needs_confirmation",
-      "candidates": [
-        {
-          "nickname": "Hobbeson",
-          "ensl_profile_url": "https://www.ensl.org/users/6875",
-          "steam_id": "STEAM_0:0:135818824",
-          "steam_id3": "[U:1:271637648]",
-          "steam_id64": "76561198231903376",
-          "ns2_id": 271637648
-        }
-      ],
+      "status": "verified",
+      "candidates": [],
       "source_url": "https://www.ensl.org/halloffame",
-      "checked_on": "2026-09-15",
-      "reason": "Awarded team page unavailable; account candidates need confirmation."
+      "checked_on": "2026-09-16",
+      "account": {
+        "nickname": "Hobbeson",
+        "ensl_profile_url": "https://www.ensl.org/users/6875",
+        "steam_id": "STEAM_0:0:135818824",
+        "steam_id3": "[U:1:271637648]",
+        "steam_id64": "76561198231903376",
+        "ns2_id": 271637648
+      },
+      "confirmation_source": "Bleu confirmed the remaining proposed accounts (\"The rest are ok\") in this task on 2026-09-16.",
+      "verification": "hall_roster_and_user_confirmed_identity"
     },
     {
       "badge": "ensl_lost_s13_d2_silver",
       "nickname": "ydy",
-      "status": "needs_confirmation",
-      "candidates": [
-        {
-          "nickname": "ydy",
-          "ensl_profile_url": "https://www.ensl.org/users/2347",
-          "steam_id": "STEAM_0:1:623603",
-          "steam_id3": "[U:1:1247207]",
-          "steam_id64": "76561197961512935",
-          "ns2_id": 1247207
-        }
-      ],
+      "status": "verified",
+      "candidates": [],
       "source_url": "https://www.ensl.org/halloffame",
-      "checked_on": "2026-09-15",
-      "reason": "Awarded team page unavailable; account candidates need confirmation."
+      "checked_on": "2026-09-16",
+      "account": {
+        "nickname": "ydy",
+        "ensl_profile_url": "https://www.ensl.org/users/2347",
+        "steam_id": "STEAM_0:1:623603",
+        "steam_id3": "[U:1:1247207]",
+        "steam_id64": "76561197961512935",
+        "ns2_id": 1247207
+      },
+      "confirmation_source": "Bleu confirmed the remaining proposed accounts (\"The rest are ok\") in this task on 2026-09-16.",
+      "verification": "hall_roster_and_user_confirmed_identity"
     },
     {
       "badge": "ensl_lost_s13_d2_silver",
       "nickname": "nous",
-      "status": "needs_confirmation",
-      "candidates": [
-        {
-          "nickname": "nous",
-          "ensl_profile_url": "https://www.ensl.org/users/7482",
-          "steam_id": "STEAM_0:1:6154095",
-          "steam_id3": "[U:1:12308191]",
-          "steam_id64": "76561197972573919",
-          "ns2_id": 12308191
-        }
-      ],
+      "status": "verified",
+      "candidates": [],
       "source_url": "https://www.ensl.org/halloffame",
-      "checked_on": "2026-09-15",
-      "reason": "Awarded team page unavailable; account candidates need confirmation."
+      "checked_on": "2026-09-16",
+      "account": {
+        "nickname": "nous",
+        "ensl_profile_url": "https://www.ensl.org/users/7482",
+        "steam_id": "STEAM_0:1:6154095",
+        "steam_id3": "[U:1:12308191]",
+        "steam_id64": "76561197972573919",
+        "ns2_id": 12308191
+      },
+      "confirmation_source": "Bleu confirmed the remaining proposed accounts (\"The rest are ok\") in this task on 2026-09-16.",
+      "verification": "hall_roster_and_user_confirmed_identity"
     },
     {
       "badge": "ensl_lost_s13_d2_silver",
       "nickname": "vman",
-      "status": "needs_confirmation",
-      "candidates": [
-        {
-          "nickname": "vman",
-          "ensl_profile_url": "https://www.ensl.org/users/5849",
-          "steam_id": "STEAM_0:0:17786791",
-          "steam_id3": "[U:1:35573582]",
-          "steam_id64": "76561197995839310",
-          "ns2_id": 35573582
-        }
-      ],
+      "status": "verified",
+      "candidates": [],
       "source_url": "https://www.ensl.org/halloffame",
-      "checked_on": "2026-09-15",
-      "reason": "Awarded team page unavailable; account candidates need confirmation."
+      "checked_on": "2026-09-16",
+      "account": {
+        "nickname": "vman",
+        "ensl_profile_url": "https://www.ensl.org/users/5849",
+        "steam_id": "STEAM_0:0:17786791",
+        "steam_id3": "[U:1:35573582]",
+        "steam_id64": "76561197995839310",
+        "ns2_id": 35573582
+      },
+      "confirmation_source": "Bleu confirmed the remaining proposed accounts (\"The rest are ok\") in this task on 2026-09-16.",
+      "verification": "hall_roster_and_user_confirmed_identity"
     },
     {
       "badge": "ensl_lost_s13_d2_silver",
       "nickname": "Knox",
-      "status": "needs_confirmation",
-      "candidates": [
-        {
-          "nickname": "Knox",
-          "ensl_profile_url": "https://www.ensl.org/users/6186",
-          "steam_id": "STEAM_0:0:54990200",
-          "steam_id3": "[U:1:109980400]",
-          "steam_id64": "76561198070246128",
-          "ns2_id": 109980400
-        }
-      ],
+      "status": "verified",
+      "candidates": [],
       "source_url": "https://www.ensl.org/halloffame",
-      "checked_on": "2026-09-15",
-      "reason": "Awarded team page unavailable; account candidates need confirmation."
+      "checked_on": "2026-09-16",
+      "account": {
+        "nickname": "Knox",
+        "ensl_profile_url": "https://www.ensl.org/users/6186",
+        "steam_id": "STEAM_0:0:54990200",
+        "steam_id3": "[U:1:109980400]",
+        "steam_id64": "76561198070246128",
+        "ns2_id": 109980400
+      },
+      "confirmation_source": "Bleu confirmed the remaining proposed accounts (\"The rest are ok\") in this task on 2026-09-16.",
+      "verification": "hall_roster_and_user_confirmed_identity"
     },
     {
       "badge": "ensl_lost_s13_d2_silver",
       "nickname": "GaussWaffle",
-      "status": "needs_confirmation",
-      "candidates": [
-        {
-          "nickname": "GaussWaffle",
-          "ensl_profile_url": "https://www.ensl.org/users/2069",
-          "steam_id": "STEAM_0:1:37991602",
-          "steam_id3": "[U:1:75983205]",
-          "steam_id64": "76561198036248933",
-          "ns2_id": 75983205
-        }
-      ],
+      "status": "verified",
+      "candidates": [],
       "source_url": "https://www.ensl.org/halloffame",
-      "checked_on": "2026-09-15",
-      "reason": "Awarded team page unavailable; account candidates need confirmation."
+      "checked_on": "2026-09-16",
+      "account": {
+        "nickname": "GaussWaffle",
+        "ensl_profile_url": "https://www.ensl.org/users/2069",
+        "steam_id": "STEAM_0:1:37991602",
+        "steam_id3": "[U:1:75983205]",
+        "steam_id64": "76561198036248933",
+        "ns2_id": 75983205
+      },
+      "confirmation_source": "Bleu confirmed the remaining proposed accounts (\"The rest are ok\") in this task on 2026-09-16.",
+      "verification": "hall_roster_and_user_confirmed_identity"
     },
     {
       "badge": "ensl_lost_s13_d2_bronze",
@@ -1554,151 +1567,152 @@
       "candidates": [],
       "source_url": "https://www.ensl.org/halloffame",
       "checked_on": "2026-09-15",
-      "reason": "No matching ENSL nickname/profile found; provide a profile, alias, or NS2 ID."
+      "reason": "No matching ENSL nickname/profile found; provide a profile, alias, or NS2 ID.",
+      "issue_url": "https://github.com/Bleuitup/ENSL-Lost-Season-Badges/issues/1"
     },
     {
       "badge": "ensl_lost_s14_gold",
       "nickname": "DerEinzige",
-      "status": "needs_confirmation",
-      "candidates": [
-        {
-          "nickname": "DerEinzige",
-          "ensl_profile_url": "https://www.ensl.org/users/7508",
-          "steam_id": "STEAM_0:0:20562686",
-          "steam_id3": "[U:1:41125372]",
-          "steam_id64": "76561198001391100",
-          "ns2_id": 41125372
-        }
-      ],
+      "status": "verified",
+      "candidates": [],
       "source_url": "https://www.ensl.org/halloffame",
-      "checked_on": "2026-09-15",
-      "reason": "Awarded team page unavailable; account candidates need confirmation."
+      "checked_on": "2026-09-16",
+      "account": {
+        "nickname": "DerEinzige",
+        "ensl_profile_url": "https://www.ensl.org/users/7508",
+        "steam_id": "STEAM_0:0:20562686",
+        "steam_id3": "[U:1:41125372]",
+        "steam_id64": "76561198001391100",
+        "ns2_id": 41125372
+      },
+      "confirmation_source": "Bleu confirmed the remaining proposed accounts (\"The rest are ok\") in this task on 2026-09-16.",
+      "verification": "hall_roster_and_user_confirmed_identity"
     },
     {
       "badge": "ensl_lost_s14_gold",
       "nickname": "Loganater",
-      "status": "needs_confirmation",
-      "candidates": [
-        {
-          "nickname": "Loganater",
-          "ensl_profile_url": "https://www.ensl.org/users/7563",
-          "steam_id": "STEAM_0:1:24952935",
-          "steam_id3": "[U:1:49905871]",
-          "steam_id64": "76561198010171599",
-          "ns2_id": 49905871
-        }
-      ],
+      "status": "verified",
+      "candidates": [],
       "source_url": "https://www.ensl.org/halloffame",
-      "checked_on": "2026-09-15",
-      "reason": "Awarded team page unavailable; account candidates need confirmation."
+      "checked_on": "2026-09-16",
+      "account": {
+        "nickname": "Loganater",
+        "ensl_profile_url": "https://www.ensl.org/users/7563",
+        "steam_id": "STEAM_0:1:24952935",
+        "steam_id3": "[U:1:49905871]",
+        "steam_id64": "76561198010171599",
+        "ns2_id": 49905871
+      },
+      "confirmation_source": "Bleu confirmed the remaining proposed accounts (\"The rest are ok\") in this task on 2026-09-16.",
+      "verification": "hall_roster_and_user_confirmed_identity"
     },
     {
       "badge": "ensl_lost_s14_gold",
       "nickname": "NeckSnapper",
-      "status": "needs_confirmation",
-      "candidates": [
-        {
-          "nickname": "NeckSnapper",
-          "ensl_profile_url": "https://www.ensl.org/users/7468",
-          "steam_id": "STEAM_0:0:102675514",
-          "steam_id3": "[U:1:205351028]",
-          "steam_id64": "76561198165616756",
-          "ns2_id": 205351028
-        }
-      ],
+      "status": "verified",
+      "candidates": [],
       "source_url": "https://www.ensl.org/halloffame",
-      "checked_on": "2026-09-15",
-      "reason": "Awarded team page unavailable; account candidates need confirmation."
+      "checked_on": "2026-09-16",
+      "account": {
+        "nickname": "NeckSnapper",
+        "ensl_profile_url": "https://www.ensl.org/users/7468",
+        "steam_id": "STEAM_0:0:102675514",
+        "steam_id3": "[U:1:205351028]",
+        "steam_id64": "76561198165616756",
+        "ns2_id": 205351028
+      },
+      "confirmation_source": "Bleu confirmed the remaining proposed accounts (\"The rest are ok\") in this task on 2026-09-16.",
+      "verification": "hall_roster_and_user_confirmed_identity"
     },
     {
       "badge": "ensl_lost_s14_gold",
       "nickname": "GLock",
-      "status": "needs_confirmation",
-      "candidates": [
-        {
-          "nickname": "GLock",
-          "ensl_profile_url": "https://www.ensl.org/users/6861",
-          "steam_id": "STEAM_0:1:15500501",
-          "steam_id3": "[U:1:31001003]",
-          "steam_id64": "76561197991266731",
-          "ns2_id": 31001003
-        }
-      ],
+      "status": "verified",
+      "candidates": [],
       "source_url": "https://www.ensl.org/halloffame",
-      "checked_on": "2026-09-15",
-      "reason": "Awarded team page unavailable; account candidates need confirmation."
+      "checked_on": "2026-09-16",
+      "account": {
+        "nickname": "GLock",
+        "ensl_profile_url": "https://www.ensl.org/users/6861",
+        "steam_id": "STEAM_0:1:15500501",
+        "steam_id3": "[U:1:31001003]",
+        "steam_id64": "76561197991266731",
+        "ns2_id": 31001003
+      },
+      "confirmation_source": "Bleu confirmed the remaining proposed accounts (\"The rest are ok\") in this task on 2026-09-16.",
+      "verification": "hall_roster_and_user_confirmed_identity"
     },
     {
       "badge": "ensl_lost_s14_gold",
       "nickname": "Shizzkizz",
-      "status": "needs_confirmation",
-      "candidates": [
-        {
-          "nickname": "Shizzkizz",
-          "ensl_profile_url": "https://www.ensl.org/users/6862",
-          "steam_id": "STEAM_0:1:44921248",
-          "steam_id3": "[U:1:89842497]",
-          "steam_id64": "76561198050108225",
-          "ns2_id": 89842497
-        }
-      ],
+      "status": "verified",
+      "candidates": [],
       "source_url": "https://www.ensl.org/halloffame",
-      "checked_on": "2026-09-15",
-      "reason": "Awarded team page unavailable; account candidates need confirmation."
+      "checked_on": "2026-09-16",
+      "account": {
+        "nickname": "Shizzkizz",
+        "ensl_profile_url": "https://www.ensl.org/users/6862",
+        "steam_id": "STEAM_0:1:44921248",
+        "steam_id3": "[U:1:89842497]",
+        "steam_id64": "76561198050108225",
+        "ns2_id": 89842497
+      },
+      "confirmation_source": "Bleu confirmed the remaining proposed accounts (\"The rest are ok\") in this task on 2026-09-16.",
+      "verification": "hall_roster_and_user_confirmed_identity"
     },
     {
       "badge": "ensl_lost_s14_gold",
       "nickname": "Stark_",
-      "status": "needs_confirmation",
-      "candidates": [
-        {
-          "nickname": "Stark_",
-          "ensl_profile_url": "https://www.ensl.org/users/6194",
-          "steam_id": "STEAM_0:0:25811842",
-          "steam_id3": "[U:1:51623684]",
-          "steam_id64": "76561198011889412",
-          "ns2_id": 51623684
-        }
-      ],
+      "status": "verified",
+      "candidates": [],
       "source_url": "https://www.ensl.org/halloffame",
-      "checked_on": "2026-09-15",
-      "reason": "Awarded team page unavailable; account candidates need confirmation."
+      "checked_on": "2026-09-16",
+      "account": {
+        "nickname": "Stark_",
+        "ensl_profile_url": "https://www.ensl.org/users/6194",
+        "steam_id": "STEAM_0:0:25811842",
+        "steam_id3": "[U:1:51623684]",
+        "steam_id64": "76561198011889412",
+        "ns2_id": 51623684
+      },
+      "confirmation_source": "Bleu confirmed the remaining proposed accounts (\"The rest are ok\") in this task on 2026-09-16.",
+      "verification": "hall_roster_and_user_confirmed_identity"
     },
     {
       "badge": "ensl_lost_s14_gold",
       "nickname": "kesuga7",
-      "status": "needs_confirmation",
-      "candidates": [
-        {
-          "nickname": "kesuga7",
-          "ensl_profile_url": "https://www.ensl.org/users/7506",
-          "steam_id": "STEAM_0:0:27510644",
-          "steam_id3": "[U:1:55021288]",
-          "steam_id64": "76561198015287016",
-          "ns2_id": 55021288
-        }
-      ],
+      "status": "verified",
+      "candidates": [],
       "source_url": "https://www.ensl.org/halloffame",
-      "checked_on": "2026-09-15",
-      "reason": "Awarded team page unavailable; account candidates need confirmation."
+      "checked_on": "2026-09-16",
+      "account": {
+        "nickname": "kesuga7",
+        "ensl_profile_url": "https://www.ensl.org/users/7506",
+        "steam_id": "STEAM_0:0:27510644",
+        "steam_id3": "[U:1:55021288]",
+        "steam_id64": "76561198015287016",
+        "ns2_id": 55021288
+      },
+      "confirmation_source": "Bleu confirmed the remaining proposed accounts (\"The rest are ok\") in this task on 2026-09-16.",
+      "verification": "hall_roster_and_user_confirmed_identity"
     },
     {
       "badge": "ensl_lost_s14_gold",
       "nickname": "forever_rusty",
-      "status": "needs_confirmation",
-      "candidates": [
-        {
-          "nickname": "forever_rusty",
-          "ensl_profile_url": "https://www.ensl.org/users/2666",
-          "steam_id": "STEAM_0:0:1800898",
-          "steam_id3": "[U:1:3601796]",
-          "steam_id64": "76561197963867524",
-          "ns2_id": 3601796
-        }
-      ],
+      "status": "verified",
+      "candidates": [],
       "source_url": "https://www.ensl.org/halloffame",
-      "checked_on": "2026-09-15",
-      "reason": "Awarded team page unavailable; account candidates need confirmation."
+      "checked_on": "2026-09-16",
+      "account": {
+        "nickname": "forever_rusty",
+        "ensl_profile_url": "https://www.ensl.org/users/2666",
+        "steam_id": "STEAM_0:0:1800898",
+        "steam_id3": "[U:1:3601796]",
+        "steam_id64": "76561197963867524",
+        "ns2_id": 3601796
+      },
+      "confirmation_source": "Bleu confirmed the remaining proposed accounts (\"The rest are ok\") in this task on 2026-09-16.",
+      "verification": "hall_roster_and_user_confirmed_identity"
     },
     {
       "badge": "ensl_lost_s14_gold",
@@ -2612,5 +2626,6 @@
       "team_joined": "02 Oct 19"
     }
   ],
-  "runtime_scope": "Verified assignments for Seasons 13-15; unresolved cases explicitly excluded."
+  "runtime_scope": "Verified assignments for Seasons 13-15; unresolved cases explicitly excluded.",
+  "release_version": "1.0"
 }

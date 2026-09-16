@@ -1,58 +1,21 @@
-# Recipient review — Seasons 13–15
+# Recipient review — v1.0
 
-**2026-09-15:** 121 roster entries; 99 verified awards for 89 accounts; 22 awards pending confirmation. Only verified awards are included in the local development build. Workshop v0.8 remains the original one-badge release.
+**2026-09-16:** 121 roster entries; 120 have confirmed account mappings. They produce **119 distinct awards for 105 accounts**, because Void and Reguliym currently share one account and one award. Made_in_Russia is the only unmapped recipient.
 
-## What Bleu needs to provide
+## Outstanding issues
 
-For each remaining name below, confirm the proposed NS2 ID or provide the correct ENSL/Steam profile or NS2 ID. A teammate can help confirm a group. Candidate lists are leads, not exhaustive identity matches. Leave uncertain cases pending.
+- [#1 — Identify Made_in_Russia](https://github.com/Bleuitup/ENSL-Lost-Season-Badges/issues/1): Intergalactic, S13 D3 bronze. No account identified; no grant is made.
+- [#2 — Clarify Void / Reguliym](https://github.com/Bleuitup/ENSL-Lost-Season-Badges/issues/2): Bleu confirmed Void as 60207928, already recorded for Reguliym. That account receives S13 D2 gold once. The two names remain separately documented until their identity overlap is resolved.
 
-- **Void:** more than one exact-name account exists; identify the correct player.
-- **Made_in_Russia:** supply a current alias, profile, or NS2 ID.
-- **patriarchy and Thots:** the Hall of Fame records their award rosters, but their team pages are unavailable in the current team directory. Confirm the proposed accounts as a group if known.
-
-| Award / team | Hall of Fame name | ENSL account candidate and NS2 ID |
-| --- | --- | --- |
-| S13 D1 silver / ELOGain | d3Base | [d3Base](https://www.ensl.org/users/6876) — **70204576** |
-| S13 D2 gold / FaLLeN SouLs | Well | [Well](https://www.ensl.org/users/1282) — **18931637** |
-| S13 D2 gold / FaLLeN SouLs | Hitman | [Hitman](https://www.ensl.org/users/1818) — **42538007** |
-| S13 D2 gold / FaLLeN SouLs | Void | [Void](https://www.ensl.org/users/3621) — **29256460**<br>[void](https://www.ensl.org/users/8400) — **66902** |
-| S13 D2 gold / FaLLeN SouLs | vladka | [vladka](https://www.ensl.org/users/6789) — **251876583** |
-| S13 D2 silver / patriarchy | sweets | [sweets](https://www.ensl.org/users/7456) — **31103132** |
-| S13 D2 silver / patriarchy | malx | [malx](https://www.ensl.org/users/2960) — **12312523** |
-| S13 D2 silver / patriarchy | Hobbeson | [Hobbeson](https://www.ensl.org/users/6875) — **271637648** |
-| S13 D2 silver / patriarchy | ydy | [ydy](https://www.ensl.org/users/2347) — **1247207** |
-| S13 D2 silver / patriarchy | nous | [nous](https://www.ensl.org/users/7482) — **12308191** |
-| S13 D2 silver / patriarchy | vman | [vman](https://www.ensl.org/users/5849) — **35573582** |
-| S13 D2 silver / patriarchy | Knox | [Knox](https://www.ensl.org/users/6186) — **109980400** |
-| S13 D2 silver / patriarchy | GaussWaffle | [GaussWaffle](https://www.ensl.org/users/2069) — **75983205** |
-| S13 D3 bronze / Intergalactic | Made_in_Russia | No account identified |
-| S14 gold / Thots | DerEinzige | [DerEinzige](https://www.ensl.org/users/7508) — **41125372** |
-| S14 gold / Thots | Loganater | [Loganater](https://www.ensl.org/users/7563) — **49905871** |
-| S14 gold / Thots | NeckSnapper | [NeckSnapper](https://www.ensl.org/users/7468) — **205351028** |
-| S14 gold / Thots | GLock | [GLock](https://www.ensl.org/users/6861) — **31001003** |
-| S14 gold / Thots | Shizzkizz | [Shizzkizz](https://www.ensl.org/users/6862) — **89842497** |
-| S14 gold / Thots | Stark_ | [Stark_](https://www.ensl.org/users/6194) — **51623684** |
-| S14 gold / Thots | kesuga7 | [kesuga7](https://www.ensl.org/users/7506) — **55021288** |
-| S14 gold / Thots | forever_rusty | [forever_rusty](https://www.ensl.org/users/2666) — **3601796** |
+Bleu confirmed all remaining proposed accounts on 2026-09-16. These two issues are follow-ups and do not block v1.0.
 
 ## Verification method
 
-The [Hall of Fame](https://www.ensl.org/halloffame) determines who earned each award. A surviving current/past team membership entry joined by the season end connects that roster name to an ENSL profile. Its Steam ID must agree with the profile. The membership page corroborates identity; the Hall of Fame is the season-specific eligibility evidence. Current teammates who are absent from the Hall of Fame are excluded.
+The [Hall of Fame](https://www.ensl.org/halloffame) supplies the season-specific award rosters. Surviving team membership records and ENSL profiles connect roster names to Steam accounts where available. Bleu directly confirmed the remaining proposed accounts, and supplied Void's corrected NS2 ID. Current teammates absent from the Hall of Fame are excluded. Each row retains its evidence in [recipients.json](../data/recipients.json).
 
-Bleu supplied their own NS2 ID and confirmed Godman (34583831), Tik (23186581), and Starcetereus (44618947). Bleu also confirmed ADHD (158062) for Thots' S14 gold award. Their awarded rosters are independently listed in the Hall of Fame.
+Steam2 `STEAM_0:Y:Z` or `STEAM_1:Y:Z` converts to NS2 ID `2*Z+Y`. SteamID3 `[U:1:N]` already contains NS2 ID `N`. SteamID64 is stored as an exact integer string. Duplicate grants are rejected unless an explicit, documented `same_account_award_as` link names a verified entry for the same account and award; that link produces no extra grant.
 
-ENSL exposes Steam2 IDs, so a third-party converter is unnecessary. `STEAM_0:Y:Z` (or `STEAM_1:Y:Z`) converts to NS2 account ID `2*Z+Y`. SteamID3 `[U:1:N]` already contains the NS2 ID `N`; do not double it again. SteamID64 is stored as the string representation of `76561197960265728 + N`. The generator validates all formats and rejects duplicate account awards.
-
-### Resolved aliases and collisions
-
-- DEFORMED: Hall `asdf` → roster **asdfg**, NS2 **107716916**. The unrelated exact-name `asdf` profile is excluded. [Team evidence](https://www.ensl.org/teams/1058).
-- DEFORMED: `whiii` → **whiiii**, NS2 **667923**; `phonee` → **phone**, NS2 **32430346**. [Team evidence](https://www.ensl.org/teams/1058).
-- Intergalactic: `JINMOH` → **JlNMOH**, NS2 **129031668**. [Team evidence](https://www.ensl.org/teams/1057).
-- California Burrito: `Jotobo` → ENSL **PecanSam**, NS2 **15974914**. The [team roster](https://www.ensl.org/teams/1077) and [Steam profile currently named Jotobo](https://steamcommunity.com/profiles/76561197976240642) identify the same account.
-- ELOGain: duplicate `paddy` names resolved through the historical team roster to NS2 **24767946**. [Team evidence](https://www.ensl.org/teams/987).
-- Tim Tam Slams: duplicate `flip` names resolved through the team roster to NS2 **113452529**. [Team evidence](https://www.ensl.org/teams/1085).
-
-## Verified assignments in the development build
+## Confirmed roster entries
 
 | Award / team | Hall name → ENSL profile | NS2 ID | Evidence |
 | --- | --- | --- | --- |
@@ -71,6 +34,7 @@ ENSL exposes Steam2 IDs, so a third-party converter is unnecessary. `STEAM_0:Y:Z
 | S13 D1 silver / ELOGain | Hyste → [Hyste](https://www.ensl.org/users/6188) | 126698727 | [Team history](https://www.ensl.org/teams/987) |
 | S13 D1 silver / ELOGain | mirez → [mirez](https://www.ensl.org/users/540) | 4798435 | [Team history](https://www.ensl.org/teams/987) |
 | S13 D1 silver / ELOGain | Preda → [Preda](https://www.ensl.org/users/5921) | 47135802 | [Team history](https://www.ensl.org/teams/987) |
+| S13 D1 silver / ELOGain | d3Base → [d3Base](https://www.ensl.org/users/6876) | 70204576 | Bleu confirmed account |
 | S13 D2 gold / FaLLeN SouLs | bobager → [bobager](https://www.ensl.org/users/7256) | 130425032 | [Team history](https://www.ensl.org/teams/1020) |
 | S13 D2 gold / FaLLeN SouLs | leooood → [leooood](https://www.ensl.org/users/7451) | 118650879 | [Team history](https://www.ensl.org/teams/1020) |
 | S13 D2 gold / FaLLeN SouLs | keo → [keo](https://www.ensl.org/users/6023) | 84099267 | [Team history](https://www.ensl.org/teams/1020) |
@@ -78,6 +42,18 @@ ENSL exposes Steam2 IDs, so a third-party converter is unnecessary. `STEAM_0:Y:Z
 | S13 D2 gold / FaLLeN SouLs | GAR → [GAR](https://www.ensl.org/users/7200) | 31332755 | [Team history](https://www.ensl.org/teams/1020) |
 | S13 D2 gold / FaLLeN SouLs | Reguliym → [Reguliym](https://www.ensl.org/users/6501) | 60207928 | [Team history](https://www.ensl.org/teams/1020) |
 | S13 D2 gold / FaLLeN SouLs | YHero → [YHero](https://www.ensl.org/users/6115) | 111103027 | [Team history](https://www.ensl.org/teams/1020) |
+| S13 D2 gold / FaLLeN SouLs | Well → [Well](https://www.ensl.org/users/1282) | 18931637 | Bleu confirmed account |
+| S13 D2 gold / FaLLeN SouLs | Hitman → [Hitman](https://www.ensl.org/users/1818) | 42538007 | Bleu confirmed account |
+| S13 D2 gold / FaLLeN SouLs | Void → [Reguliym](https://www.ensl.org/users/6501) | 60207928 | Bleu confirmed account; [shared account award, see #2](https://github.com/Bleuitup/ENSL-Lost-Season-Badges/issues/2) |
+| S13 D2 gold / FaLLeN SouLs | vladka → [vladka](https://www.ensl.org/users/6789) | 251876583 | Bleu confirmed account |
+| S13 D2 silver / patriarchy | sweets → [sweets](https://www.ensl.org/users/7456) | 31103132 | Bleu confirmed account |
+| S13 D2 silver / patriarchy | malx → [malx](https://www.ensl.org/users/2960) | 12312523 | Bleu confirmed account |
+| S13 D2 silver / patriarchy | Hobbeson → [Hobbeson](https://www.ensl.org/users/6875) | 271637648 | Bleu confirmed account |
+| S13 D2 silver / patriarchy | ydy → [ydy](https://www.ensl.org/users/2347) | 1247207 | Bleu confirmed account |
+| S13 D2 silver / patriarchy | nous → [nous](https://www.ensl.org/users/7482) | 12308191 | Bleu confirmed account |
+| S13 D2 silver / patriarchy | vman → [vman](https://www.ensl.org/users/5849) | 35573582 | Bleu confirmed account |
+| S13 D2 silver / patriarchy | Knox → [Knox](https://www.ensl.org/users/6186) | 109980400 | Bleu confirmed account |
+| S13 D2 silver / patriarchy | GaussWaffle → [GaussWaffle](https://www.ensl.org/users/2069) | 75983205 | Bleu confirmed account |
 | S13 D2 bronze / Saunabois | Gung-Ho → [Gung-Ho](https://www.ensl.org/users/7394) | 4378837 | [Team history](https://www.ensl.org/teams/1030) |
 | S13 D2 bronze / Saunabois | Aazu → [Aazu](https://www.ensl.org/users/7148) | 7747335 | [Team history](https://www.ensl.org/teams/1030) |
 | S13 D2 bronze / Saunabois | Malware → [Malware](https://www.ensl.org/users/5877) | 167804993 | [Team history](https://www.ensl.org/teams/1030) |
@@ -107,6 +83,14 @@ ENSL exposes Steam2 IDs, so a third-party converter is unnecessary. `STEAM_0:Y:Z
 | S13 D3 bronze / Intergalactic | JINMOH → [JlNMOH](https://www.ensl.org/users/7042) | 129031668 | [Team history](https://www.ensl.org/teams/1057) |
 | S13 D3 bronze / Intergalactic | Kefirdon → [Kefirdon](https://www.ensl.org/users/7252) | 194342323 | [Team history](https://www.ensl.org/teams/1057) |
 | S13 D3 bronze / Intergalactic | LightDay → [LightDay](https://www.ensl.org/users/7555) | 73965104 | [Team history](https://www.ensl.org/teams/1057) |
+| S14 gold / Thots | DerEinzige → [DerEinzige](https://www.ensl.org/users/7508) | 41125372 | Bleu confirmed account |
+| S14 gold / Thots | Loganater → [Loganater](https://www.ensl.org/users/7563) | 49905871 | Bleu confirmed account |
+| S14 gold / Thots | NeckSnapper → [NeckSnapper](https://www.ensl.org/users/7468) | 205351028 | Bleu confirmed account |
+| S14 gold / Thots | GLock → [GLock](https://www.ensl.org/users/6861) | 31001003 | Bleu confirmed account |
+| S14 gold / Thots | Shizzkizz → [Shizzkizz](https://www.ensl.org/users/6862) | 89842497 | Bleu confirmed account |
+| S14 gold / Thots | Stark_ → [Stark_](https://www.ensl.org/users/6194) | 51623684 | Bleu confirmed account |
+| S14 gold / Thots | kesuga7 → [kesuga7](https://www.ensl.org/users/7506) | 55021288 | Bleu confirmed account |
+| S14 gold / Thots | forever_rusty → [forever_rusty](https://www.ensl.org/users/2666) | 3601796 | Bleu confirmed account |
 | S14 gold / Thots | ADHD → [ADHD](https://www.ensl.org/users/2553) | 158062 | Bleu confirmed account |
 | S14 silver / Pubstars | dja → [dja](https://www.ensl.org/users/7144) | 818729 | [Team history](https://www.ensl.org/teams/971) |
 | S14 silver / Pubstars | Mega → [Mega](https://www.ensl.org/users/1942) | 57346 | [Team history](https://www.ensl.org/teams/971) |
@@ -158,6 +142,6 @@ ENSL exposes Steam2 IDs, so a third-party converter is unnecessary. `STEAM_0:Y:Z
 
 ## Omitted medals
 
-S13 D1 bronze remains omitted because of lost records. S15 D1 bronze has no established next eligible team and is also omitted. These are not guessed from unrelated standings.
+S13 D1 bronze remains omitted because the historical records are unavailable. S15 D1 bronze remains omitted because no next eligible team has been established. These decisions are separate from the player identity issues.
 
-Machine-readable evidence: [recipients.json](../data/recipients.json). Regenerate the two runtime Lua tables with `python scripts/generate_assignments.py` after a reviewed evidence change. The mod performs no website requests at runtime.
+After reviewed evidence changes, run `python scripts/generate_assignments.py` and the recipient/native integration tests before building. The mod performs no website requests at runtime.

@@ -31,7 +31,7 @@ class AssignmentTests(unittest.TestCase):
 
     def test_unverified_award_cannot_be_granted(self):
         row=next(r for r in self.data['assignments'] if r['status']=='needs_confirmation')
-        row['account']=copy.deepcopy(row['candidates'][0])
+        row['account']=copy.deepcopy(next(r['account'] for r in self.data['assignments'] if r['status']=='verified'))
         with self.assertRaises(AssertionError): generator.validate(self.data)
 
     def test_inconsistent_id_is_rejected(self):
@@ -42,6 +42,29 @@ class AssignmentTests(unittest.TestCase):
     def test_duplicate_account_award_is_rejected(self):
         rows=[r for r in self.data['assignments'] if r['badge']=='ensl_lost_s13_d3_gold' and r['status']=='verified']
         rows[1]['account']=copy.deepcopy(rows[0]['account'])
+        with self.assertRaises(AssertionError): generator.validate(self.data)
+
+    def test_void_confirmed_account_granted_once(self):
+        _,grants=generator.validate(self.data)
+        self.assertEqual(grants[60207928].count('ensl_lost_s13_d2_gold'),1)
+        self.assertNotIn(29256460,grants)
+        self.assertNotIn(66902,grants)
+        self.assertEqual(sum(r['status']=='needs_confirmation' for r in self.data['assignments']),1)
+
+    def test_documented_shared_award_is_order_independent(self):
+        _,expected=generator.validate(self.data)
+        self.data['assignments'].reverse()
+        _,actual=generator.validate(self.data)
+        self.assertEqual({k:set(v) for k,v in actual.items()},{k:set(v) for k,v in expected.items()})
+
+    def test_shared_award_cannot_point_to_another_account(self):
+        row=next(r for r in self.data['assignments'] if r['nickname']=='Void')
+        row['same_account_award_as']='bobager'
+        with self.assertRaises(AssertionError): generator.validate(self.data)
+
+    def test_duplicate_without_explicit_link_still_rejected(self):
+        row=next(r for r in self.data['assignments'] if r['nickname']=='Void')
+        del row['same_account_award_as']
         with self.assertRaises(AssertionError): generator.validate(self.data)
 
 if __name__=='__main__':unittest.main()

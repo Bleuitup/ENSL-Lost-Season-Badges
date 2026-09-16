@@ -2,7 +2,7 @@
 
 A Natural Selection 2 mod project restoring tournament badges for NSL Seasons 13–15, using existing ENSL badges as the visual and behavioral reference.
 
-**Status:** Workshop **v0.8**, tagged `v0.8` in Git. Bleu confirmed in-game badge selection, moving between slots, and hover text on 2026-09-15. This release grants Bleu (NS2 ID 37745947) the S13 Division 3 winner badge. **v0.81 prepared locally:** all 16 established medal definitions, including approved option C art for S14/S15; 99 verified awards for 89 accounts. There are 22 unresolved awards, excluded from grants. This expanded build has not been uploaded or visually tested in NS2.
+**Status:** v1.0 prepared for Workshop upload: 16 medal definitions, 119 distinct awards across 105 confirmed accounts. All remaining proposed accounts were approved by Bleu; Void is assigned to 60207928. Made_in_Russia remains unassigned, and the Void/Reguliym overlap is tracked in [GitHub issues](https://github.com/Bleuitup/ENSL-Lost-Season-Badges/issues). Workshop v0.81 is the last user-confirmed published release.
 
 ![Workshop preview](preview.jpg)
 
@@ -14,7 +14,7 @@ The upload is built exclusively from `source/`. Research, markdown, reference im
 
 ## Project documents
 
-- [v0.81 preparation and release notes](docs/release-notes.md)
+- [Release notes and v1.0 upload](docs/release-notes.md)
 
 - [Accepted implementation plan](PLAN.md)
 - [Launchpad test and requested feedback](docs/launchpad-test.md)
@@ -40,4 +40,4 @@ Primary results source: [ENSL Hall of Fame](https://www.ensl.org/halloffame).
 
 ## Distribution
 
-The proposed mod grants account-specific custom badges on servers running it. It does not issue official Steam inventory items. The user published [Workshop v0.8](https://steamcommunity.com/sharedfiles/filedetails/?id=3802094438). The annotated Git tag `v0.8` records the tested source and uploaded project metadata/preview. No Git remote is configured.
+The proposed mod grants account-specific custom badges on servers running it. It does not issue official Steam inventory items. The user published [Workshop v0.8](https://steamcommunity.com/sharedfiles/filedetails/?id=3802094438). The annotated Git tag `v0.8` records the tested source and uploaded project metadata/preview. Source and tracked issues: [GitHub repository](https://github.com/Bleuitup/ENSL-Lost-Season-Badges). The `v1.0` Git tag identifies the prepared upload; publication is performed by Bleu.

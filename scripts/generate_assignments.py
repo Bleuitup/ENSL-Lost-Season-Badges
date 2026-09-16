@@ -21,6 +21,7 @@ def validate(data):
     assert len(awards) == len(data['awards'])
     expected = {(a['badge'], n) for a in data['awards'] for n in a['roster']}
     seen, entitlements = set(), {}
+    rows_by_key = {(r['badge'], r['nickname']): r for r in data['assignments']}
     for row in data['assignments']:
         key = row['badge'], row['nickname']
         assert key in expected and key not in seen, ('Unexpected or repeated roster entry', key)
@@ -37,6 +38,18 @@ def validate(data):
         assert account['steam_id64'] == str(76561197960265728 + ns2)
         assert account['ensl_profile_url'].startswith('https://www.ensl.org/users/')
         assert row['verification'] and (row.get('team_source_url') or row.get('confirmation_source'))
+        # Two documented roster entries may refer to the same account award.
+        # Only an explicit link to a verified canonical entry permits deduplication;
+        # accidental duplicate account assignments remain errors.
+        shared_with = row.get('same_account_award_as')
+        if shared_with is not None:
+            assert shared_with != row['nickname'], ('Self-referencing account award', key)
+            target = rows_by_key.get((row['badge'], shared_with))
+            assert target and target['status'] == 'verified', ('Missing verified canonical entry', key)
+            assert not target.get('same_account_award_as'), ('Account award links cannot chain', key)
+            assert target['account']['ns2_id'] == ns2, ('Shared award account mismatch', key)
+            assert row.get('confirmation_source') and row.get('issue_url'), ('Shared award lacks evidence', key)
+            continue
         entitlements.setdefault(ns2, [])
         assert row['badge'] not in entitlements[ns2], ('Duplicate account award', key)
         entitlements[ns2].append(row['badge'])
